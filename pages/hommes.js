@@ -22,7 +22,7 @@ export default function Home({ localData }) {
         <div class="alert alert-primary" role="alert">
           Dernière mise à jour le {new Date(localData["date"]).toLocaleDateString()}
         </div>
-        Bienvenue sur la page du Challenge Ufolep Isère Cyclosport. Vous trouverez ici le classement du Challenge mis à jour après chaque épreuve du calendrier.
+        <Classement data={localData["homme"]} />
       </div>
 
       
