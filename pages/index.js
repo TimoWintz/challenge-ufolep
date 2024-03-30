@@ -16,13 +16,40 @@ export async function getStaticProps() {
 export default function Home({ localData }) {
   return (
     
-    <div className="container">
+    <div class="container">
       <Header title="Challenge Ufolep  Isère Cyclosport" />
       <div class="container-fluid p-3">
         <div class="alert alert-primary" role="alert">
           Dernière mise à jour le {new Date(localData["date"]).toLocaleDateString()}
         </div>
         Bienvenue sur la page du Challenge Ufolep Isère Cyclosport. Vous trouverez ici le classement du Challenge mis à jour après chaque épreuve du calendrier.
+
+        <h1>Le calendrier du Challenge</h1>
+
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Nom</th>
+              <th scope="col">Date</th>
+              <th scope="col">Club</th>
+            </tr>
+          </thead>
+          <tbody>
+            {localData["courses"].map(({ NOM, DATE, CLUB, PASSE }, index) => {
+              var condition = PASSE ? 'table-success' : '';
+              return (
+                  <tr key={NOM} class={condition}>
+                    <th scope="row">{NOM}</th>
+                  <th scope="row">{new Date(DATE).toLocaleDateString()}</th>
+                    <th scope="row">{CLUB}</th>
+                  </tr>
+                )
+            })
+            }
+
+          </tbody>
+        </table>
       </div>
 
       

@@ -25,7 +25,7 @@ def nom_vers_licence(nom: str, coureurs: pd.DataFrame) -> int:
 
 class AnalyseurResultats(ABC):
     EXTENSION: str
-    COLS = ["CLASSEMENT", "DOSSARD", "NOM", "CLUB", "CAT", "IDX_COUREUR"]
+    COLS = ["CLASSEMENT", "DOSSARD", "NOM", "CLUB", "CAT"]
 
     def __init__(self, coureurs: pd.DataFrame, points_resultats: List[int], points_participation: int):
         self.coureurs = coureurs
@@ -33,6 +33,8 @@ class AnalyseurResultats(ABC):
         self.points_participation = points_participation
 
     def lire_coureur(self, df: pd.DataFrame):
+        df.insert(0, "IDX_COUREUR", None)
+        df["IDX_COUREUR"] = df.NOM.map(lambda nom: nom_vers_licence(nom, self.coureurs))
         df.insert(0, "LICENCE", "")
         df.insert(0, "FEMME", False)
         df.insert(0, "JEUNE", False)
@@ -53,29 +55,37 @@ class AnalyseurResultats(ABC):
         df.JEUNE = df.JEUNE.astype(bool)
         return df
 
-    def calcul_points(self, chemin: str) -> pd.DataFrame:
+    def calcul_points(self, chemin: str) -> List[pd.DataFrame]:
         df = self.implem_analyser(chemin)
         df = self.lire_coureur(df)
-        classement_ufolep = df[df.LICENCE.str.len() > 0]
-        classement_ufolep.insert(6, 'POINTS', 0)
-        classement_ufolep.insert(7, 'PARTICIPATION', 0)
 
-        rang_ufolep = -1
-        prev_classement = None
-        for i, idx in enumerate(classement_ufolep.index.values):
-            classement = classement_ufolep.loc[idx, "CLASSEMENT"]
-            if classement == "DNS":
+        categories = df["CAT"].unique().tolist()
+        ret = []
+        for cat in categories:
+            df_cat = df[df.CAT == cat]
+            classement_ufolep = df_cat[df_cat.LICENCE.str.len() > 0]
+            if len(classement_ufolep) == 0:
                 continue
-            classement_ufolep.loc[idx, "PARTICIPATION"] = self.points_participation
-            if classement == "DNF":
-                continue
-            if prev_classement != classement:
-                rang_ufolep += 1
-            if rang_ufolep < len(self.points_resultats):
-                classement_ufolep.loc[idx, "POINTS"] = self.points_resultats[rang_ufolep]
-            
-            prev_classement = classement
-        return classement_ufolep
+            classement_ufolep.insert(6, 'POINTS', 0)
+            classement_ufolep.insert(7, 'PARTICIPATION', 0)
+
+            rang_ufolep = -1
+            prev_classement = None
+            for i, idx in enumerate(classement_ufolep.index.values):
+                classement = classement_ufolep.loc[idx, "CLASSEMENT"]
+                if classement == "DNS":
+                    continue
+                classement_ufolep.loc[idx, "PARTICIPATION"] = self.points_participation
+                if classement == "DNF":
+                    continue
+                if prev_classement != classement:
+                    rang_ufolep += 1
+                if rang_ufolep < len(self.points_resultats):
+                    classement_ufolep.loc[idx, "POINTS"] = self.points_resultats[rang_ufolep]
+                
+                prev_classement = classement
+            ret.append(classement_ufolep)
+        return ret
     
     @abstractmethod
     def implem_analyser(self, chemin: str) -> pd.DataFrame:
@@ -110,9 +120,29 @@ class AnalyseurUCPG(AnalyseurResultats):
         df =df.rename(columns=self.COLS_REMAPPING)
         df.loc[df.REM == "DNS", "CLASSEMENT"] = "DNS"
         df.loc[df.REM == "DNF", "CLASSEMENT"] = "DNF"
-        df.insert(0, "IDX_COUREUR", None)
-        df["IDX_COUREUR"] = df["IDX_COUREUR"]
-        df["IDX_COUREUR"] = df.NOM.map(lambda nom: nom_vers_licence(nom, self.coureurs))
         df = df[self.COLS]
 
         return df
+    
+class AnalyseurVCT(AnalyseurResultats):
+    EXTENSION = "pdf"
+    COLS_REMAPPING = {'Clst':'CLASSEMENT',
+            'DOS':'DOSSARD',
+            'NOM':'NOM',
+            'Club':'CLUB',
+            'Catégorie':'CAT',
+            'Rem':'REM'}
+    
+    def implem_analyser(self, path: str) -> pd.DataFrame:
+        pdf = pdfplumber.open(path)
+        table = pdf.pages[0].extract_table(table_settings={"horizontal_strategy": "text", "vertical_strategy": "text", "text_x_tolerance": 10})
+        table = table[2:]
+        for i in range(len(table)):
+            table[i][2:4] = [" ".join(table[i][2:4])]
+            table[i][4:6] = ["".join(table[i][4:6])]
+            table[i][5:7] = ["".join(table[i][5:7])]
+        table
+        df = pd.DataFrame(table[1:], columns=["CLASSEMENT", "DOSSARD", "NOM", "LICENCE", "CAT", "CLUB"])
+        df.CLASSEMENT.str.replace("Abandon", "DNF")
+        df.CLASSEMENT.str.replace("Non partant", "DNS")
+        return df[["CLASSEMENT", "DOSSARD", "NOM", "CAT", "CLUB"]]
