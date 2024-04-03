@@ -4,6 +4,8 @@ from typing import List, Optional
 import pandas as pd
 import difflib
 import unicodedata
+import re
+
 def enlever_accents(input_str):
     nfkd_form = unicodedata.normalize('NFKD', input_str)
     return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
@@ -58,6 +60,8 @@ class AnalyseurResultats(ABC):
     def calcul_points(self, chemin: str) -> List[pd.DataFrame]:
         df = self.implem_analyser(chemin)
         df = self.lire_coureur(df)
+        if df.JEUNE.any():
+            df.loc[df["FEMME"], "CAT"] +=  "F"
 
         categories = df["CAT"].unique().tolist()
         ret = []
@@ -120,6 +124,8 @@ class AnalyseurUCPG(AnalyseurResultats):
         df =df.rename(columns=self.COLS_REMAPPING)
         df.loc[df.REM == "DNS", "CLASSEMENT"] = "DNS"
         df.loc[df.REM == "DNF", "CLASSEMENT"] = "DNF"
+        cat = path.split(".")[0].split("_")[-1]
+        df["CAT"] = cat
         df = df[self.COLS]
 
         return df
@@ -145,4 +151,28 @@ class AnalyseurVCT(AnalyseurResultats):
         df = pd.DataFrame(table[1:], columns=["CLASSEMENT", "DOSSARD", "NOM", "LICENCE", "CAT", "CLUB"])
         df.CLASSEMENT.str.replace("Abandon", "DNF")
         df.CLASSEMENT.str.replace("Non partant", "DNS")
+        
         return df[["CLASSEMENT", "DOSSARD", "NOM", "CAT", "CLUB"]]
+    
+class AnalyseurCCG(AnalyseurResultats):
+    EXTENSION = "csv"
+    COLS_REMAPPING = {'Rang':'CLASSEMENT',
+            'Dossard':'DOSSARD',
+            'NOM':'NOM',
+            'Club':'CLUB',
+            'Obs':'REM'}
+    
+    def implem_analyser(self, path: str) -> pd.DataFrame:
+        with open(path, "r") as f:
+            cat = f.readline().split(",")[0].replace("Classement ", "").replace(" UFOLEP", "").capitalize()
+        df = pd.read_csv(path, skiprows=1)
+        df["NOM"] = df.Nom + " " + df.Prénom
+        df = df[~df.NOM.isna()]
+        df.NOM = df.NOM.map(lambda x: re.sub(' +', ' ', x))
+        df =df.rename(columns=self.COLS_REMAPPING)
+        df.CLASSEMENT = df.CLASSEMENT.astype(str)
+        df.CLASSEMENT.str.replace("AB", "DNF")
+        df.CLASSEMENT.str.replace("NP", "DNS")
+        df["CAT"] = cat
+        return df[["CLASSEMENT", "DOSSARD", "NOM", "CAT", "CLUB"]]
+        

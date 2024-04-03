@@ -1,6 +1,6 @@
 from pathlib import Path
 import pandas as pd
-from challenge_ufolep_backend.analyseur import AnalyseurUCPG, AnalyseurVCT
+from challenge_ufolep_backend.analyseur import AnalyseurUCPG, AnalyseurVCT, AnalyseurCCG
 import json
 from datetime import date
 import numpy as np
@@ -9,7 +9,8 @@ POINTS_RESULTAT = [5, 4, 3, 2, 1]
 POINTS_PARTICIPATION = 1
 ANALYSEUR={
     "UC PONTCHARRA GRESIVAUDAN": AnalyseurUCPG,
-    "VC TURRIPINOIS": AnalyseurVCT
+    "VC TURRIPINOIS": AnalyseurVCT,
+    "CYCLO CLUB DE GIERES": AnalyseurCCG
 }
 
 
@@ -36,7 +37,7 @@ if __name__ == "__main__":
     somme_points = tous_points.groupby("LICENCE").agg({"NOM": "min", "CLUB":"min", "POINTS": "sum", "FEMME": "max", "JEUNE": "max",  "PARTICIPATION": "sum" })
     somme_points["TOTAL"] = somme_points.POINTS + somme_points.PARTICIPATION
     somme_points = somme_points[somme_points.TOTAL > 0]
-    classement = somme_points.sort_values("TOTAL", ascending=False)
+    classement = somme_points.sort_values(["TOTAL", "POINTS", "NOM"], ascending=False)
 
 
     classements = {
