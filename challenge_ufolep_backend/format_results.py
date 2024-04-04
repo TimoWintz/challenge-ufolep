@@ -26,7 +26,7 @@ PATH_RESULTS = "resultats"
 PATH_RIDERS = "coureurs.csv"
 PATH_RACES = "courses/courses.csv"
 
-ALIASES = {"SEVOZ CELIA" : "SEVOZ LAVERDURE CELIA"}
+ALIASES = {"SEVOZ CELIA" : "SEVOZ LAVERDURE CELIA", "VIAL JACQUES GUY": "VIAL JACQUES"}
 
 def get_output_file(race: str, path: Path) -> Path:
     return path.parent.parent / PATH_RESULTS / f"{race}_{path.with_suffix('.csv').name}"
@@ -103,6 +103,7 @@ class AlpespaceResultsFormatter(ResultsFormatter):
     
 
     def parse_file(self, path: Path) -> pd.DataFrame:
+        cat = path.with_suffix("").name.split("_")[-1]
         pdf = pdfplumber.open(path)
         tables = pdf.pages[0].find_tables(table_settings={})
         table = tables[0].extract()
@@ -117,6 +118,7 @@ class AlpespaceResultsFormatter(ResultsFormatter):
         df =df.rename(columns=self.COLS_REMAPPING)
         df.loc[df.Rem == STR_DNS, STR_RANK] = STR_DNS
         df.loc[df.Rem == STR_DNF, STR_RANK] = STR_DNF
+        df.loc[:, STR_CAT] = cat
         df = df[self.COLS]
 
         return df
