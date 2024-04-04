@@ -127,17 +127,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 1,
-            "NOM": "MONGE NICOLAS",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 8,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "TOTAL": 11
-        },
-        {
-            "RANG": 3,
+            "RANG": 2,
             "NOM": "RIPPERT VALENTIN",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 8,
@@ -147,7 +137,17 @@
             "TOTAL": 10
         },
         {
-            "RANG": 3,
+            "RANG": 2,
+            "NOM": "MONGE NICOLAS",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 8,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "TOTAL": 10
+        },
+        {
+            "RANG": 2,
             "NOM": "LOUPIEN VINCENT",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 8,
@@ -157,7 +157,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 3,
+            "RANG": 2,
             "NOM": "MELINU JEROME",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 7,
@@ -748,16 +748,6 @@
         },
         {
             "RANG": 53,
-            "NOM": "NORAZ FLORENT",
-            "CLUB": "UC VOIRONNAISE",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "TOTAL": 1
-        },
-        {
-            "RANG": 53,
             "NOM": "MICAS TITOUAN",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -920,6 +910,16 @@
     "femme": [
         {
             "RANG": 1,
+            "NOM": "SEVOZ LAVERDURE CELIA",
+            "CLUB": "UC VOIRONNAISE",
+            "POINTS": 9,
+            "FEMME": true,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "TOTAL": 11
+        },
+        {
+            "RANG": 2,
             "NOM": "BOUVIER MANON",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 5,
@@ -929,33 +929,23 @@
             "TOTAL": 6
         },
         {
-            "RANG": 1,
+            "RANG": 3,
             "NOM": "ARNAUD AGATHE",
             "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 5,
+            "POINTS": 4,
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
-            "TOTAL": 6
+            "TOTAL": 5
         },
         {
-            "RANG": 1,
+            "RANG": 3,
             "NOM": "LAFONT CANDICE",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
-            "POINTS": 4,
+            "POINTS": 3,
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 2,
-            "TOTAL": 6
-        },
-        {
-            "RANG": 4,
-            "NOM": "SEVOZ LAVERDURE CELIA",
-            "CLUB": "UC VOIRONNAISE",
-            "POINTS": 4,
-            "FEMME": true,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
             "TOTAL": 5
         },
         {
@@ -969,29 +959,9 @@
             "TOTAL": 4
         },
         {
-            "RANG": 5,
-            "NOM": "CANTAGALLO JULIE",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 3,
-            "FEMME": true,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "TOTAL": 4
-        },
-        {
-            "RANG": 7,
+            "RANG": 6,
             "NOM": "VALERO ANGELIQUE",
             "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 0,
-            "FEMME": true,
-            "JEUNE": false,
-            "PARTICIPATION": 2,
-            "TOTAL": 2
-        },
-        {
-            "RANG": 8,
-            "NOM": "DEL NEGRO CONSTANCE",
-            "CLUB": "UC VOIRONNAISE",
             "POINTS": 0,
             "FEMME": true,
             "JEUNE": false,
@@ -1014,24 +984,14 @@
             "RANG": 2,
             "NOM": "TEIRLYNCK LEONIE",
             "CLUB": "VC TURRIPINOIS",
-            "POINTS": 9,
+            "POINTS": 5,
             "FEMME": true,
             "JEUNE": true,
-            "PARTICIPATION": 2,
-            "TOTAL": 11
+            "PARTICIPATION": 1,
+            "TOTAL": 6
         },
         {
             "RANG": 2,
-            "NOM": "BUSSCHAERT LUCIE",
-            "CLUB": "VC TURRIPINOIS",
-            "POINTS": 9,
-            "FEMME": true,
-            "JEUNE": true,
-            "PARTICIPATION": 2,
-            "TOTAL": 11
-        },
-        {
-            "RANG": 4,
             "NOM": "SELIN LOIC",
             "CLUB": "VC TURRIPINOIS",
             "POINTS": 5,
@@ -1041,15 +1001,15 @@
             "TOTAL": 6
         },
         {
-            "RANG": 5,
-            "NOM": "SELIN ELODIE",
+            "RANG": 4,
+            "NOM": "BUSSCHAERT LUCIE",
             "CLUB": "VC TURRIPINOIS",
-            "POINTS": 3,
+            "POINTS": 4,
             "FEMME": true,
             "JEUNE": true,
             "PARTICIPATION": 1,
-            "TOTAL": 4
+            "TOTAL": 5
         }
     ],
-    "date": "2024-04-03"
+    "date": "2024-04-04"
 }
