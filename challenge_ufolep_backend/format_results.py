@@ -162,6 +162,24 @@ class CCGResultsFromatter(ResultsFormatter):
         df[STR_CAT] = cat
         return df[self.COLS]
     
+class CrasResultsFormatter(ResultsFormatter):
+    COLS_REMAPPING = {'Place':STR_RANK,
+
+            'Club':STR_CLUB}
+    
+    def parse_file(self, path: Path) -> pd.DataFrame:
+        cat = path.with_suffix("").name.split("-")[-1].lstrip(" ")
+        df = pd.read_csv(path, header=0)
+        df[STR_NAME] = df.Nom + " " + df.Prénom
+        df = df[~df[STR_NAME].isna()]
+        df[STR_NAME] = df[STR_NAME].map(lambda x: re.sub(' +', ' ', x))
+        df =df.rename(columns=self.COLS_REMAPPING)
+        df[STR_RANK] = df[STR_RANK].astype(str)
+        df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
+        df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
+        df[STR_CAT] = cat
+        return df[self.COLS]
+    
 class ResultsFormatterFactory:
     def __init__(self, riders_db: pd.DataFrame) -> None:
         self.riders_db = riders_db
@@ -174,6 +192,8 @@ class ResultsFormatterFactory:
             return AlpespaceResultsFormatter(self.riders_db)
         elif "mouillat" in p:
             return MouillatResultsFormatter(self.riders_db)
+        elif "cras" in p:
+            return CrasResultsFormatter(self.riders_db)
         else:
             raise ValueError(f"No formatter found for {p}")
 
