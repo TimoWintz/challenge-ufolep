@@ -71,21 +71,50 @@ if __name__ == "__main__":
     df_sum_points = df_sum_points[df_sum_points.TOTAL > 0]
     ranking = df_sum_points.sort_values(["TOTAL", STR_POINTS, STR_NAME], ascending=False)
 
+    points_per_club = df_sum_points.groupby("CLUB").sum()
+    points_per_club["ORGA"] = 0
+    points_per_club["INDIV"] = points_per_club["TOTAL"]
+    
+    points_races =  races[races.PASSE]
+    points_races = points_races[races.CLUB != "COMITE"]
+    
+    for race in points_races.index.values:
+        club_rankings = points_races.loc[race, "CLUB"]
+        type = points_races.loc[race, "TYPE"]
+        if type == "Championnat":
+            points = 25
+        elif type == "Combiné":
+            points = 30
+        else:
+            points = 20
+        print(f"{race=},{points=},{club_rankings=}")
+        points_per_club.loc[club_rankings, "ORGA"] += points
 
-    classements = {
+    points_per_club["TOTAL"] = points_per_club["INDIV"] + points_per_club["ORGA"]
+    points_per_club = points_per_club.sort_values("TOTAL", ascending=False)
+    points_per_club = points_per_club[["TOTAL", "INDIV", "ORGA"]]
+
+    rankings = {
         "homme": ranking[(~ranking[STR_WOMAN])&(~ranking[STR_YOUNG])],
         "femme": ranking[(ranking[STR_WOMAN])&(~ranking[STR_YOUNG])],
         "jeune": ranking[ranking[STR_YOUNG]]
     }
     
-    for k, df in classements.items():
+    for k, df in rankings.items():
         df.insert(0, STR_RANK, 0)
         df.loc[:, STR_RANK] = df["TOTAL"].rank(method='min', ascending=False)
-        classements[k] = df
+        rankings[k] = df
         results[k] = df.to_dict('records')
 
     results["date"] = date.today().isoformat()
     
     json_str = json.dumps(results, ensure_ascii=False, indent=4).encode("utf-8")
     with open(root.parent / "data" / "resultats_indiv.json", "wb") as f:
+        f.write(json_str)
+
+    points_per_club["CLUB"] = points_per_club.index
+    points_per_club.loc[:, STR_RANK] = points_per_club["TOTAL"].rank(method='min', ascending=False).astype(int)
+    club_rankings = points_per_club.to_dict("records", index=True)
+    json_str = json.dumps(club_rankings, ensure_ascii=False, indent=4).encode("utf-8")
+    with open(root.parent / "data" / "resultats_club.json", "wb") as f:
         f.write(json_str)

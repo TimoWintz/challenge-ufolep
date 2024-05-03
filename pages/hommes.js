@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Classement from '@components/Classement';
-import { getLocalData } from '@lib/resultats';
+import { getIndivData } from '@lib/resultats';
 import { Main } from 'next/document';
 
 export async function getStaticProps() {
-  const localData = await getLocalData()
+  const localData = await getIndivData()
 
   return {
     props: { localData }

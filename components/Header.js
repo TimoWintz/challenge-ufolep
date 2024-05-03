@@ -13,7 +13,7 @@ export default function Header({ title }) {
           <a class="nav-link" aria-current="page" href="jeunes">Classement Jeunes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Classement clubs (à venir)</a>
+          <a class="nav-link" aria-current="page" href="clubs">Classement Clubs</a>
           </li>
       </ul>
       </div>
