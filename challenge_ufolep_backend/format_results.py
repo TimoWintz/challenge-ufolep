@@ -179,6 +179,19 @@ class CrasResultsFormatter(ResultsFormatter):
         df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
         df[STR_CAT] = cat
         return df[self.COLS]
+
+class TvsResultsFormatter(ResultsFormatter):
+    COLS_REMAPPING = {'Class.':STR_RANK,
+
+            'Club':STR_CLUB,
+            'cat': STR_CAT}
+    
+    def parse_file(self, path: Path) -> pd.DataFrame:
+        #cat = path.with_suffix("").name.split("-")[-1].lstrip(" ")
+        df = pd.read_csv(path, header=0)
+        df[STR_NAME] = df["Nom"] + " " + df["Prénom"]
+        df =df.rename(columns=self.COLS_REMAPPING)
+        return df
     
 class ResultsFormatterFactory:
     def __init__(self, riders_db: pd.DataFrame) -> None:
@@ -194,6 +207,8 @@ class ResultsFormatterFactory:
             return MouillatResultsFormatter(self.riders_db)
         elif "cras" in p:
             return CrasResultsFormatter(self.riders_db)
+        elif "porte" in p:
+            return TvsResultsFormatter(self.riders_db)
         else:
             raise ValueError(f"No formatter found for {p}")
 
