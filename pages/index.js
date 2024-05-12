@@ -18,7 +18,11 @@ export default function Home({ localData }) {
     
     <div class="container">
       <Header title="Challenge Ufolep  Isère Cyclosport" />
-      <div class="container p-3 mt-5">
+      <div class="container p-3">
+        <div class="container ml-5 text-center">
+          <img src="ufolep.png" class="w-50 m-3"></img>
+        </div>
+        
         <div class="alert alert-primary" role="alert">
           Dernière mise à jour le {new Date(localData["date"]).toLocaleDateString()}
         </div>
@@ -34,13 +38,6 @@ export default function Home({ localData }) {
 
 
         <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Nom</th>
-              <th scope="col">Date</th>
-              <th scope="col">Club</th>
-            </tr>
-          </thead>
           <tbody>
             {localData["courses"].map(({ NOM, DATE, CLUB, PASSE }, index) => {
               var condition = PASSE ? 'table-success' : '';

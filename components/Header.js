@@ -1,6 +1,6 @@
 export default function Header({ title }) {
   return <nav class="navbar sticky-top text-bg-light">
-    <div class="container">
+    <div class="container-fluid">
     <a class="navbar-brand" href="/">{title}</a>
       <ul class="nav nav-pills">
         <li class="nav-item">

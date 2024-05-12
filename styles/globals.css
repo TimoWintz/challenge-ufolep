@@ -32,8 +32,20 @@ code {
 }
 
 
+/* Assuming you have a header and footer with a combined height of 100px */
+.table-container {
+  overflow-y: auto;
+  height: calc(100vh - 10rem);
+  /* Subtract the height of other elements */
+}
 
-
+.table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  /* Set your desired background color */
+}
 
 /* .container {
   height: 100vh;

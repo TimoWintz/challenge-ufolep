@@ -18,8 +18,9 @@ export default function Home({ localData }) {
     
     <div className="container">
       <Header title="Challenge Ufolep  Isère Cyclosport" />
-      <h1>Classement Hommes</h1>
+      
       <div class="container p-3">
+        <h1>Classement Hommes</h1>
         <Classement data={localData["homme"]} />
       </div>
 
