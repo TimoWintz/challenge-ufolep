@@ -18,10 +18,8 @@ export default function Home({ localData }) {
     
     <div className="container">
       <Header title="Challenge Ufolep  Isère Cyclosport" />
-      <div class="container-fluid p-3">
-        <div class="alert alert-primary" role="alert">
-          Dernière mise à jour le {new Date(localData["date"]).toLocaleDateString()}
-        </div>
+      
+      <div class="container p-3 mt-5">
         <Classement data={localData["homme"]} />
       </div>
 

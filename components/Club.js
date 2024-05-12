@@ -1,5 +1,18 @@
 export default function Club({ data }) {
-    return <table class="table">
+    return <div class="container">
+         <p>            Attribution des points:</p>
+        <ul>
+            <li>Points individuels: somme des points des coureurs du club</li>
+            <li>Points organisations:
+                <ul>
+                    <li>une épreuve en ligne, cyclocross, grimpée ou CLM : 20 points</li>
+                    <li>un Championnat : 25 points</li>
+                    <li>une course avec plusieurs étapes le même jour : 30 points</li>
+                    <li>une course à étapes sur plusieurs jours : 40 points</li>
+                </ul>
+            </li>
+        </ul>        <table class="table">
+       
         <thead>
             <tr>
                 <th scope="col">Rang</th>
@@ -21,5 +34,6 @@ export default function Club({ data }) {
             ))}
 
         </tbody>
-    </table>
+        </table>
+    </div>
 }

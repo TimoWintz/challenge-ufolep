@@ -7,7 +7,7 @@
             "PASSE": true
         },
         {
-            "NOM": "GRAND PRIX CYCLESPACE - ALPESPACE",
+            "NOM": "GRAND PRIX CYCLESPACE",
             "DATE": "2024/03/24",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "PASSE": true
@@ -79,7 +79,7 @@
             "PASSE": false
         },
         {
-            "NOM": "GRIMPÉE CYCLISTE MURIANETTE - PINET D'URIAGE",
+            "NOM": "GRIMPÉE MURIANETTE - PINET D'URIAGE",
             "DATE": "2024/09/07",
             "CLUB": "CYCLO CLUB DE GIERES",
             "PASSE": false
@@ -125,10 +125,22 @@
                 5
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                4,
+                4,
+                5,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 18
         },
@@ -147,10 +159,22 @@
                 3
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                5,
+                5,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 17
         },
@@ -168,9 +192,19 @@
                 2
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                5,
+                4,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 16
         },
@@ -192,6 +226,16 @@
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                5,
+                5,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
             "TOTAL": 16
         },
         {
@@ -209,10 +253,22 @@
                 4
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                5,
+                3,
+                2,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 16
         },
@@ -234,6 +290,16 @@
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                5,
+                2,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
             "TOTAL": 15
         },
         {
@@ -254,6 +320,16 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                5,
+                2,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
             "TOTAL": 13
         },
         {
@@ -272,9 +348,21 @@
             ],
             "COURSE": [
                 "Cyclocross du Mouillat",
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                4,
+                4,
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                0,
+                1
             ],
             "TOTAL": 13
         },
@@ -293,10 +381,22 @@
                 6
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                5,
+                0,
+                4,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 13
         },
@@ -314,9 +414,19 @@
                 9
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                4,
+                4,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 11
         },
@@ -336,9 +446,21 @@
             ],
             "COURSE": [
                 "Cyclocross du Mouillat",
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                4,
+                0,
+                3,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 11
         },
@@ -358,6 +480,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                4,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 10
         },
         {
@@ -374,9 +504,19 @@
                 5
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                3,
+                3,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 10
         },
@@ -393,8 +533,16 @@
                 2
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                3,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 9
         },
@@ -412,9 +560,19 @@
                 5
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                5,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 9
         },
@@ -432,9 +590,19 @@
                 1
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                1,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 9
         },
@@ -456,6 +624,16 @@
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                0,
+                0,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
             "TOTAL": 8
         },
         {
@@ -476,6 +654,16 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                5,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
             "TOTAL": 8
         },
         {
@@ -492,9 +680,19 @@
                 2
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                1,
+                4
+            ],
+            "PARTICIPATION_L": [
+                0,
+                1,
+                1
             ],
             "TOTAL": 7
         },
@@ -514,6 +712,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                2,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 7
         },
         {
@@ -531,8 +737,18 @@
             ],
             "COURSE": [
                 "Cyclocross du Mouillat",
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                4,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 7
         },
@@ -551,8 +767,18 @@
             ],
             "COURSE": [
                 "Cyclocross du Mouillat",
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                2,
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 7
         },
@@ -571,10 +797,22 @@
                 8
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                3,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 7
         },
@@ -593,10 +831,22 @@
                 3
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 7
         },
@@ -614,6 +864,12 @@
             "COURSE": [
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 6
         },
         {
@@ -630,6 +886,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 6
         },
         {
@@ -644,7 +906,13 @@
                 1
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 6
         },
@@ -662,6 +930,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 6
         },
         {
@@ -677,8 +951,16 @@
                 8
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                4,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 6
         },
@@ -698,6 +980,14 @@
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                0,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 6
         },
         {
@@ -714,9 +1004,19 @@
                 3
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 6
         },
@@ -734,6 +1034,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                4
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 5
         },
         {
@@ -749,8 +1055,16 @@
                 19
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                3,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 5
         },
@@ -767,8 +1081,16 @@
                 5
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                2,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 5
         },
@@ -788,6 +1110,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 5
         },
         {
@@ -806,6 +1136,14 @@
                 "Cyclocross du Mouillat",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                3,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 5
         },
         {
@@ -822,9 +1160,19 @@
                 4
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 5
         },
@@ -842,9 +1190,19 @@
                 6
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                2,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 5
         },
@@ -861,6 +1219,12 @@
             ],
             "COURSE": [
                 "Cyclocross du Mouillat"
+            ],
+            "POINTS_L": [
+                3
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 4
         },
@@ -879,6 +1243,14 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                2,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 4
         },
@@ -900,6 +1272,16 @@
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                0,
+                0,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
             "TOTAL": 4
         },
         {
@@ -917,10 +1299,22 @@
                 8
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 4
         },
@@ -936,7 +1330,13 @@
                 4
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                2
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 3
         },
@@ -954,6 +1354,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                2
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 3
         },
         {
@@ -969,6 +1375,12 @@
             ],
             "COURSE": [
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                2
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 3
         },
@@ -988,6 +1400,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                1,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 3
         },
         {
@@ -1004,9 +1424,19 @@
                 10
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 3
         },
@@ -1024,9 +1454,19 @@
                 13
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 3
         },
@@ -1044,9 +1484,19 @@
                 8
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 3
         },
@@ -1064,9 +1514,19 @@
                 12
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 3
         },
@@ -1084,9 +1544,19 @@
                 10
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
             ],
             "TOTAL": 3
         },
@@ -1102,7 +1572,13 @@
                 5
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                1
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 2
         },
@@ -1118,7 +1594,13 @@
                 5
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                1
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 2
         },
@@ -1136,6 +1618,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                1
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1152,6 +1640,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                1
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1167,6 +1661,12 @@
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                1
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 2
         },
@@ -1186,6 +1686,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1203,6 +1711,14 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1222,6 +1738,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1237,8 +1761,16 @@
                 10
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1258,6 +1790,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1273,8 +1813,16 @@
                 13
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1294,6 +1842,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1309,8 +1865,16 @@
                 19
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1328,9 +1892,19 @@
                 "DNS"
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                0
             ],
             "TOTAL": 2
         },
@@ -1347,8 +1921,16 @@
                 19
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1368,6 +1950,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1383,8 +1973,16 @@
                 19
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1404,6 +2002,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1419,8 +2025,16 @@
                 "DNF"
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1440,6 +2054,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
             "TOTAL": 2
         },
         {
@@ -1455,8 +2077,16 @@
                 13
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 2
         },
@@ -1474,6 +2104,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1489,6 +2125,12 @@
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1506,6 +2148,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1521,6 +2169,12 @@
             ],
             "COURSE": [
                 "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1538,6 +2192,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1553,6 +2213,12 @@
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1570,6 +2236,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1584,7 +2256,13 @@
                 16
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1602,6 +2280,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1617,6 +2301,12 @@
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1636,6 +2326,14 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                0,
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1651,6 +2349,12 @@
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1668,6 +2372,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1684,6 +2394,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1698,7 +2414,13 @@
                 11
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1716,6 +2438,12 @@
             "COURSE": [
                 "Grand Prix de Cras"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1730,7 +2458,13 @@
                 10
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1746,7 +2480,13 @@
                 25
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1762,7 +2502,13 @@
                 14
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         },
@@ -1779,6 +2525,12 @@
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         }
@@ -1797,8 +2549,16 @@
                 1
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                4,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 11
         },
@@ -1816,6 +2576,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 6
         },
         {
@@ -1830,7 +2596,13 @@
                 1
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 6
         },
@@ -1848,6 +2620,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                4
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 5
         },
         {
@@ -1864,6 +2642,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                4
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 5
         },
         {
@@ -1879,8 +2663,16 @@
                 3
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                0,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 5
         },
@@ -1896,7 +2688,13 @@
                 3
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                3
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 4
         },
@@ -1915,10 +2713,22 @@
                 7
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
             ],
             "TOTAL": 4
         },
@@ -1936,6 +2746,12 @@
             "COURSE": [
                 "Grimpée du Col de Porte"
             ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 1
         },
         {
@@ -1950,7 +2766,13 @@
                 8
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 1
         }
@@ -1969,8 +2791,16 @@
                 1
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                5,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 12
         },
@@ -1987,8 +2817,16 @@
                 1
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                4,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 11
         },
@@ -2005,8 +2843,16 @@
                 2
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                5,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
             ],
             "TOTAL": 11
         },
@@ -2024,6 +2870,12 @@
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin"
             ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
             "TOTAL": 6
         },
         {
@@ -2038,7 +2890,13 @@
                 3
             ],
             "COURSE": [
-                "Grand Prix Cyclespace - Alpespace"
+                "Grand Prix Cyclespace"
+            ],
+            "POINTS_L": [
+                3
+            ],
+            "PARTICIPATION_L": [
+                1
             ],
             "TOTAL": 4
         }

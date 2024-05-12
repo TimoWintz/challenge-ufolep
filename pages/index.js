@@ -18,11 +18,17 @@ export default function Home({ localData }) {
     
     <div class="container">
       <Header title="Challenge Ufolep  Isère Cyclosport" />
-      <div class="container-fluid p-3">
+      <div class="container p-3 mt-5">
         <div class="alert alert-primary" role="alert">
           Dernière mise à jour le {new Date(localData["date"]).toLocaleDateString()}
         </div>
-        Bienvenue sur la page du Challenge Ufolep Isère Cyclosport. Vous trouverez ici le classement du Challenge mis à jour après chaque épreuve du calendrier.
+        <p>
+          Bienvenue sur la page du Challenge Ufolep Isère Cyclosport, organisé par le comité départemental. Vous trouverez ici le classement du Challenge mis à jour après chaque épreuve du calendrier.
+        </p>
+        <p>
+          Le règlement se trouve <a href="https://ufolep38.org/wp-content/uploads/2024/02/ufolep-38-CYCLO-Reglement_Challenge_2024_V2_a-valider-32.pdf">ici</a>
+        </p>
+        
 
         <h1>Le calendrier du Challenge</h1>
 
