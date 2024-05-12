@@ -10,6 +10,8 @@ POINTS_PER_START = 1
 
 STR_POINTS = "POINTS"
 STR_START = "PARTICIPATION"
+STR_RACE = "COURSE"
+STR_RACE_RANK = "PLACE"
 
 def get_points(df: pd.DataFrame, rank_to_point: List[int]) -> List[pd.DataFrame]:
         if df[STR_YOUNG].any():
@@ -24,20 +26,24 @@ def get_points(df: pd.DataFrame, rank_to_point: List[int]) -> List[pd.DataFrame]
                 continue
             valid_ranking.insert(6, STR_POINTS, 0)
             valid_ranking.insert(7, STR_START, 0)
+            valid_ranking.insert(8, STR_RACE_RANK, 0)
 
             valid_rank = -1
             prev_ranking = None
             for i, idx in enumerate(valid_ranking.index.values):
                 current_ranking = valid_ranking.loc[idx, STR_RANK]
                 if current_ranking == STR_DNS:
+                    valid_ranking.loc[idx, STR_RACE_RANK] = STR_DNS
                     continue
                 valid_ranking.loc[idx, STR_START] = 1
                 if current_ranking == STR_DNF:
+                    valid_ranking.loc[idx, STR_RACE_RANK] = STR_DNF
                     continue
                 if prev_ranking != current_ranking:
                     valid_rank += 1
                 if valid_rank < len(rank_to_point):
-                    valid_ranking.loc[idx, "POINTS"] = rank_to_point[valid_rank]
+                    valid_ranking.loc[idx, STR_POINTS] = rank_to_point[valid_rank]
+                valid_ranking.loc[idx, STR_RACE_RANK] = valid_rank + 1
                 
                 prev_ranking = current_ranking
             ret.append(valid_ranking)
@@ -61,12 +67,16 @@ if __name__ == "__main__":
             continue
         tables = get_all_results(race, race_folder / races.loc[race, STR_RACE_FOLDER], formatter_factory, override=False)
         tables_points = sum([get_points(x, POINTS) for x in tables], [])
+        for t in tables_points:
+            t.insert(0,STR_RACE, race )
+        
         all_tables_points.extend(tables_points)
 
     df_all_points = pd.concat(all_tables_points)
     print(df_all_points)
 
-    df_sum_points = df_all_points.groupby(STR_ID).agg({STR_NAME: "min", STR_CLUB:"min", STR_POINTS: "sum", STR_WOMAN: "max", STR_YOUNG: "max",  STR_START: "sum" })
+    df_sum_points = df_all_points.groupby(STR_ID).agg({STR_NAME: "min", STR_CLUB:"min", STR_POINTS: "sum", STR_WOMAN: "max", STR_YOUNG: "max",  STR_START: "sum",STR_RACE_RANK: list, STR_RACE: list })
+
     df_sum_points["TOTAL"] = df_sum_points[STR_POINTS] + POINTS_PER_START * df_sum_points[STR_START]
     df_sum_points = df_sum_points[df_sum_points.TOTAL > 0]
     ranking = df_sum_points.sort_values(["TOTAL", STR_POINTS, STR_NAME], ascending=False)

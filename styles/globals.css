@@ -26,6 +26,11 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
+.popover {
+  font-size: 75%;
+  white-space: pre-wrap;
+}
+
 /* .container {
   height: 100vh;
   display: flex;

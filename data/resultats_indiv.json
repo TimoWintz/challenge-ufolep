@@ -118,6 +118,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                2,
+                2,
+                1,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 18
         },
         {
@@ -128,6 +140,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                "DNF",
+                1,
+                1,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 17
         },
         {
@@ -138,6 +162,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                1,
+                2,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 16
         },
         {
@@ -148,6 +182,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                1,
+                1,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 16
         },
         {
@@ -158,6 +202,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                1,
+                3,
+                4,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 16
         },
         {
@@ -168,6 +224,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                1,
+                4,
+                1
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 15
         },
         {
@@ -178,6 +244,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                1,
+                4,
+                3
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 13
         },
         {
@@ -188,6 +264,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                2,
+                2,
+                "DNS",
+                4
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 13
         },
         {
@@ -198,6 +286,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                1,
+                9,
+                2,
+                6
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 13
         },
         {
@@ -208,6 +308,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                2,
+                2,
+                9
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 11
         },
         {
@@ -218,6 +328,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                2,
+                "DNF",
+                3,
+                6
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 11
         },
         {
@@ -228,6 +350,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                2,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 10
         },
         {
@@ -238,6 +368,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                3,
+                3,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 10
         },
         {
@@ -248,6 +388,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                3,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 9
         },
         {
@@ -258,6 +406,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                12,
+                1,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 9
         },
         {
@@ -268,6 +426,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                9,
+                5,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 9
         },
         {
@@ -278,6 +446,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                11,
+                7,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 8
         },
         {
@@ -288,6 +466,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                1,
+                19,
+                18
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 8
         },
         {
@@ -298,6 +486,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                "DNS",
+                5,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 7
         },
         {
@@ -308,6 +506,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                4,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 7
         },
         {
@@ -318,6 +524,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                2,
+                22,
+                17
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 7
         },
         {
@@ -328,6 +544,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                4,
+                "DNF",
+                4
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 7
         },
         {
@@ -338,6 +564,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                23,
+                3,
+                "DNF",
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 7
         },
         {
@@ -348,6 +586,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                18,
+                16,
+                12,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 7
         },
         {
@@ -358,6 +608,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 6
         },
         {
@@ -368,6 +624,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 6
         },
         {
@@ -378,6 +640,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 6
         },
         {
@@ -388,6 +656,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 6
         },
         {
@@ -398,6 +672,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                2,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 6
         },
         {
@@ -408,6 +690,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                16,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 6
         },
         {
@@ -418,6 +708,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                19,
+                10,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 6
         },
         {
@@ -428,6 +728,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                2
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 5
         },
         {
@@ -438,6 +744,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                3,
+                19
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 5
         },
         {
@@ -448,6 +762,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                4,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 5
         },
         {
@@ -458,6 +780,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 5
         },
         {
@@ -468,6 +798,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                3,
+                7
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 5
         },
         {
@@ -478,6 +816,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                20,
+                17,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 5
         },
         {
@@ -488,6 +836,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                4,
+                7,
+                6
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 5
         },
         {
@@ -498,6 +856,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                3
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat"
+            ],
             "TOTAL": 4
         },
         {
@@ -508,6 +872,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                4,
+                "DNF"
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 4
         },
         {
@@ -518,6 +890,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                19,
+                6,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 4
         },
         {
@@ -528,6 +910,18 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                15,
+                19,
+                20,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 4
         },
         {
@@ -538,6 +932,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                4
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 3
         },
         {
@@ -548,6 +948,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                4
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 3
         },
         {
@@ -558,6 +964,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                4
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 3
         },
         {
@@ -568,6 +980,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                5,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 3
         },
         {
@@ -578,6 +998,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                10,
+                8,
+                10
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 3
         },
         {
@@ -588,6 +1018,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                6,
+                7,
+                13
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 3
         },
         {
@@ -598,6 +1038,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                "DNF",
+                6,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 3
         },
         {
@@ -608,6 +1058,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                8,
+                10,
+                12
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 3
         },
         {
@@ -618,6 +1078,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
+            "PLACE": [
+                11,
+                15,
+                10
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 3
         },
         {
@@ -628,6 +1098,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 2
         },
         {
@@ -638,6 +1114,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 2
         },
         {
@@ -648,6 +1130,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                5
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -658,6 +1146,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                5
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 2
         },
         {
@@ -668,6 +1162,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                5
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -678,6 +1178,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                18,
+                11
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 2
         },
         {
@@ -688,6 +1196,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                13,
+                11
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 2
         },
         {
@@ -698,6 +1214,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                19,
+                19
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 2
         },
         {
@@ -708,6 +1232,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                9,
+                10
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 2
         },
         {
@@ -718,6 +1250,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                11,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 2
         },
         {
@@ -728,6 +1268,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                6,
+                13
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -738,6 +1286,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                6,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 2
         },
         {
@@ -748,6 +1304,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                24,
+                19
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -758,6 +1322,16 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                13,
+                "DNS"
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 2
         },
         {
@@ -768,6 +1342,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                19
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -778,6 +1360,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                9,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 2
         },
         {
@@ -788,6 +1378,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                13,
+                19
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -798,6 +1396,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                14,
+                14
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 2
         },
         {
@@ -808,6 +1414,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                "DNF",
+                "DNF"
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -818,6 +1432,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                13,
+                6
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 2
         },
         {
@@ -828,6 +1450,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                21,
+                13
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 2
         },
         {
@@ -838,6 +1468,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                19
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -848,6 +1484,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                8
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -858,6 +1500,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                6
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 1
         },
         {
@@ -868,6 +1516,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                9
+            ],
+            "COURSE": [
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 1
         },
         {
@@ -878,6 +1532,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                13
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -888,6 +1548,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                "DNF"
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -898,6 +1564,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                12
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -908,6 +1580,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                16
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 1
         },
         {
@@ -918,6 +1596,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                19
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -928,6 +1612,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                19
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -938,6 +1628,14 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                "DNS",
+                6
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 1
         },
         {
@@ -948,6 +1646,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                12
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -958,6 +1662,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                6
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -968,6 +1678,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                8
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         },
         {
@@ -978,6 +1694,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                11
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 1
         },
         {
@@ -988,6 +1710,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                "DNF"
+            ],
+            "COURSE": [
+                "Grand Prix de Cras"
+            ],
             "TOTAL": 1
         },
         {
@@ -998,6 +1726,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                10
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 1
         },
         {
@@ -1008,6 +1742,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                25
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 1
         },
         {
@@ -1018,6 +1758,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                14
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 1
         },
         {
@@ -1028,6 +1774,12 @@
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                19
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 1
         }
     ],
@@ -1040,6 +1792,14 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                2,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 11
         },
         {
@@ -1050,6 +1810,12 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 6
         },
         {
@@ -1060,6 +1826,12 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 6
         },
         {
@@ -1070,6 +1842,12 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                2
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 5
         },
         {
@@ -1080,6 +1858,12 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                2
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 5
         },
         {
@@ -1090,6 +1874,14 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 2,
+            "PLACE": [
+                "DNF",
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 5
         },
         {
@@ -1100,6 +1892,12 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 4
         },
         {
@@ -1110,6 +1908,18 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 4,
+            "PLACE": [
+                17,
+                19,
+                15,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 4
         },
         {
@@ -1120,6 +1930,12 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                9
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte"
+            ],
             "TOTAL": 1
         },
         {
@@ -1130,6 +1946,12 @@
             "FEMME": true,
             "JEUNE": false,
             "PARTICIPATION": 1,
+            "PLACE": [
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 1
         }
     ],
@@ -1142,6 +1964,14 @@
             "FEMME": false,
             "JEUNE": true,
             "PARTICIPATION": 2,
+            "PLACE": [
+                1,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 12
         },
         {
@@ -1152,6 +1982,14 @@
             "FEMME": true,
             "JEUNE": true,
             "PARTICIPATION": 2,
+            "PLACE": [
+                2,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 11
         },
         {
@@ -1162,6 +2000,14 @@
             "FEMME": true,
             "JEUNE": true,
             "PARTICIPATION": 2,
+            "PLACE": [
+                1,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 11
         },
         {
@@ -1172,6 +2018,12 @@
             "FEMME": false,
             "JEUNE": true,
             "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin"
+            ],
             "TOTAL": 6
         },
         {
@@ -1182,8 +2034,14 @@
             "FEMME": true,
             "JEUNE": true,
             "PARTICIPATION": 1,
+            "PLACE": [
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace - Alpespace"
+            ],
             "TOTAL": 4
         }
     ],
-    "date": "2024-05-08"
+    "date": "2024-05-12"
 }
