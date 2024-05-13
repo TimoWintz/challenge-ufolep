@@ -2,11 +2,10 @@ const desc_orga = "une épreuve en ligne, cyclocross, grimpée ou CLM: 20 points
 
 export default function Club({ data }) {
     return <div class="container">
-        <div class="table-container">
 
             <table class="table table-striped">
 
-        <thead>
+            <thead class="bg-light sticky-top">
             <tr>
                 <th scope="col">Rang</th>
                 <th scope="col">Club</th>
@@ -32,6 +31,5 @@ export default function Club({ data }) {
 
         </tbody>
         </table>
-        </div>
         </div>
 }

@@ -18,7 +18,7 @@ export default function Home({ localData }) {
     
     <div class="container">
       <Header title="Challenge Ufolep  Isère Cyclosport" />
-      <div class="container p-3">
+
         <div class="container ml-5 text-center">
           <img src="ufolep.png" class="w-50 m-3"></img>
         </div>
@@ -77,8 +77,7 @@ export default function Home({ localData }) {
       </div>
 
       
-      
-    </div>
+
     // <div className="container">
     //   <Head>
     //     <link rel="icon" href="/favicon.ico" />

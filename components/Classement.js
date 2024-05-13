@@ -20,11 +20,9 @@ const helper_fun = (COURSE, PLACE, POINTS_L, PARTICIPATION_L) => {
 
 export default function Classement({ data }) {
     return <div class="container">
-        <div class="table-container">
-
             <table class="table table-striped">
                 <thead class="bg-light sticky-top">
-                    <tr class="p-3">
+                    <tr>
                         <th scope="col">Rang</th>
                         <th scope="col">Nom</th>
                         <th scope="col">Club</th>
@@ -60,6 +58,4 @@ export default function Classement({ data }) {
             </table>
 
         </div>
-    </div>
-
 }
