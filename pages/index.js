@@ -32,7 +32,28 @@ export default function Home({ localData }) {
         <p>
           Le règlement se trouve <a href="https://ufolep38.org/wp-content/uploads/2024/02/ufolep-38-CYCLO-Reglement_Challenge_2024_V2_a-valider-32.pdf">ici</a>
         </p>
+
+        <h1>Les classements</h1>
+        <div class="container p-3">
+
+        <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="hommes">Classement Hommes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="femmes">Classement Femmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="jeunes">Classement Jeunes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="clubs">Classement Clubs</a>
+            </li>
+          </ul>
+        </div>
         
+        
+
 
         <h1>Le calendrier du Challenge</h1>
 

@@ -6,6 +6,10 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  padding-top: 4rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -31,26 +35,11 @@ code {
   white-space: pre-wrap;
 }
 
-
-/* Assuming you have a header and footer with a combined height of 100px */
-.table-container {
-  overflow-y: auto;
-  height: calc(100vh - 10rem);
-  /* Subtract the height of other elements */
+thead.sticky-top {
+  top: 3.2rem;
 }
 
-.table thead {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background-color: white;
-  /* Set your desired background color */
+.navbar {
+  height: 3.5rem;
 }
 
-/* .container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */

@@ -23,8 +23,7 @@ export default function Classement({ data }) {
         <div class="table-container">
 
             <table class="table table-striped">
-                <thead class="bg-light sticky-top p-0 m-0">
-
+                <thead class="bg-light sticky-top">
                     <tr class="p-3">
                         <th scope="col">Rang</th>
                         <th scope="col">Nom</th>
