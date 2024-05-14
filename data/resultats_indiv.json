@@ -73,15 +73,15 @@
             "PASSE": false
         },
         {
-            "NOM": "TRYPTIQUE DU FONTANIL",
-            "DATE": "2024/09/01",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": false
-        },
-        {
             "NOM": "GRIMPÉE MURIANETTE - PINET D'URIAGE",
             "DATE": "2024/09/07",
             "CLUB": "CYCLO CLUB DE GIERES",
+            "PASSE": false
+        },
+        {
+            "NOM": "TRYPTIQUE DU FONTANIL",
+            "DATE": "2024/09/08",
+            "CLUB": "LE FONTANIL CYCLISME",
             "PASSE": false
         },
         {
