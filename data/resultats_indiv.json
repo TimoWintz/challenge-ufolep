@@ -2780,32 +2780,6 @@
     "jeune": [
         {
             "RANG": 1,
-            "NOM": "TEIRLYNCK GAETAN",
-            "CLUB": "VC TURRIPINOIS",
-            "POINTS": 10,
-            "FEMME": false,
-            "JEUNE": true,
-            "PARTICIPATION": 2,
-            "PLACE": [
-                1,
-                1
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin"
-            ],
-            "POINTS_L": [
-                5,
-                5
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1
-            ],
-            "TOTAL": 12
-        },
-        {
-            "RANG": 2,
             "NOM": "TEIRLYNCK LEONIE",
             "CLUB": "VC TURRIPINOIS",
             "POINTS": 9,
@@ -2831,7 +2805,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 2,
+            "RANG": 1,
             "NOM": "BUSSCHAERT LUCIE",
             "CLUB": "VC TURRIPINOIS",
             "POINTS": 9,
@@ -2857,9 +2831,35 @@
             "TOTAL": 11
         },
         {
+            "RANG": 3,
+            "NOM": "TEIRLYNCK GAETAN",
+            "CLUB": "VC TURRIPINOIS",
+            "POINTS": 5,
+            "FEMME": false,
+            "JEUNE": true,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                1,
+                "DNF"
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin"
+            ],
+            "POINTS_L": [
+                5,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 7
+        },
+        {
             "RANG": 4,
             "NOM": "SELIN LOIC",
-            "CLUB": "VC TURRIPINOIS",
+            "CLUB": "UC VOIRONNAISE",
             "POINTS": 5,
             "FEMME": false,
             "JEUNE": true,
@@ -2901,5 +2901,5 @@
             "TOTAL": 4
         }
     ],
-    "date": "2024-05-12"
+    "date": "2024-05-14"
 }

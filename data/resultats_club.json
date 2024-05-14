@@ -35,25 +35,25 @@
         "RANG": 4
     },
     {
-        "TOTAL": 70,
-        "INDIV": 50,
+        "TOTAL": 59,
+        "INDIV": 39,
         "ORGA": 20,
         "CLUB": "VC TURRIPINOIS",
         "RANG": 6
+    },
+    {
+        "TOTAL": 44,
+        "INDIV": 44,
+        "ORGA": 0,
+        "CLUB": "UC VOIRONNAISE",
+        "RANG": 7
     },
     {
         "TOTAL": 38,
         "INDIV": 38,
         "ORGA": 0,
         "CLUB": "SCAL ECHIROLLES",
-        "RANG": 7
-    },
-    {
-        "TOTAL": 38,
-        "INDIV": 38,
-        "ORGA": 0,
-        "CLUB": "UC VOIRONNAISE",
-        "RANG": 7
+        "RANG": 8
     },
     {
         "TOTAL": 20,
