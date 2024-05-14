@@ -96,6 +96,7 @@ if __name__ == "__main__":
         all_tables_points.extend(tables_points)
 
     df_all_points = pd.concat(all_tables_points)
+    df_all_points[["NOM","JEUNE","FEMME","COURSE","RANG","POINTS","PARTICIPATION","CLUB"]].to_csv("points.csv")
     print(df_all_points)
 
     df_all_points[STR_POINTS + "_L"] = df_all_points[STR_POINTS]
