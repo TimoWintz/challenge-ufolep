@@ -166,6 +166,7 @@ if __name__ == "__main__":
         f.write(json_str)
 
     points_per_club["CLUB"] = points_per_club.index
+    points_per_club.to_csv("clubs.csv")
     points_per_club.loc[:, STR_RANK] = (
         points_per_club["TOTAL"].rank(method="min", ascending=False).astype(int)
     )
