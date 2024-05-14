@@ -37,6 +37,12 @@
             "PASSE": false
         },
         {
+            "NOM": "GRIMPÉE DU COLLET D’ALLEVARD",
+            "DATE": "2024/06/01",
+            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
+            "PASSE": false
+        },
+        {
             "NOM": "GRIMPÉE DU COL DE LA MORTE",
             "DATE": "2024/06/02",
             "CLUB": "TEAM 3 MASSIFS",
@@ -52,12 +58,6 @@
             "NOM": "GRAND PRIX D'ANDREVIÈRE",
             "DATE": "2024/06/09",
             "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": false
-        },
-        {
-            "NOM": "GRIMPÉE DU COLLET D’ALLEVARD",
-            "DATE": "2024/06/22",
-            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "PASSE": false
         },
         {
