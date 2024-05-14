@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 
 STR_NAME = "NOM"
+STR_ALL_NAMES = "LISTE_NOMS"
 STR_RANK = "RANG"
 STR_CLUB = "CLUB"
 STR_CAT = "CAT"
@@ -26,8 +27,6 @@ PATH_RESULTS = "resultats"
 PATH_RIDERS = "coureurs.csv"
 PATH_RACES = "courses/courses.csv"
 
-ALIASES = {"SEVOZ CELIA" : "SEVOZ LAVERDURE CELIA", "VIAL JACQUES GUY": "VIAL JACQUES"}
-
 def get_output_file(race: str, path: Path) -> Path:
     return path.parent.parent / PATH_RESULTS / f"{race}_{path.with_suffix('.csv').name}"
 
@@ -37,19 +36,24 @@ def normalize_string(input_str :str) -> str:
 
 def find_rider(name: str, riders: pd.DataFrame) -> int:
     name = normalize_string(name).upper()
-    if name in ALIASES.keys():
-        name = ALIASES[name]
-    riders[STR_NAME] = riders[STR_NAME].map(normalize_string).str.upper()
-
-    x = difflib.get_close_matches(name.upper(), riders[STR_NAME], 1, 0.9)
+    all_names = riders[STR_ALL_NAMES]
+    max_num_names = max(len(x) for x in all_names)
+    
+    for i in range(max_num_names):
+        query = all_names.map(lambda x: x[i] if len(x) > i else "")
+        x = difflib.get_close_matches(name.upper(), query, 1, 0.9)
+        if len(x) > 0:
+            break
+    
     if len(x) == 0:
         print(f"{name} -> NOT FOUND")
         return -1
     if len(x)  > 1:
         print(x)
     rider_name = x[0]
-    rider_idx = riders[riders[STR_NAME] == rider_name].first_valid_index()
+    rider_idx = riders[query == rider_name].first_valid_index()
     print(f"{name} -> {rider_name} -> {riders.iloc[rider_idx][STR_NAME]}")
+    
     return rider_idx
 
 class ResultsFormatter(ABC):
@@ -229,6 +233,8 @@ def get_all_results(race: str, root_path: Path, formatter_factory: ResultsFormat
 if __name__ == "__main__":
     root = Path(__file__).parent
     riders = pd.read_csv(root / PATH_RIDERS)
+    riders[STR_ALL_NAMES] = riders[STR_NAME].map(normalize_string).str.upper().str.split(",")
+    riders[STR_NAME] = riders[STR_ALL_NAMES].map(lambda x: x[0])
     races = pd.read_csv(root / PATH_RACES, index_col=STR_RACE_NAME)
     races.loc[races[STR_RACE_FOLDER].isna(), STR_RACE_FOLDER] = ""
     race_folder = (root / PATH_RACES).parent
