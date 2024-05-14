@@ -139,8 +139,8 @@ class MouillatResultsFormatter(ResultsFormatter):
             table[i][5:7] = ["".join(table[i][5:7])]
         table
         df = pd.DataFrame(table[1:], columns=[STR_RANK, "DOSSARD", STR_NAME, "LICENCE", STR_CAT, STR_CLUB])
-        df[STR_RANK].str.replace("Abandon", STR_DNF)
-        df[STR_RANK].str.replace("Non partant", STR_DNS)
+        df[STR_RANK] = df[STR_RANK].str.replace("Abandon", STR_DNF)
+        df[STR_RANK] = df[STR_RANK].str.replace("Non partant", STR_DNS)
         return df[self.COLS]
     
 class CCGResultsFromatter(ResultsFormatter):
@@ -158,7 +158,6 @@ class CCGResultsFromatter(ResultsFormatter):
         df =df.rename(columns=self.COLS_REMAPPING)
         df[STR_RANK] = df[STR_RANK].astype(str)
         df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
-        df[STR_RANK] = df[STR_RANK].str.replace("NC", STR_DNF)
         df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
         df[STR_CAT] = cat
         return df[self.COLS]
