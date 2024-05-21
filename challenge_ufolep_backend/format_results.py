@@ -165,6 +165,28 @@ class CCGResultsFromatter(ResultsFormatter):
         df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
         df[STR_CAT] = cat
         return df[self.COLS]
+
+class NDResultsFromatter(ResultsFormatter):
+    COLS_REMAPPING = {'Arrivée':STR_RANK,
+            'NOM':STR_NAME,
+            'Club':STR_CLUB,
+            'Catégorie Age':STR_CAT}
+    
+    def parse_file(self, path: Path) -> pd.DataFrame:
+        df = pd.read_csv(path)
+
+        df[STR_NAME] = df.NOM + " " + df.Prénom
+        df = df[~df[STR_NAME].isna()]
+        df[STR_NAME] = df[STR_NAME].map(lambda x: re.sub(' +', ' ', x))
+        df =df.rename(columns=self.COLS_REMAPPING)
+        df[STR_RANK] = df[STR_RANK].astype(str)
+        df[STR_RANK] = df[STR_RANK].str.replace("Ab", STR_DNF)
+        df[STR_RANK] = df[STR_RANK].str.replace("Np", STR_DNS)
+
+        if not STR_CAT in df:
+            df[STR_CAT] = path.stem
+    
+        return df[self.COLS]
     
 class CrasResultsFormatter(ResultsFormatter):
     COLS_REMAPPING = {'Place':STR_RANK,
@@ -213,6 +235,8 @@ class ResultsFormatterFactory:
             return CrasResultsFormatter(self.riders_db)
         elif "porte" in p:
             return TvsResultsFormatter(self.riders_db)
+        elif "osier" in p:
+            return NDResultsFromatter(self.riders_db)
         else:
             raise ValueError(f"No formatter found for {p}")
 
