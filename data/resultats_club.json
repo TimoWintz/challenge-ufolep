@@ -1,35 +1,35 @@
 [
     {
+        "TOTAL": 175,
+        "INDIV": 155,
+        "ORGA": 20,
+        "CLUB": "TEAM 3 MASSIFS",
+        "RANG": 1
+    },
+    {
         "TOTAL": 141,
         "INDIV": 121,
         "ORGA": 20,
         "CLUB": "LE FONTANIL CYCLISME",
-        "RANG": 1
-    },
-    {
-        "TOTAL": 116,
-        "INDIV": 116,
-        "ORGA": 0,
-        "CLUB": "TEAM 3 MASSIFS",
         "RANG": 2
     },
     {
-        "TOTAL": 99,
-        "INDIV": 79,
-        "ORGA": 20,
+        "TOTAL": 139,
+        "INDIV": 99,
+        "ORGA": 40,
         "CLUB": "UC PONTCHARRA GRESIVAUDAN",
         "RANG": 3
     },
     {
-        "TOTAL": 96,
-        "INDIV": 76,
+        "TOTAL": 108,
+        "INDIV": 88,
         "ORGA": 20,
         "CLUB": "LA TRONCHE VELO SPORT",
         "RANG": 4
     },
     {
-        "TOTAL": 92,
-        "INDIV": 72,
+        "TOTAL": 103,
+        "INDIV": 83,
         "ORGA": 20,
         "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 5
@@ -49,8 +49,8 @@
         "RANG": 7
     },
     {
-        "TOTAL": 45,
-        "INDIV": 45,
+        "TOTAL": 51,
+        "INDIV": 51,
         "ORGA": 0,
         "CLUB": "SCAL ECHIROLLES",
         "RANG": 8
@@ -63,22 +63,22 @@
         "RANG": 9
     },
     {
-        "TOTAL": 23,
-        "INDIV": 23,
+        "TOTAL": 28,
+        "INDIV": 28,
         "ORGA": 0,
         "CLUB": "UC RIVES",
         "RANG": 10
     },
     {
-        "TOTAL": 13,
-        "INDIV": 13,
+        "TOTAL": 18,
+        "INDIV": 18,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 11
     },
     {
-        "TOTAL": 7,
-        "INDIV": 7,
+        "TOTAL": 11,
+        "INDIV": 11,
         "ORGA": 0,
         "CLUB": "VC PONTOIS",
         "RANG": 12

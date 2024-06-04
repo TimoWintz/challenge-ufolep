@@ -100,8 +100,10 @@ class ResultsFormatter(ABC):
 class AlpespaceResultsFormatter(ResultsFormatter):
     COLS_REMAPPING = {'Clst':STR_RANK,
             'NOM':STR_NAME,
+            'Nom':STR_NAME,
             'Club':STR_CLUB,
-            'Catégorie':STR_CAT}
+            'Catégorie':STR_CAT,
+            'Rem.': "Rem"}
 
     DUPLICATE_COLS = [0, 3, 5]
     
@@ -120,12 +122,18 @@ class AlpespaceResultsFormatter(ResultsFormatter):
           
 
         df =df.rename(columns=self.COLS_REMAPPING)
-        df.loc[df.Rem == STR_DNS, STR_RANK] = STR_DNS
-        df.loc[df.Rem == STR_DNF, STR_RANK] = STR_DNF
-        df.loc[:, STR_CAT] = cat
+        
+        if "Rem" in df.columns:
+            df.loc[df.Rem == STR_DNS, STR_RANK] = STR_DNS
+            df.loc[df.Rem == STR_DNF, STR_RANK] = STR_DNF
+            df.loc[:, STR_CAT] = cat
+        
+        if "Caté. UFOLEP" in df.columns:
+            df.loc[:, STR_CAT] = df.loc[:, "Caté. UFOLEP"]
+            breakpoint()
         df = df[self.COLS]
 
-        return df
+        return df[~df.NOM.isnull()]
     
 class MouillatResultsFormatter(ResultsFormatter):
     COLS_REMAPPING = {'Clst':STR_RANK,
@@ -145,6 +153,24 @@ class MouillatResultsFormatter(ResultsFormatter):
         df = pd.DataFrame(table[1:], columns=[STR_RANK, "DOSSARD", STR_NAME, "LICENCE", STR_CAT, STR_CLUB])
         df[STR_RANK] = df[STR_RANK].str.replace("Abandon", STR_DNF)
         df[STR_RANK] = df[STR_RANK].str.replace("Non partant", STR_DNS)
+        return df[self.COLS]
+    
+class MorteResultsFormatter(ResultsFormatter):
+    COLS_REMAPPING = {'Clst':STR_RANK,
+            'NOM':STR_NAME,
+            'Club':STR_CLUB,
+            'Catégorie':STR_CAT}
+    
+    def parse_file(self, path: Path) -> pd.DataFrame:
+        cat = path.with_suffix("").name.split("_")[-1]
+        pdf = pdfplumber.open(path)
+        tables = pdf.pages[0].find_tables(table_settings={})
+        table = tables[0].extract()
+        df = pd.DataFrame(table, columns=["Dossard", STR_NAME, STR_CAT, "Temps"])
+        df.loc[:, STR_CLUB] = ""
+        df.loc[:, STR_RANK] = df.index + 1
+        breakpoint()
+
         return df[self.COLS]
     
 class CCGResultsFromatter(ResultsFormatter):
@@ -227,7 +253,7 @@ class ResultsFormatterFactory:
         p = name.lower()
         if "oyeu" in p:
             return CCGResultsFromatter(self.riders_db)
-        elif "cyclespace" in p:
+        elif "cyclespace" in p or "allevard" in p:
             return AlpespaceResultsFormatter(self.riders_db)
         elif "mouillat" in p:
             return MouillatResultsFormatter(self.riders_db)
@@ -237,6 +263,8 @@ class ResultsFormatterFactory:
             return TvsResultsFormatter(self.riders_db)
         elif "osier" in p:
             return NDResultsFromatter(self.riders_db)
+        elif "morte" in p:
+            return MorteResultsFormatter(self.riders_db)
         else:
             raise ValueError(f"No formatter found for {p}")
 
