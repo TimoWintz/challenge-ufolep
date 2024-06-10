@@ -130,7 +130,6 @@ class AlpespaceResultsFormatter(ResultsFormatter):
         
         if "Caté. UFOLEP" in df.columns:
             df.loc[:, STR_CAT] = df.loc[:, "Caté. UFOLEP"]
-            breakpoint()
         df = df[self.COLS]
 
         return df[~df.NOM.isnull()]
@@ -169,7 +168,6 @@ class MorteResultsFormatter(ResultsFormatter):
         df = pd.DataFrame(table, columns=["Dossard", STR_NAME, STR_CAT, "Temps"])
         df.loc[:, STR_CLUB] = ""
         df.loc[:, STR_RANK] = df.index + 1
-        breakpoint()
 
         return df[self.COLS]
     

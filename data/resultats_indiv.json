@@ -49,12 +49,6 @@
             "PASSE": true
         },
         {
-            "NOM": "CHRONO DU VERCORS",
-            "DATE": "2024/06/08",
-            "CLUB": "ALPIN'S WHEEL TEAM",
-            "PASSE": false
-        },
-        {
             "NOM": "GRAND PRIX D'ANDREVIÈRE",
             "DATE": "2024/06/09",
             "CLUB": "LE FONTANIL CYCLISME",
@@ -1307,41 +1301,7 @@
             "TOTAL": 7
         },
         {
-            "RANG": 31,
-            "NOM": "CANDEIAS DAMIEN",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-            "POINTS": 3,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 4,
-            "PLACE": [
-                11,
-                15,
-                10,
-                3
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                0,
-                3
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 7
-        },
-        {
-            "RANG": 38,
+            "RANG": 37,
             "NOM": "LALLEMENT ANTOINE",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 5,
@@ -1363,7 +1323,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 38,
+            "RANG": 37,
             "NOM": "FEODOROFF ARNAUD",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 5,
@@ -1385,7 +1345,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 38,
+            "RANG": 37,
             "NOM": "FLANDRIN ALEXANDRE",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 4,
@@ -1411,7 +1371,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 38,
+            "RANG": 37,
             "NOM": "DUPIN ALEXANDRE",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 4,
@@ -1437,7 +1397,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 38,
+            "RANG": 37,
             "NOM": "BOUVIER THOMAS",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 4,
@@ -1463,7 +1423,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 38,
+            "RANG": 37,
             "NOM": "GIANNONE JOSEPH",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 2,
@@ -1481,6 +1441,40 @@
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Notre Dame de l’Osier"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 6
+        },
+        {
+            "RANG": 37,
+            "NOM": "CANDEIAS DAMIEN",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 2,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                11,
+                15,
+                10,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du col de la Morte"
             ],
             "POINTS_L": [
                 0,
@@ -1537,32 +1531,6 @@
             "POINTS_L": [
                 3,
                 0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1
-            ],
-            "TOTAL": 5
-        },
-        {
-            "RANG": 44,
-            "NOM": "LEONE MATTHIEU",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 3,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 2,
-            "PLACE": [
-                4,
-                5
-            ],
-            "COURSE": [
-                "Grimpée du Col de Porte",
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                2,
-                1
             ],
             "PARTICIPATION_L": [
                 1,
@@ -1687,7 +1655,29 @@
             "TOTAL": 5
         },
         {
-            "RANG": 51,
+            "RANG": 50,
+            "NOM": "MOREAU HIPPOLYTE",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 3,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                3
+            ],
+            "COURSE": [
+                "Grimpée du col de la Morte"
+            ],
+            "POINTS_L": [
+                3
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 50,
             "NOM": "IVARS FLORENT",
             "CLUB": "VC PONTOIS",
             "POINTS": 3,
@@ -1709,7 +1699,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 51,
+            "RANG": 50,
             "NOM": "VUILLEMENOT VALENTIN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 2,
@@ -1735,7 +1725,33 @@
             "TOTAL": 4
         },
         {
-            "RANG": 51,
+            "RANG": 50,
+            "NOM": "LEONE MATTHIEU",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 2,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                4,
+                6
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte",
+                "Grimpée du col de la Morte"
+            ],
+            "POINTS_L": [
+                2,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 50,
             "NOM": "HEURARD PHILIPPE",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 2,
@@ -1761,7 +1777,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 51,
+            "RANG": 50,
             "NOM": "GAILLARD RICHARD",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 1,
@@ -1791,7 +1807,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 51,
+            "RANG": 50,
             "NOM": "LA RIZZA SEBASTIEN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
@@ -1825,7 +1841,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 51,
+            "RANG": 50,
             "NOM": "CARTIER MILLON RAYMOND",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -1859,7 +1875,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "NOTZOLD JULES",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 2,
@@ -1881,33 +1897,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
-            "NOM": "DOHEN CHRISTOPHE",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 2,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                "DNS",
-                4
-            ],
-            "COURSE": [
-                "Cyclocross du Mouillat",
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                0,
-                2
-            ],
-            "PARTICIPATION_L": [
-                0,
-                1
-            ],
-            "TOTAL": 3
-        },
-        {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "CHEVIGNON FRANCK",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 2,
@@ -1929,7 +1919,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "RIBEZZI THOMAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 1,
@@ -1955,7 +1945,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "EXCOFFON NICOLAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 1,
@@ -1981,7 +1971,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "VIAL WILLY",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
@@ -2011,7 +2001,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "VIAL FABRICE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2041,7 +2031,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "VALERO JESUS",
             "CLUB": "UC RIVES",
             "POINTS": 0,
@@ -2071,7 +2061,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "MICAS TITOUAN",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2101,7 +2091,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "MEYSSONNIER BERNARD",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2131,7 +2121,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "CONTAL GILBERT",
             "CLUB": "UC RIVES",
             "POINTS": 0,
@@ -2161,7 +2151,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "BUSCAYLET PHILIPPE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2191,7 +2181,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 57,
+            "RANG": 58,
             "NOM": "BUCCI GREGORY",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2308,6 +2298,32 @@
                 1
             ],
             "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 70,
+            "NOM": "DOHEN CHRISTOPHE",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 1,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                "DNS",
+                5
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grimpée du col de la Morte"
+            ],
+            "POINTS_L": [
+                0,
+                1
+            ],
+            "PARTICIPATION_L": [
+                0,
                 1
             ],
             "TOTAL": 2
@@ -2482,7 +2498,7 @@
             "PARTICIPATION": 2,
             "PLACE": [
                 10,
-                7
+                8
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
@@ -2577,7 +2593,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "TODOROFF MICHAEL",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2599,7 +2615,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "TAMISIER VINCENT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2621,7 +2637,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "RAMOUSSE CHRISTOPHE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2643,7 +2659,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "RAJON TITOUAN",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 0,
@@ -2665,7 +2681,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "QUETIER YOANN",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 0,
@@ -2687,7 +2703,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "PINTUS JULIEN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2709,7 +2725,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "PINJON SAMUEL",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
@@ -2731,7 +2747,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "PATRICELLI ARMAND",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2753,7 +2769,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "PARA DAMIEN",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 0,
@@ -2775,7 +2791,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "NORAZ FLORENT",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 0,
@@ -2801,7 +2817,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "LIARD DAVID",
             "CLUB": "ST CLAIR DE LA TOUR ETOILE CYCLISTE",
             "POINTS": 0,
@@ -2823,7 +2839,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "HORAUD PATRICE",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -2845,7 +2861,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "EMERY VINCENT",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 0,
@@ -2867,7 +2883,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "DELECAMBRE YOHANN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2889,7 +2905,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "BUISINE ARTHUR",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -2911,7 +2927,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "BERNARD PATRICK",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2933,7 +2949,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "BEDORA THOMAS",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 0,
@@ -2941,7 +2957,7 @@
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                6
+                7
             ],
             "COURSE": [
                 "Grimpée du col de la Morte"
@@ -2955,7 +2971,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 84,
+            "RANG": 85,
             "NOM": "BECARUD THOMAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -3367,5 +3383,5 @@
             "TOTAL": 4
         }
     ],
-    "date": "2024-06-04"
+    "date": "2024-06-10"
 }
