@@ -224,6 +224,7 @@ class CrasResultsFormatter(ResultsFormatter):
         df = df[~df[STR_NAME].isna()]
         df[STR_NAME] = df[STR_NAME].map(lambda x: re.sub(' +', ' ', x))
         df =df.rename(columns=self.COLS_REMAPPING)
+        
         df[STR_RANK] = df[STR_RANK].astype(str)
         df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
         df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
@@ -255,7 +256,7 @@ class ResultsFormatterFactory:
             return AlpespaceResultsFormatter(self.riders_db)
         elif "mouillat" in p:
             return MouillatResultsFormatter(self.riders_db)
-        elif "cras" in p:
+        elif "cras" in p or "andrevière" in p:
             return CrasResultsFormatter(self.riders_db)
         elif "porte" in p:
             return TvsResultsFormatter(self.riders_db)

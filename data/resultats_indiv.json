@@ -52,7 +52,7 @@
             "NOM": "GRAND PRIX D'ANDREVIÈRE",
             "DATE": "2024/06/09",
             "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": false
+            "PASSE": true
         },
         {
             "NOM": "GRIMPÉE DU PEUIL",
@@ -144,6 +144,44 @@
         },
         {
             "RANG": 1,
+            "NOM": "LEDAC PIERRE",
+            "CLUB": "LA TRONCHE VELO SPORT",
+            "POINTS": 22,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 5,
+            "PLACE": [
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                5,
+                4,
+                4,
+                5,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 27
+        },
+        {
+            "RANG": 1,
             "NOM": "LORIGEON FABIEN",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 21,
@@ -185,7 +223,125 @@
             "TOTAL": 27
         },
         {
-            "RANG": 3,
+            "RANG": 1,
+            "NOM": "GUILLERMIN ROLAND",
+            "CLUB": "UC RIVES",
+            "POINTS": 21,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 6,
+            "PLACE": [
+                1,
+                1,
+                3,
+                6,
+                2,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte",
+                "Notre Dame de l’Osier",
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                5,
+                5,
+                3,
+                0,
+                4,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 27
+        },
+        {
+            "RANG": 5,
+            "NOM": "RIPPERT VALENTIN",
+            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
+            "POINTS": 19,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 6,
+            "PLACE": [
+                2,
+                2,
+                1,
+                5,
+                7,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                4,
+                4,
+                5,
+                1,
+                0,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 25
+        },
+        {
+            "RANG": 6,
+            "NOM": "RIFLADE THEO",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 20,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                5,
+                5,
+                5,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 24
+        },
+        {
+            "RANG": 7,
             "NOM": "COLOTTI JULIEN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 17,
@@ -227,29 +383,63 @@
             "TOTAL": 23
         },
         {
-            "RANG": 4,
-            "NOM": "LEDAC PIERRE",
-            "CLUB": "LA TRONCHE VELO SPORT",
-            "POINTS": 18,
+            "RANG": 8,
+            "NOM": "SEITE ALAIN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 17,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
             "PLACE": [
+                2,
+                2,
                 1,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                4,
+                4,
+                5,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 21
+        },
+        {
+            "RANG": 8,
+            "NOM": "ALESSANDRI DAMIEN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 17,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                3,
                 2,
-                2,
+                1,
                 1
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
+                3,
+                4,
                 5,
-                4,
-                4,
                 5
             ],
             "PARTICIPATION_L": [
@@ -258,48 +448,10 @@
                 1,
                 1
             ],
-            "TOTAL": 22
+            "TOTAL": 21
         },
         {
-            "RANG": 4,
-            "NOM": "GUILLERMIN ROLAND",
-            "CLUB": "UC RIVES",
-            "POINTS": 17,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 5,
-            "PLACE": [
-                1,
-                1,
-                3,
-                6,
-                2
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier",
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                5,
-                5,
-                3,
-                0,
-                4
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 22
-        },
-        {
-            "RANG": 6,
+            "RANG": 10,
             "NOM": "PIGNEDE PIERRE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 15,
@@ -333,75 +485,7 @@
             "TOTAL": 19
         },
         {
-            "RANG": 6,
-            "NOM": "RIPPERT VALENTIN",
-            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
-            "POINTS": 14,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 5,
-            "PLACE": [
-                2,
-                2,
-                1,
-                5,
-                7
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                4,
-                4,
-                5,
-                1,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 19
-        },
-        {
-            "RANG": 8,
-            "NOM": "RIFLADE THEO",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 15,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                1,
-                1,
-                1
-            ],
-            "COURSE": [
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier",
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                5,
-                5,
-                5
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 18
-        },
-        {
-            "RANG": 9,
+            "RANG": 11,
             "NOM": "VIAL JACQUES",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 12,
@@ -439,37 +523,45 @@
             "TOTAL": 17
         },
         {
-            "RANG": 10,
-            "NOM": "SEITE ALAIN",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 13,
+            "RANG": 11,
+            "NOM": "LISI SAMUELE",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 12,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 3,
+            "PARTICIPATION": 5,
             "PLACE": [
-                2,
-                2,
-                1
+                3,
+                3,
+                5,
+                4,
+                3
             ],
             "COURSE": [
+                "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
-                4,
-                4,
-                5
+                3,
+                3,
+                1,
+                2,
+                3
             ],
             "PARTICIPATION_L": [
                 1,
                 1,
+                1,
+                1,
                 1
             ],
-            "TOTAL": 16
+            "TOTAL": 17
         },
         {
-            "RANG": 10,
+            "RANG": 13,
             "NOM": "MONGE NICOLAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 12,
@@ -507,7 +599,7 @@
             "TOTAL": 16
         },
         {
-            "RANG": 10,
+            "RANG": 13,
             "NOM": "CHAUVEL YANN",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 11,
@@ -545,7 +637,7 @@
             "TOTAL": 16
         },
         {
-            "RANG": 10,
+            "RANG": 13,
             "NOM": "BUISSON GREGORY",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 11,
@@ -583,37 +675,41 @@
             "TOTAL": 16
         },
         {
-            "RANG": 14,
-            "NOM": "ALESSANDRI DAMIEN",
+            "RANG": 16,
+            "NOM": "HEURARD ANDREA",
             "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 12,
+            "POINTS": 10,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 3,
+            "PARTICIPATION": 4,
             "PLACE": [
-                3,
+                6,
                 2,
-                1
+                2,
+                4
             ],
             "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix de Cras",
-                "Grimpée du col de la Morte"
+                "Grand Prix d'Oyeu - Burcin",
+                "Notre Dame de l’Osier",
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
-                3,
+                0,
                 4,
-                5
+                4,
+                2
             ],
             "PARTICIPATION_L": [
                 1,
                 1,
+                1,
                 1
             ],
-            "TOTAL": 15
+            "TOTAL": 14
         },
         {
-            "RANG": 15,
+            "RANG": 17,
             "NOM": "QUERNIARD PIERRE",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 9,
@@ -624,64 +720,68 @@
                 11,
                 7,
                 1,
-                2
+                2,
+                "DNS"
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
                 0,
                 5,
-                4
+                4,
+                0
             ],
             "PARTICIPATION_L": [
                 1,
                 1,
                 1,
-                1
-            ],
-            "TOTAL": 13
-        },
-        {
-            "RANG": 15,
-            "NOM": "LISI SAMUELE",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 9,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 4,
-            "PLACE": [
-                3,
-                3,
-                5,
-                4
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                3,
-                3,
                 1,
-                2
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1
+                0
             ],
             "TOTAL": 13
         },
         {
             "RANG": 17,
+            "NOM": "BERNABE AURELIEN",
+            "CLUB": "SCAL ECHIROLLES",
+            "POINTS": 9,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                7,
+                3,
+                3,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                3,
+                3,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 13
+        },
+        {
+            "RANG": 19,
             "NOM": "MARMOUNIER FLORENT",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 10,
@@ -707,7 +807,37 @@
             "TOTAL": 12
         },
         {
-            "RANG": 18,
+            "RANG": 19,
+            "NOM": "DUPIN ALEXANDRE",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 9,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                5,
+                3,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                1,
+                3,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 12
+        },
+        {
+            "RANG": 21,
             "NOM": "WINTZ TIMOTHEE",
             "CLUB": "ALPIN'S WHEEL TEAM",
             "POINTS": 8,
@@ -741,7 +871,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 18,
+            "RANG": 21,
             "NOM": "LOUPIEN VINCENT",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 8,
@@ -771,37 +901,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 18,
-            "NOM": "HEURARD ANDREA",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 8,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                6,
-                2,
-                2
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Notre Dame de l’Osier",
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                0,
-                4,
-                4
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 11
-        },
-        {
-            "RANG": 18,
+            "RANG": 21,
             "NOM": "MELINU JEROME",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 7,
@@ -835,7 +935,75 @@
             "TOTAL": 11
         },
         {
-            "RANG": 22,
+            "RANG": 21,
+            "NOM": "CHERY PAUL",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 7,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                16,
+                2,
+                6,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                4,
+                0,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 11
+        },
+        {
+            "RANG": 21,
+            "NOM": "BERNABE BRUNO",
+            "CLUB": "SCAL ECHIROLLES",
+            "POINTS": 7,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                4,
+                3,
+                8,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                2,
+                3,
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 11
+        },
+        {
+            "RANG": 26,
             "NOM": "MORACCHIOLI THOMAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 8,
@@ -861,7 +1029,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 22,
+            "RANG": 26,
             "NOM": "MAZZA FABRICE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 7,
@@ -891,7 +1059,87 @@
             "TOTAL": 10
         },
         {
-            "RANG": 24,
+            "RANG": 26,
+            "NOM": "MARCHAIS ALEXANDRE",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 5,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 5,
+            "PLACE": [
+                1,
+                19,
+                18,
+                7,
+                18
+            ],
+            "COURSE": [
+                "Cyclocross du Mouillat",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                5,
+                0,
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 10
+        },
+        {
+            "RANG": 26,
+            "NOM": "DELETROY AXEL",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 6,
+            "PLACE": [
+                18,
+                16,
+                12,
+                3,
+                5,
+                20
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                3,
+                1,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 10
+        },
+        {
+            "RANG": 30,
             "NOM": "AGUD THIERRY",
             "CLUB": "ALPIN'S WHEEL TEAM",
             "POINTS": 7,
@@ -917,7 +1165,7 @@
             "TOTAL": 9
         },
         {
-            "RANG": 24,
+            "RANG": 30,
             "NOM": "PARMENTIER VICTOR",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 6,
@@ -947,165 +1195,139 @@
             "TOTAL": 9
         },
         {
-            "RANG": 24,
-            "NOM": "BERNABE AURELIEN",
-            "CLUB": "SCAL ECHIROLLES",
-            "POINTS": 6,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                7,
-                3,
-                3
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                0,
-                3,
-                3
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 9
-        },
-        {
-            "RANG": 24,
-            "NOM": "MARCHAIS ALEXANDRE",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 5,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 4,
-            "PLACE": [
-                1,
-                19,
-                18,
-                7
-            ],
-            "COURSE": [
-                "Cyclocross du Mouillat",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                5,
-                0,
-                0,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 9
-        },
-        {
-            "RANG": 24,
-            "NOM": "DELETROY AXEL",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 4,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 5,
-            "PLACE": [
-                18,
-                16,
-                12,
-                3,
-                5
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                0,
-                3,
-                1
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 9
-        },
-        {
-            "RANG": 29,
-            "NOM": "BERNABE BRUNO",
-            "CLUB": "SCAL ECHIROLLES",
-            "POINTS": 5,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                4,
-                3,
-                8
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                2,
-                3,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 8
-        },
-        {
-            "RANG": 29,
+            "RANG": 30,
             "NOM": "GLENAZ LAURENT",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 3,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 5,
+            "PARTICIPATION": 6,
             "PLACE": [
                 4,
                 7,
                 6,
                 6,
-                5
+                5,
+                10
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Notre Dame de l’Osier",
-                "Grimpée du col de la Morte"
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 2,
                 0,
                 0,
                 0,
+                1,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
                 1
+            ],
+            "TOTAL": 9
+        },
+        {
+            "RANG": 33,
+            "NOM": "HEURARD PHILIPPE",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 5,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                5,
+                5,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                1,
+                1,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 8
+        },
+        {
+            "RANG": 33,
+            "NOM": "VIAL WILLY",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                18,
+                11,
+                6,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 8
+        },
+        {
+            "RANG": 33,
+            "NOM": "GATEAUX DAMIEN",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 3,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 5,
+            "PLACE": [
+                23,
+                3,
+                "DNF",
+                8,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                3,
+                0,
+                0,
+                0
             ],
             "PARTICIPATION_L": [
                 1,
@@ -1117,7 +1339,7 @@
             "TOTAL": 8
         },
         {
-            "RANG": 31,
+            "RANG": 36,
             "NOM": "PETITE PATRICE",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 5,
@@ -1126,24 +1348,28 @@
             "PARTICIPATION": 2,
             "PLACE": [
                 16,
-                1
+                1,
+                "DNS"
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
-                "Grimpée du Collet d’Allevard"
+                "Grimpée du Collet d’Allevard",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
-                5
+                5,
+                0
             ],
             "PARTICIPATION_L": [
                 1,
-                1
+                1,
+                0
             ],
             "TOTAL": 7
         },
         {
-            "RANG": 31,
+            "RANG": 36,
             "NOM": "SOLA QUENTIN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 4,
@@ -1173,7 +1399,7 @@
             "TOTAL": 7
         },
         {
-            "RANG": 31,
+            "RANG": 36,
             "NOM": "PIC GERARD",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 4,
@@ -1203,37 +1429,7 @@
             "TOTAL": 7
         },
         {
-            "RANG": 31,
-            "NOM": "CHERY PAUL",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 4,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                16,
-                2,
-                6
-            ],
-            "COURSE": [
-                "Grand Prix de Cras",
-                "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                0,
-                4,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 7
-        },
-        {
-            "RANG": 31,
+            "RANG": 36,
             "NOM": "LEIVA MARCON BENOIT",
             "CLUB": "VC PONTOIS",
             "POINTS": 3,
@@ -1244,55 +1440,63 @@
                 19,
                 10,
                 3,
-                7
+                7,
+                "DNS"
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
                 0,
                 3,
+                0,
                 0
             ],
             "PARTICIPATION_L": [
                 1,
                 1,
                 1,
-                1
+                1,
+                0
             ],
             "TOTAL": 7
         },
         {
-            "RANG": 31,
-            "NOM": "GATEAUX DAMIEN",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-            "POINTS": 3,
+            "RANG": 36,
+            "NOM": "GIANNONE JOSEPH",
+            "CLUB": "UC VOIRONNAISE",
+            "POINTS": 2,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 4,
+            "PARTICIPATION": 5,
             "PLACE": [
-                23,
-                3,
                 "DNF",
-                8
+                6,
+                8,
+                4,
+                6
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
-                "Grimpée du Col de Porte"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
-                3,
                 0,
+                0,
+                2,
                 0
             ],
             "PARTICIPATION_L": [
+                1,
                 1,
                 1,
                 1,
@@ -1301,7 +1505,45 @@
             "TOTAL": 7
         },
         {
-            "RANG": 37,
+            "RANG": 36,
+            "NOM": "CANDEIAS DAMIEN",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 2,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 5,
+            "PLACE": [
+                11,
+                15,
+                10,
+                4,
+                11
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                2,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 7
+        },
+        {
+            "RANG": 42,
             "NOM": "LALLEMENT ANTOINE",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 5,
@@ -1323,7 +1565,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 37,
+            "RANG": 42,
             "NOM": "FEODOROFF ARNAUD",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 5,
@@ -1345,7 +1587,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 37,
+            "RANG": 42,
             "NOM": "FLANDRIN ALEXANDRE",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 4,
@@ -1371,33 +1613,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 37,
-            "NOM": "DUPIN ALEXANDRE",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 4,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 2,
-            "PLACE": [
-                5,
-                3
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                1,
-                3
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1
-            ],
-            "TOTAL": 6
-        },
-        {
-            "RANG": 37,
+            "RANG": 42,
             "NOM": "BOUVIER THOMAS",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 4,
@@ -1423,32 +1639,96 @@
             "TOTAL": 6
         },
         {
-            "RANG": 37,
-            "NOM": "GIANNONE JOSEPH",
+            "RANG": 42,
+            "NOM": "SEVOZ ARNAUD",
             "CLUB": "UC VOIRONNAISE",
-            "POINTS": 2,
+            "POINTS": 3,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 4,
+            "PARTICIPATION": 3,
             "PLACE": [
-                "DNF",
+                3,
+                19,
+                17
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                3,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 6
+        },
+        {
+            "RANG": 42,
+            "NOM": "GIRARD GUY",
+            "CLUB": "SCAL ECHIROLLES",
+            "POINTS": 3,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                5,
+                4,
+                7
+            ],
+            "COURSE": [
+                "Grimpée du Col de Porte",
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                1,
+                2,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 6
+        },
+        {
+            "RANG": 42,
+            "NOM": "UHRY GILLES",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 1,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 5,
+            "PLACE": [
                 6,
-                8,
-                4
+                7,
+                13,
+                5,
+                9
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
                 0,
                 0,
-                2
+                1,
+                0
             ],
             "PARTICIPATION_L": [
+                1,
                 1,
                 1,
                 1,
@@ -1457,32 +1737,36 @@
             "TOTAL": 6
         },
         {
-            "RANG": 37,
-            "NOM": "CANDEIAS DAMIEN",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-            "POINTS": 2,
+            "RANG": 42,
+            "NOM": "LA RIZZA SEBASTIEN",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 1,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 4,
+            "PARTICIPATION": 5,
             "PLACE": [
-                11,
                 15,
-                10,
-                4
+                19,
+                20,
+                8,
+                5
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
-                "Grimpée du col de la Morte"
+                "Grimpée du Col de Porte",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
                 0,
                 0,
-                2
+                0,
+                1
             ],
             "PARTICIPATION_L": [
+                1,
                 1,
                 1,
                 1,
@@ -1491,7 +1775,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 44,
+            "RANG": 50,
             "NOM": "BLANCHIN MATHIEU",
             "CLUB": "TEAM VERCORS",
             "POINTS": 4,
@@ -1513,20 +1797,20 @@
             "TOTAL": 5
         },
         {
-            "RANG": 44,
-            "NOM": "SEVOZ ARNAUD",
-            "CLUB": "UC VOIRONNAISE",
+            "RANG": 50,
+            "NOM": "MOREAU HIPPOLYTE",
+            "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 3,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
             "PLACE": [
                 3,
-                19
+                14
             ],
             "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin"
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 3,
@@ -1539,33 +1823,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 44,
-            "NOM": "GIRARD GUY",
-            "CLUB": "SCAL ECHIROLLES",
-            "POINTS": 3,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 2,
-            "PLACE": [
-                5,
-                4
-            ],
-            "COURSE": [
-                "Grimpée du Col de Porte",
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                1,
-                2
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1
-            ],
-            "TOTAL": 5
-        },
-        {
-            "RANG": 44,
+            "RANG": 50,
             "NOM": "ANGOT ANTOINE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 3,
@@ -1591,7 +1849,37 @@
             "TOTAL": 5
         },
         {
-            "RANG": 44,
+            "RANG": 50,
+            "NOM": "RIBEZZI THOMAS",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 2,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                5,
+                8,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                1,
+                0,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 5
+        },
+        {
+            "RANG": 50,
             "NOM": "PATRICELLI GILLES",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 2,
@@ -1621,63 +1909,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 44,
-            "NOM": "UHRY GILLES",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 1,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 4,
-            "PLACE": [
-                6,
-                7,
-                13,
-                5
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                0,
-                1
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 5
-        },
-        {
-            "RANG": 50,
-            "NOM": "MOREAU HIPPOLYTE",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 3,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                3
-            ],
-            "COURSE": [
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                3
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 4
-        },
-        {
-            "RANG": 50,
+            "RANG": 55,
             "NOM": "IVARS FLORENT",
             "CLUB": "VC PONTOIS",
             "POINTS": 3,
@@ -1699,7 +1931,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 50,
+            "RANG": 55,
             "NOM": "VUILLEMENOT VALENTIN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 2,
@@ -1725,7 +1957,33 @@
             "TOTAL": 4
         },
         {
-            "RANG": 50,
+            "RANG": 55,
+            "NOM": "RAJON TITOUAN",
+            "CLUB": "SCAL ECHIROLLES",
+            "POINTS": 2,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                9,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix de Cras",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 55,
             "NOM": "LEONE MATTHIEU",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 2,
@@ -1751,33 +2009,37 @@
             "TOTAL": 4
         },
         {
-            "RANG": 50,
-            "NOM": "HEURARD PHILIPPE",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 2,
+            "RANG": 55,
+            "NOM": "LENAIN LOIC",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 1,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 2,
+            "PARTICIPATION": 3,
             "PLACE": [
-                5,
+                19,
+                "DNF",
                 5
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin",
-                "Notre Dame de l’Osier"
+                "Grand Prix de Cras",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
-                1,
+                0,
+                0,
                 1
             ],
             "PARTICIPATION_L": [
+                1,
                 1,
                 1
             ],
             "TOTAL": 4
         },
         {
-            "RANG": 50,
+            "RANG": 55,
             "NOM": "GAILLARD RICHARD",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 1,
@@ -1807,24 +2069,24 @@
             "TOTAL": 4
         },
         {
-            "RANG": 50,
-            "NOM": "LA RIZZA SEBASTIEN",
-            "CLUB": "LE FONTANIL CYCLISME",
+            "RANG": 55,
+            "NOM": "MICAS TITOUAN",
+            "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 4,
             "PLACE": [
-                15,
-                19,
-                20,
-                8
+                9,
+                10,
+                "DNF",
+                19
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Grimpée du Col de Porte"
+                "Grimpée du Col de Porte",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
@@ -1841,7 +2103,41 @@
             "TOTAL": 4
         },
         {
-            "RANG": 50,
+            "RANG": 55,
+            "NOM": "MEYSSONNIER BERNARD",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                11,
+                7,
+                13,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grimpée du Col de Porte",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 55,
             "NOM": "CARTIER MILLON RAYMOND",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -1875,7 +2171,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 58,
+            "RANG": 64,
             "NOM": "NOTZOLD JULES",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 2,
@@ -1897,7 +2193,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
+            "RANG": 64,
             "NOM": "CHEVIGNON FRANCK",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 2,
@@ -1919,8 +2215,8 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
-            "NOM": "RIBEZZI THOMAS",
+            "RANG": 64,
+            "NOM": "FOURNIER STEPHANE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 1,
             "FEMME": false,
@@ -1928,11 +2224,11 @@
             "PARTICIPATION": 2,
             "PLACE": [
                 5,
-                8
+                15
             ],
             "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 1,
@@ -1945,7 +2241,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
+            "RANG": 64,
             "NOM": "EXCOFFON NICOLAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 1,
@@ -1971,37 +2267,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
-            "NOM": "VIAL WILLY",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                18,
-                11,
-                6
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 3
-        },
-        {
-            "RANG": 58,
+            "RANG": 64,
             "NOM": "VIAL FABRICE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2031,7 +2297,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
+            "RANG": 64,
             "NOM": "VALERO JESUS",
             "CLUB": "UC RIVES",
             "POINTS": 0,
@@ -2061,52 +2327,22 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
-            "NOM": "MICAS TITOUAN",
-            "CLUB": "CYCLO CLUB DE GIERES",
+            "RANG": 64,
+            "NOM": "RIBEZZI VALENTIN",
+            "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 3,
             "PLACE": [
-                9,
-                10,
-                "DNF"
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 3
-        },
-        {
-            "RANG": 58,
-            "NOM": "MEYSSONNIER BERNARD",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                11,
-                7,
-                13
+                19,
+                19,
+                6
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin",
-                "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier"
+                "Grand Prix de Cras",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
@@ -2121,7 +2357,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
+            "RANG": 64,
             "NOM": "CONTAL GILBERT",
             "CLUB": "UC RIVES",
             "POINTS": 0,
@@ -2151,7 +2387,37 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
+            "RANG": 64,
+            "NOM": "CARUELLE FLORENT",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                9,
+                8,
+                9
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 3
+        },
+        {
+            "RANG": 64,
             "NOM": "BUSCAYLET PHILIPPE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2181,7 +2447,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 58,
+            "RANG": 64,
             "NOM": "BUCCI GREGORY",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2211,7 +2477,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "SOURIMANT NICOLAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 1,
@@ -2237,7 +2503,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "REMOND BRUNO",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 1,
@@ -2259,7 +2525,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "RAMBAUD JULIEN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 1,
@@ -2281,29 +2547,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
-            "NOM": "FOURNIER STEPHANE",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 1,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                5
-            ],
-            "COURSE": [
-                "Notre Dame de l’Osier"
-            ],
-            "POINTS_L": [
-                1
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 2
-        },
-        {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "DOHEN CHRISTOPHE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 1,
@@ -2329,20 +2573,20 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
-            "NOM": "RIBEZZI VALENTIN",
+            "RANG": 75,
+            "NOM": "PINJON SAMUEL",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
             "PLACE": [
-                19,
-                19
+                12,
+                8
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras"
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
@@ -2355,7 +2599,63 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
+            "NOM": "PATRICELLI ARMAND",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                19,
+                16
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 75,
+            "NOM": "NORAZ FLORENT",
+            "CLUB": "UC VOIRONNAISE",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                "DNS",
+                6,
+                "DNF"
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                0,
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 75,
             "NOM": "LIBERT XAVIER",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 0,
@@ -2381,7 +2681,33 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
+            "NOM": "DELECAMBRE YOHANN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                "DNF",
+                "DNF"
+            ],
+            "COURSE": [
+                "Grand Prix de Cras",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 75,
             "NOM": "CHIODI MICHEL",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -2407,7 +2733,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "CHANEL OLIVIER",
             "CLUB": "VC TURRIPINOIS",
             "POINTS": 0,
@@ -2437,7 +2763,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "CHAMPAULT MICKAEL",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -2463,33 +2789,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
-            "NOM": "CARUELLE FLORENT",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 2,
-            "PLACE": [
-                9,
-                8
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras"
-            ],
-            "POINTS_L": [
-                0,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1
-            ],
-            "TOTAL": 2
-        },
-        {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "CARTIER STEPHANE",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -2515,7 +2815,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "BRONDEX MALO",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -2541,7 +2841,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "BESSARD JEAN LUC",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2567,7 +2867,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 70,
+            "RANG": 75,
             "NOM": "BESCOND DIDIER",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -2593,7 +2893,33 @@
             "TOTAL": 2
         },
         {
-            "RANG": 85,
+            "RANG": 75,
+            "NOM": "BEDORA THOMAS",
+            "CLUB": "SCAL ECHIROLLES",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                10
+            ],
+            "COURSE": [
+                "Grimpée du col de la Morte",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 92,
             "NOM": "TODOROFF MICHAEL",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2615,7 +2941,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "TAMISIER VINCENT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2637,7 +2963,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "RAMOUSSE CHRISTOPHE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -2659,29 +2985,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
-            "NOM": "RAJON TITOUAN",
-            "CLUB": "SCAL ECHIROLLES",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                9
-            ],
-            "COURSE": [
-                "Grand Prix de Cras"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "QUETIER YOANN",
             "CLUB": "UC VOIRONNAISE",
             "POINTS": 0,
@@ -2703,7 +3007,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "PINTUS JULIEN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2725,51 +3029,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
-            "NOM": "PINJON SAMUEL",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                12
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 85,
-            "NOM": "PATRICELLI ARMAND",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                19
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "PARA DAMIEN",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 0,
@@ -2791,33 +3051,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
-            "NOM": "NORAZ FLORENT",
-            "CLUB": "UC VOIRONNAISE",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                "DNS",
-                6
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras"
-            ],
-            "POINTS_L": [
-                0,
-                0
-            ],
-            "PARTICIPATION_L": [
-                0,
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "LIARD DAVID",
             "CLUB": "ST CLAIR DE LA TOUR ETOILE CYCLISTE",
             "POINTS": 0,
@@ -2839,7 +3073,29 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
+            "RANG": 92,
+            "NOM": "HURSON NICOLAS",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                11
+            ],
+            "COURSE": [
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
+        },
+        {
+            "RANG": 92,
             "NOM": "HORAUD PATRICE",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -2861,7 +3117,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "EMERY VINCENT",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 0,
@@ -2883,9 +3139,9 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
-            "NOM": "DELECAMBRE YOHANN",
-            "CLUB": "TEAM 3 MASSIFS",
+            "RANG": 92,
+            "NOM": "DJATOUT KAMEL",
+            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
@@ -2894,7 +3150,7 @@
                 "DNF"
             ],
             "COURSE": [
-                "Grand Prix de Cras"
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0
@@ -2905,7 +3161,29 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
+            "RANG": 92,
+            "NOM": "DENIS REMY",
+            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                13
+            ],
+            "COURSE": [
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
+        },
+        {
+            "RANG": 92,
             "NOM": "BUISINE ARTHUR",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -2927,7 +3205,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "BERNARD PATRICK",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2949,29 +3227,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 85,
-            "NOM": "BEDORA THOMAS",
-            "CLUB": "SCAL ECHIROLLES",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                7
-            ],
-            "COURSE": [
-                "Grimpée du col de la Morte"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 85,
+            "RANG": 92,
             "NOM": "BECARUD THOMAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2996,6 +3252,36 @@
     "femme": [
         {
             "RANG": 1,
+            "NOM": "SEVOZ LAVERDURE CELIA",
+            "CLUB": "UC VOIRONNAISE",
+            "POINTS": 14,
+            "FEMME": true,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                2,
+                1,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand prix d'Andrevière"
+            ],
+            "POINTS_L": [
+                4,
+                5,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 17
+        },
+        {
+            "RANG": 2,
             "NOM": "CHAVANON ALISON",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 10,
@@ -3021,33 +3307,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 2,
-            "NOM": "SEVOZ LAVERDURE CELIA",
-            "CLUB": "UC VOIRONNAISE",
-            "POINTS": 9,
-            "FEMME": true,
-            "JEUNE": false,
-            "PARTICIPATION": 2,
-            "PLACE": [
-                2,
-                1
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin"
-            ],
-            "POINTS_L": [
-                4,
-                5
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1
-            ],
-            "TOTAL": 11
-        },
-        {
-            "RANG": 2,
+            "RANG": 3,
             "NOM": "HERTAULT AGNES",
             "CLUB": "ALPIN'S WHEEL TEAM",
             "POINTS": 9,
@@ -3073,7 +3333,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 2,
+            "RANG": 3,
             "NOM": "ARNAUD AGATHE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 9,
@@ -3099,7 +3359,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 2,
+            "RANG": 3,
             "NOM": "LAFONT CANDICE",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 8,
@@ -3129,42 +3389,46 @@
             "TOTAL": 11
         },
         {
-            "RANG": 6,
+            "RANG": 3,
             "NOM": "VALERO ANGELIQUE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 5,
             "FEMME": true,
             "JEUNE": false,
-            "PARTICIPATION": 5,
+            "PARTICIPATION": 6,
             "PLACE": [
                 17,
                 19,
                 15,
                 7,
-                1
+                1,
+                12
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte",
-                "Notre Dame de l’Osier"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
                 0,
                 0,
                 0,
                 0,
-                5
+                5,
+                0
             ],
             "PARTICIPATION_L": [
                 1,
                 1,
                 1,
                 1,
+                1,
                 1
             ],
-            "TOTAL": 10
+            "TOTAL": 11
         },
         {
             "RANG": 7,
@@ -3260,27 +3524,31 @@
             "RANG": 1,
             "NOM": "SELIN LOIC",
             "CLUB": "UC VOIRONNAISE",
-            "POINTS": 10,
+            "POINTS": 15,
             "FEMME": false,
             "JEUNE": true,
-            "PARTICIPATION": 2,
+            "PARTICIPATION": 3,
             "PLACE": [
+                1,
                 1,
                 1
             ],
             "COURSE": [
                 "Grand Prix d'Oyeu - Burcin",
-                "Notre Dame de l’Osier"
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière"
             ],
             "POINTS_L": [
+                5,
                 5,
                 5
             ],
             "PARTICIPATION_L": [
                 1,
+                1,
                 1
             ],
-            "TOTAL": 12
+            "TOTAL": 18
         },
         {
             "RANG": 2,
@@ -3383,5 +3651,5 @@
             "TOTAL": 4
         }
     ],
-    "date": "2024-06-10"
+    "date": "2024-06-18"
 }

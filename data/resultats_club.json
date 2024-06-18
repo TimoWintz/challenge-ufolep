@@ -1,77 +1,77 @@
 [
     {
-        "TOTAL": 179,
-        "INDIV": 159,
+        "TOTAL": 214,
+        "INDIV": 194,
         "ORGA": 20,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 141,
-        "INDIV": 121,
-        "ORGA": 20,
+        "TOTAL": 188,
+        "INDIV": 148,
+        "ORGA": 40,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 2
     },
     {
-        "TOTAL": 139,
-        "INDIV": 99,
+        "TOTAL": 147,
+        "INDIV": 107,
         "ORGA": 40,
         "CLUB": "UC PONTCHARRA GRESIVAUDAN",
         "RANG": 3
     },
     {
-        "TOTAL": 108,
-        "INDIV": 88,
+        "TOTAL": 113,
+        "INDIV": 93,
         "ORGA": 20,
         "CLUB": "LA TRONCHE VELO SPORT",
         "RANG": 4
     },
     {
-        "TOTAL": 101,
-        "INDIV": 81,
+        "TOTAL": 104,
+        "INDIV": 84,
         "ORGA": 20,
         "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 5
+    },
+    {
+        "TOTAL": 73,
+        "INDIV": 73,
+        "ORGA": 0,
+        "CLUB": "UC VOIRONNAISE",
+        "RANG": 6
+    },
+    {
+        "TOTAL": 64,
+        "INDIV": 64,
+        "ORGA": 0,
+        "CLUB": "SCAL ECHIROLLES",
+        "RANG": 7
     },
     {
         "TOTAL": 59,
         "INDIV": 39,
         "ORGA": 20,
         "CLUB": "VC TURRIPINOIS",
-        "RANG": 6
-    },
-    {
-        "TOTAL": 58,
-        "INDIV": 58,
-        "ORGA": 0,
-        "CLUB": "UC VOIRONNAISE",
-        "RANG": 7
-    },
-    {
-        "TOTAL": 51,
-        "INDIV": 51,
-        "ORGA": 0,
-        "CLUB": "SCAL ECHIROLLES",
         "RANG": 8
+    },
+    {
+        "TOTAL": 33,
+        "INDIV": 33,
+        "ORGA": 0,
+        "CLUB": "UC RIVES",
+        "RANG": 9
     },
     {
         "TOTAL": 31,
         "INDIV": 31,
         "ORGA": 0,
         "CLUB": "ALPIN'S WHEEL TEAM",
-        "RANG": 9
-    },
-    {
-        "TOTAL": 28,
-        "INDIV": 28,
-        "ORGA": 0,
-        "CLUB": "UC RIVES",
         "RANG": 10
     },
     {
-        "TOTAL": 17,
-        "INDIV": 17,
+        "TOTAL": 19,
+        "INDIV": 19,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 11
