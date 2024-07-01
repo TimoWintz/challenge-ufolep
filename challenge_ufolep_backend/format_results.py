@@ -93,10 +93,8 @@ class ResultsFormatter(ABC):
     @abstractmethod
     def parse_file(self, path: Path) -> pd.DataFrame:
         return NotImplemented
-    
 
-    
-    
+
 class AlpespaceResultsFormatter(ResultsFormatter):
     COLS_REMAPPING = {'Clst':STR_RANK,
             'NOM':STR_NAME,
@@ -133,7 +131,7 @@ class AlpespaceResultsFormatter(ResultsFormatter):
         df = df[self.COLS]
 
         return df[~df.NOM.isnull()]
-    
+
 class MouillatResultsFormatter(ResultsFormatter):
     COLS_REMAPPING = {'Clst':STR_RANK,
             'NOM':STR_NAME,
@@ -153,13 +151,13 @@ class MouillatResultsFormatter(ResultsFormatter):
         df[STR_RANK] = df[STR_RANK].str.replace("Abandon", STR_DNF)
         df[STR_RANK] = df[STR_RANK].str.replace("Non partant", STR_DNS)
         return df[self.COLS]
-    
+
 class MorteResultsFormatter(ResultsFormatter):
     COLS_REMAPPING = {'Clst':STR_RANK,
             'NOM':STR_NAME,
             'Club':STR_CLUB,
             'Catégorie':STR_CAT}
-    
+
     def parse_file(self, path: Path) -> pd.DataFrame:
         cat = path.with_suffix("").name.split("_")[-1]
         pdf = pdfplumber.open(path)
@@ -170,7 +168,28 @@ class MorteResultsFormatter(ResultsFormatter):
         df.loc[:, STR_RANK] = df.index + 1
 
         return df[self.COLS]
-    
+
+
+class PeuilResultsFormatter(ResultsFormatter):
+    COLS_REMAPPING = {
+        "Tables Classement Scratch": STR_RANK,
+        "NOM": STR_NAME,
+        "Tables Club": STR_CLUB,
+        "Tables Catégorie UFOLEP": STR_CAT,
+    }
+
+    def parse_file(self, path: Path) -> pd.DataFrame:
+        df = pd.read_excel(path)
+        df[STR_NAME] = (
+            df["Tables Nom participant"] + " " + df["Tables Prénom participant"]
+        )
+        df[STR_CLUB] = df["Tables Club"]
+        df[STR_CAT] = df["Tables Catégorie UFOLEP"]
+        df[STR_RANK] = df["Tables Classement Scratch"]
+       
+        return df[self.COLS]
+
+
 class CCGResultsFromatter(ResultsFormatter):
     COLS_REMAPPING = {'Rang':STR_RANK,
             'NOM':STR_NAME,
@@ -211,7 +230,7 @@ class NDResultsFromatter(ResultsFormatter):
             df[STR_CAT] = path.stem
     
         return df[self.COLS]
-    
+
 class CrasResultsFormatter(ResultsFormatter):
     COLS_REMAPPING = {'Place':STR_RANK,
 
@@ -236,14 +255,27 @@ class TvsResultsFormatter(ResultsFormatter):
 
             'Club':STR_CLUB,
             'cat': STR_CAT}
-    
+
     def parse_file(self, path: Path) -> pd.DataFrame:
-        #cat = path.with_suffix("").name.split("-")[-1].lstrip(" ")
+        # cat = path.with_suffix("").name.split("-")[-1].lstrip(" ")
         df = pd.read_csv(path, header=0)
         df[STR_NAME] = df["Nom"] + " " + df["Prénom"]
         df =df.rename(columns=self.COLS_REMAPPING)
         return df
-    
+
+
+class VersoudResultsFormatter(ResultsFormatter):
+    COLS_REMAPPING = {"Class.": STR_RANK, "Club": STR_CLUB, "cat": STR_CAT}
+
+    def parse_file(self, path: Path) -> pd.DataFrame:
+        df = pd.read_csv(path, header=0)
+        df[STR_NAME] = df["NomFamille"] + " " + df["Prénom"]
+        df[STR_CLUB] = df["Club"]
+        df[STR_CAT] = path.stem
+        df[STR_RANK] = df["Classement"]
+        return df
+
+
 class ResultsFormatterFactory:
     def __init__(self, riders_db: pd.DataFrame) -> None:
         self.riders_db = riders_db
@@ -264,6 +296,10 @@ class ResultsFormatterFactory:
             return NDResultsFromatter(self.riders_db)
         elif "morte" in p:
             return MorteResultsFormatter(self.riders_db)
+        elif "peuil" in p:
+            return PeuilResultsFormatter(self.riders_db)
+        elif "versoud" in p:
+            return VersoudResultsFormatter(self.riders_db)
         else:
             raise ValueError(f"No formatter found for {p}")
 

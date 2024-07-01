@@ -141,7 +141,10 @@ if __name__ == "__main__":
         else:
             points = 20
         print(f"{race=},{points=},{club_rankings=}")
-        points_per_club.loc[club_rankings, "ORGA"] += points
+        if not club_rankings in points_per_club.index: # When club has no riders
+            points_per_club.loc[club_rankings] = {"INDIV": 0, "ORGA": points}
+        else:
+            points_per_club.loc[club_rankings, "ORGA"] += points
 
     points_per_club["TOTAL"] = points_per_club["INDIV"] + points_per_club["ORGA"]
     points_per_club = points_per_club.sort_values("TOTAL", ascending=False)

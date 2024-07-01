@@ -1,51 +1,51 @@
 [
     {
-        "TOTAL": 214,
-        "INDIV": 194,
-        "ORGA": 20,
+        "TOTAL": 280,
+        "INDIV": 240,
+        "ORGA": 40,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 188,
-        "INDIV": 148,
+        "TOTAL": 200,
+        "INDIV": 160,
         "ORGA": 40,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 2
     },
     {
-        "TOTAL": 147,
-        "INDIV": 107,
+        "TOTAL": 156,
+        "INDIV": 116,
         "ORGA": 40,
         "CLUB": "UC PONTCHARRA GRESIVAUDAN",
         "RANG": 3
     },
     {
-        "TOTAL": 113,
-        "INDIV": 93,
+        "TOTAL": 128,
+        "INDIV": 108,
         "ORGA": 20,
         "CLUB": "LA TRONCHE VELO SPORT",
         "RANG": 4
     },
     {
-        "TOTAL": 104,
-        "INDIV": 84,
+        "TOTAL": 124,
+        "INDIV": 104,
         "ORGA": 20,
         "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 5
     },
     {
-        "TOTAL": 73,
-        "INDIV": 73,
+        "TOTAL": 93,
+        "INDIV": 93,
         "ORGA": 0,
-        "CLUB": "UC VOIRONNAISE",
+        "CLUB": "SCAL ECHIROLLES",
         "RANG": 6
     },
     {
-        "TOTAL": 64,
-        "INDIV": 64,
+        "TOTAL": 80,
+        "INDIV": 80,
         "ORGA": 0,
-        "CLUB": "SCAL ECHIROLLES",
+        "CLUB": "UC VOIRONNAISE",
         "RANG": 7
     },
     {
@@ -56,45 +56,52 @@
         "RANG": 8
     },
     {
-        "TOTAL": 33,
-        "INDIV": 33,
+        "TOTAL": 50,
+        "INDIV": 50,
         "ORGA": 0,
-        "CLUB": "UC RIVES",
+        "CLUB": "ALPIN'S WHEEL TEAM",
         "RANG": 9
     },
     {
-        "TOTAL": 31,
-        "INDIV": 31,
+        "TOTAL": 37,
+        "INDIV": 37,
         "ORGA": 0,
-        "CLUB": "ALPIN'S WHEEL TEAM",
+        "CLUB": "UC RIVES",
         "RANG": 10
     },
     {
-        "TOTAL": 19,
-        "INDIV": 19,
+        "TOTAL": 23,
+        "INDIV": 23,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 11
     },
     {
-        "TOTAL": 11,
-        "INDIV": 11,
+        "TOTAL": 20,
+        "INDIV": 0,
+        "ORGA": 20,
+        "CLUB": "CYCLISME SEYSSINET SEYSSINS",
+        "RANG": 12
+    },
+    {
+        "TOTAL": 17,
+        "INDIV": 17,
         "ORGA": 0,
         "CLUB": "VC PONTOIS",
-        "RANG": 12
+        "RANG": 13
     },
     {
         "TOTAL": 5,
         "INDIV": 5,
         "ORGA": 0,
         "CLUB": "TEAM VERCORS",
-        "RANG": 13
+        "RANG": 14
     },
     {
         "TOTAL": 1,
         "INDIV": 1,
         "ORGA": 0,
         "CLUB": "ST CLAIR DE LA TOUR ETOILE CYCLISTE",
-        "RANG": 14
+        "RANG": 15
     }
 ]
