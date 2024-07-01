@@ -3704,28 +3704,6 @@
         },
         {
             "RANG": 7,
-            "NOM": "MARGUET ALINE",
-            "CLUB": "ALPIN'S WHEEL TEAM",
-            "POINTS": 5,
-            "FEMME": true,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                1
-            ],
-            "COURSE": [
-                "Grimpée du Peuil"
-            ],
-            "POINTS_L": [
-                5
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 6
-        },
-        {
-            "RANG": 7,
             "NOM": "BOUVIER MANON",
             "CLUB": "UC PONTCHARRA GRESIVAUDAN",
             "POINTS": 5,
@@ -3747,7 +3725,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 9,
+            "RANG": 8,
             "NOM": "SELIN KARINE",
             "CLUB": "VC TURRIPINOIS",
             "POINTS": 3,
@@ -3769,7 +3747,29 @@
             "TOTAL": 4
         },
         {
-            "RANG": 9,
+            "RANG": 8,
+            "NOM": "MARGUET ALINE",
+            "CLUB": "ALPIN'S WHEEL TEAM",
+            "POINTS": 3,
+            "FEMME": true,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                3
+            ],
+            "COURSE": [
+                "Grimpée du Peuil"
+            ],
+            "POINTS_L": [
+                3
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 8,
             "NOM": "ILNICKA OCEANE",
             "CLUB": "SCAL ECHIROLLES",
             "POINTS": 3,
