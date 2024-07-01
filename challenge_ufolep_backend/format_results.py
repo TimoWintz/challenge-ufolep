@@ -171,21 +171,14 @@ class MorteResultsFormatter(ResultsFormatter):
 
 
 class PeuilResultsFormatter(ResultsFormatter):
-    COLS_REMAPPING = {
-        "Tables Classement Scratch": STR_RANK,
-        "NOM": STR_NAME,
-        "Tables Club": STR_CLUB,
-        "Tables Catégorie UFOLEP": STR_CAT,
-    }
-
     def parse_file(self, path: Path) -> pd.DataFrame:
-        df = pd.read_excel(path)
+        df = pd.read_csv(path)
         df[STR_NAME] = (
-            df["Tables Nom participant"] + " " + df["Tables Prénom participant"]
+            df["Nom"] + " " + df["Prénom"]
         )
-        df[STR_CLUB] = df["Tables Club"]
-        df[STR_CAT] = df["Tables Catégorie UFOLEP"]
-        df[STR_RANK] = df["Tables Classement Scratch"]
+        df[STR_CLUB] = df["Club"]
+        df[STR_CAT] = df["Catégorie UFOLEP"]
+        df[STR_RANK] = df["Classement Scratch"]
        
         return df[self.COLS]
 
