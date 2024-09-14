@@ -5,6 +5,7 @@ from challenge_ufolep_backend.format_results import (
     STR_RACE_NAME,
     STR_CAT,
     STR_DNF,
+    STR_NC,
     STR_DNS,
     PATH_RACES,
     STR_ID,
@@ -54,6 +55,9 @@ def get_points(df: pd.DataFrame, rank_to_point: List[int]) -> List[pd.DataFrame]
             valid_ranking.loc[idx, STR_START] = 1
             if current_ranking == STR_DNF:
                 valid_ranking.loc[idx, STR_RACE_RANK] = STR_DNF
+                continue
+            if current_ranking == STR_NC:
+                valid_ranking.loc[idx, STR_RACE_RANK] = STR_NC
                 continue
             if prev_ranking != current_ranking:
                 valid_rank += 1

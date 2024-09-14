@@ -22,6 +22,7 @@ STR_ID = "COUREUR"
 
 STR_DNS = "DNS"
 STR_DNF = "DNF"
+STR_NC = "NC"
 
 PATH_RESULTS = "resultats"
 PATH_RIDERS = "coureurs.csv"
@@ -84,7 +85,10 @@ class ResultsFormatter(ABC):
 
     def format_results(self, path: Path, out: Optional[Path] = None) -> pd.DataFrame:
         df = self.parse_file(path=path)
-        df = df[self.COLS]
+        try:
+            df = df[self.COLS]
+        except:
+            breakpoint()
         df = self.match_riders(df)
         if out is not None:
             df.to_csv(out)
@@ -187,16 +191,16 @@ class CCGResultsFromatter(ResultsFormatter):
     COLS_REMAPPING = {'Rang':STR_RANK,
             'NOM':STR_NAME,
             'Club':STR_CLUB}
-    
+
     def parse_file(self, path: Path) -> pd.DataFrame:
-        with path.open("r", encoding="utf8") as f:
-            cat = f.readline().split(",")[0].replace("Classement ", "").replace(" UFOLEP", "").capitalize()
-        df = pd.read_csv(path, skiprows=1)
+        cat = path.stem
+        df = pd.read_csv(path, skiprows=0)
         df[STR_NAME] = df.Nom + " " + df.Prénom
         df = df[~df[STR_NAME].isna()]
         df[STR_NAME] = df[STR_NAME].map(lambda x: re.sub(' +', ' ', x))
         df =df.rename(columns=self.COLS_REMAPPING)
         df[STR_RANK] = df[STR_RANK].astype(str)
+        df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
         df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
         df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
         df[STR_CAT] = cat
@@ -275,7 +279,7 @@ class ResultsFormatterFactory:
 
     def create_formatter(self, name:str) -> ResultsFormatter:
         p = name.lower()
-        if "oyeu" in p:
+        if "oyeu" in p or "murianette" in p or "triptyque" in p:
             return CCGResultsFromatter(self.riders_db)
         elif "cyclespace" in p or "allevard" in p:
             return AlpespaceResultsFormatter(self.riders_db)
@@ -283,7 +287,7 @@ class ResultsFormatterFactory:
             return MouillatResultsFormatter(self.riders_db)
         elif "cras" in p or "andrevière" in p:
             return CrasResultsFormatter(self.riders_db)
-        elif "porte" in p:
+        elif "porte" in p or "roybon" in p:
             return TvsResultsFormatter(self.riders_db)
         elif "osier" in p:
             return NDResultsFromatter(self.riders_db)

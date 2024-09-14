@@ -1,65 +1,65 @@
 [
     {
-        "TOTAL": 290,
-        "INDIV": 240,
+        "TOTAL": 312,
+        "INDIV": 262,
         "ORGA": 50,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 200,
-        "INDIV": 160,
-        "ORGA": 40,
+        "TOTAL": 273,
+        "INDIV": 203,
+        "ORGA": 70,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 2
     },
     {
-        "TOTAL": 156,
-        "INDIV": 116,
+        "TOTAL": 194,
+        "INDIV": 154,
         "ORGA": 40,
-        "CLUB": "UC PONTCHARRA GRESIVAUDAN",
+        "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 3
     },
     {
-        "TOTAL": 128,
-        "INDIV": 108,
-        "ORGA": 20,
+        "TOTAL": 179,
+        "INDIV": 139,
+        "ORGA": 40,
         "CLUB": "LA TRONCHE VELO SPORT",
         "RANG": 4
     },
     {
-        "TOTAL": 124,
-        "INDIV": 104,
-        "ORGA": 20,
-        "CLUB": "CYCLO CLUB DE GIERES",
+        "TOTAL": 167,
+        "INDIV": 127,
+        "ORGA": 40,
+        "CLUB": "UC PONTCHARRA GRESIVAUDAN",
         "RANG": 5
     },
     {
-        "TOTAL": 93,
-        "INDIV": 93,
+        "TOTAL": 124,
+        "INDIV": 124,
         "ORGA": 0,
         "CLUB": "SCAL ECHIROLLES",
         "RANG": 6
     },
     {
-        "TOTAL": 80,
-        "INDIV": 80,
+        "TOTAL": 95,
+        "INDIV": 95,
         "ORGA": 0,
         "CLUB": "UC VOIRONNAISE",
         "RANG": 7
+    },
+    {
+        "TOTAL": 73,
+        "INDIV": 73,
+        "ORGA": 0,
+        "CLUB": "ALPIN'S WHEEL TEAM",
+        "RANG": 8
     },
     {
         "TOTAL": 59,
         "INDIV": 39,
         "ORGA": 20,
         "CLUB": "VC TURRIPINOIS",
-        "RANG": 8
-    },
-    {
-        "TOTAL": 48,
-        "INDIV": 48,
-        "ORGA": 0,
-        "CLUB": "ALPIN'S WHEEL TEAM",
         "RANG": 9
     },
     {
@@ -70,32 +70,39 @@
         "RANG": 10
     },
     {
-        "TOTAL": 23,
-        "INDIV": 23,
+        "TOTAL": 36,
+        "INDIV": 36,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 11
+    },
+    {
+        "TOTAL": 26,
+        "INDIV": 26,
+        "ORGA": 0,
+        "CLUB": "VC PONTOIS",
+        "RANG": 12
     },
     {
         "TOTAL": 20,
         "INDIV": 0,
         "ORGA": 20,
         "CLUB": "CYCLISME SEYSSINET SEYSSINS",
-        "RANG": 12
-    },
-    {
-        "TOTAL": 17,
-        "INDIV": 17,
-        "ORGA": 0,
-        "CLUB": "VC PONTOIS",
         "RANG": 13
     },
     {
-        "TOTAL": 5,
-        "INDIV": 5,
+        "TOTAL": 11,
+        "INDIV": 11,
         "ORGA": 0,
         "CLUB": "TEAM VERCORS",
         "RANG": 14
+    },
+    {
+        "TOTAL": 1,
+        "INDIV": 1,
+        "ORGA": 0,
+        "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
+        "RANG": 15
     },
     {
         "TOTAL": 1,
