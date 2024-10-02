@@ -183,7 +183,18 @@ class PeuilResultsFormatter(ResultsFormatter):
         df[STR_CLUB] = df["Club"]
         df[STR_CAT] = df["Catégorie UFOLEP"]
         df[STR_RANK] = df["Classement Scratch"]
-       
+
+        return df[self.COLS]
+
+
+class ArzelierResultsFormatter(ResultsFormatter):
+    def parse_file(self, path: Path) -> pd.DataFrame:
+        df = pd.read_csv(path)
+        df[STR_NAME] = df["NOM"] + " " + df["PRENOM"]
+        df[STR_CLUB] = df["CLUB"]
+        df[STR_CAT] = df["Catégorie UFOLEP"]
+        df[STR_RANK] = df["Classement scratch"]
+
         return df[self.COLS]
 
 
@@ -297,6 +308,8 @@ class ResultsFormatterFactory:
             return PeuilResultsFormatter(self.riders_db)
         elif "versoud" in p:
             return VersoudResultsFormatter(self.riders_db)
+        elif "arzelier" in p:
+            return ArzelierResultsFormatter(self.riders_db)
         else:
             raise ValueError(f"No formatter found for {p}")
 
