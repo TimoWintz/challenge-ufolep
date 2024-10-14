@@ -1,14 +1,14 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,False,-1,01,VIGNON Paul-Eliott,UC Pontcharra Grésivaudan,15-16ans
-1,False,False,-1,01,DESCOMBES Alexis,UC Pontcharra Grésivaudan,15-16ans
-2,False,False,-1,03,MAGNIER Pierre,Vélo Club Turripinois,15-16ans
-3,False,False,-1,04,MOREAU Noa,UC Voiron,15-16ans
-4,True,True,170,05,BUSSCHAERT LUCIE,VC TURRIPINOIS,15-16ans
-5,True,True,177,06,TEIRLYNCK LEONIE,VC TURRIPINOIS,15-16ans
-6,False,False,-1,07,VALOUR Tristan,Lac Alliance Cycliste,15-16ans
-7,False,False,-1,08,GUILLAUD William,La Motte-Servolex Cyclisme,15-16ans
-8,False,False,-1,09,AUBERT Thomas,UC Pontcharra Grésivaudan,15-16ans
-9,False,False,-1,10,AMAND Charlie,La Motte-Servolex Cyclisme,15-16ans
-10,True,False,176,11,TEIRLYNCK GAETAN,VC TURRIPINOIS,15-16ans
-11,False,False,-1,12,LABORY Jérémy,Lac Alliance Cycliste,15-16ans
-12,True,True,173,13,SELIN ELODIE,VC TURRIPINOIS,15-16ans
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2023-01-01,False,False,-1,01,VIGNON Paul-Eliott,UC Pontcharra Grésivaudan,15-16ans
+1,2023-01-01,False,False,-1,01,DESCOMBES Alexis,UC Pontcharra Grésivaudan,15-16ans
+2,2023-01-01,False,False,-1,03,MAGNIER Pierre,Vélo Club Turripinois,15-16ans
+3,2023-01-01,False,False,-1,04,MOREAU Noa,UC Voiron,15-16ans
+4,2024-03-28,True,True,170,05,BUSSCHAERT LUCIE,VC TURRIPINOIS,15-16ans
+5,2023-12-20,True,True,177,06,TEIRLYNCK LEONIE,VC TURRIPINOIS,15-16ans
+6,2023-01-01,False,False,-1,07,VALOUR Tristan,Lac Alliance Cycliste,15-16ans
+7,2023-01-01,False,False,-1,08,GUILLAUD William,La Motte-Servolex Cyclisme,15-16ans
+8,2023-01-01,False,False,-1,09,AUBERT Thomas,UC Pontcharra Grésivaudan,15-16ans
+9,2023-01-01,False,False,-1,10,AMAND Charlie,La Motte-Servolex Cyclisme,15-16ans
+10,2023-12-20,True,False,176,11,TEIRLYNCK GAETAN,VC TURRIPINOIS,15-16ans
+11,2023-01-01,False,False,-1,12,LABORY Jérémy,Lac Alliance Cycliste,15-16ans
+12,2024-01-18,True,True,173,13,SELIN ELODIE,VC TURRIPINOIS,15-16ans

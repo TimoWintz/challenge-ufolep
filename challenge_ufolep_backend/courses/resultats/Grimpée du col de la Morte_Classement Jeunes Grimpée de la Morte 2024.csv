@@ -1,5 +1,5 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,False,-1,1,BORNARD Lenaîc,,Jeune
-1,False,False,-1,2,GINOT Gaspard,,Jeune
-2,False,False,-1,3,DE BARROS Flavio,,Jeune
-3,False,False,-1,4,SALVO Noé,,Jeune
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2023-01-01,False,False,-1,1,BORNARD Lenaîc,,Jeune
+1,2023-01-01,False,False,-1,2,GINOT Gaspard,,Jeune
+2,2023-01-01,False,False,-1,3,DE BARROS Flavio,,Jeune
+3,2023-01-01,False,False,-1,4,SALVO Noé,,Jeune

@@ -1,18 +1,18 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,False,126,1,RIFLADE THEO,TEAM 3 MASSIFS,Cat 1
-1,False,False,-1,2,WIPFF Thomas,COMPIEGNE SC,Cat 1
-2,False,False,-1,3,Georjon Baptiste,GMC 38,Cat 1
-3,False,False,54,4,LEDAC PIERRE,LA TRONCHE VELO SPORT,Cat 1
-4,False,False,30,5,BERNABE AURELIEN,SCAL ECHIROLLES,Cat 1
-5,False,False,63,6,VIDE NICOLAS,LA TRONCHE VELO SPORT,Cat 1
-6,False,False,4,7,WINTZ TIMOTHEE,ALPIN'S WHEEL TEAM,Cat 1
-7,False,False,-1,8,MOCELLIN Rémy ,Sud gresivaudan cyclisme compétition,Cat 1
-8,False,False,-1,9,HUPPENOIRE Yohan,Team 3 Massifs,Cat 1
-9,False,False,-1,10,HAGE Titouan,UC VOIRON,Cat 1
-10,False,False,81,11,MELINU JEROME,LE FONTANIL CYCLISME,Cat 1
-11,False,False,68,12,ANGOT ANTOINE,LE FONTANIL CYCLISME,Cat 1
-12,False,False,88,13,RIBEZZI THOMAS,LE FONTANIL CYCLISME,Cat 1
-13,False,False,-1,14,Barthélemy Yann,Sud grésivaudan cyclisme compétition,Cat 1
-14,False,False,-1,DNF,Mercier Guyllaume ,Echirolles triathlon,Cat 1
-15,False,False,-1,DNF,Bollard Stephane ,UC VOIRON,Cat 1
-16,False,False,-1,DNS,fouilloux Serge,Roc,Cat 1
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2024-02-01,False,False,126,1,RIFLADE THEO,TEAM 3 MASSIFS,Cat 1
+1,2023-01-01,False,False,-1,2,WIPFF Thomas,COMPIEGNE SC,Cat 1
+2,2023-01-01,False,False,-1,3,Georjon Baptiste,GMC 38,Cat 1
+3,2024-02-05,False,False,54,4,LEDAC PIERRE,LA TRONCHE VELO SPORT,Cat 1
+4,2024-01-15,False,False,30,5,BERNABE AURELIEN,SCAL ECHIROLLES,Cat 1
+5,2024-02-05,False,False,63,6,VIDE NICOLAS,LA TRONCHE VELO SPORT,Cat 1
+6,2024-01-22,False,False,4,7,WINTZ TIMOTHEE,ALPIN'S WHEEL TEAM,Cat 1
+7,2023-01-01,False,False,-1,8,MOCELLIN Rémy ,Sud gresivaudan cyclisme compétition,Cat 1
+8,2023-01-01,False,False,-1,9,HUPPENOIRE Yohan,Team 3 Massifs,Cat 1
+9,2023-01-01,False,False,-1,10,HAGE Titouan,UC VOIRON,Cat 1
+10,2024-01-15,False,False,81,11,MELINU JEROME,LE FONTANIL CYCLISME,Cat 1
+11,2024-01-15,False,False,68,12,ANGOT ANTOINE,LE FONTANIL CYCLISME,Cat 1
+12,2024-01-15,False,False,88,13,RIBEZZI THOMAS,LE FONTANIL CYCLISME,Cat 1
+13,2023-01-01,False,False,-1,14,Barthélemy Yann,Sud grésivaudan cyclisme compétition,Cat 1
+14,2023-01-01,False,False,-1,DNF,Mercier Guyllaume ,Echirolles triathlon,Cat 1
+15,2023-01-01,False,False,-1,DNF,Bollard Stephane ,UC VOIRON,Cat 1
+16,2023-01-01,False,False,-1,DNS,fouilloux Serge,Roc,Cat 1

@@ -1,77 +1,77 @@
 [
     {
-        "TOTAL": 323,
-        "INDIV": 273,
+        "TOTAL": 370,
+        "INDIV": 320,
         "ORGA": 50,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 278,
-        "INDIV": 208,
-        "ORGA": 70,
+        "TOTAL": 311,
+        "INDIV": 221,
+        "ORGA": 90,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 2
     },
     {
-        "TOTAL": 211,
-        "INDIV": 171,
+        "TOTAL": 231,
+        "INDIV": 191,
         "ORGA": 40,
         "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 3
     },
     {
-        "TOTAL": 182,
-        "INDIV": 142,
+        "TOTAL": 186,
+        "INDIV": 146,
         "ORGA": 40,
         "CLUB": "LA TRONCHE VELO SPORT",
         "RANG": 4
     },
     {
-        "TOTAL": 167,
-        "INDIV": 127,
+        "TOTAL": 173,
+        "INDIV": 153,
+        "ORGA": 20,
+        "CLUB": "SCAL ECHIROLLES",
+        "RANG": 5
+    },
+    {
+        "TOTAL": 173,
+        "INDIV": 133,
         "ORGA": 40,
         "CLUB": "UC PONTCHARRA GRESIVAUDAN",
         "RANG": 5
     },
     {
-        "TOTAL": 159,
-        "INDIV": 139,
-        "ORGA": 20,
-        "CLUB": "SCAL ECHIROLLES",
-        "RANG": 6
-    },
-    {
-        "TOTAL": 95,
-        "INDIV": 95,
+        "TOTAL": 107,
+        "INDIV": 107,
         "ORGA": 0,
-        "CLUB": "UC VOIRONNAISE",
+        "CLUB": "ALPIN'S WHEEL TEAM",
         "RANG": 7
     },
     {
-        "TOTAL": 85,
-        "INDIV": 85,
+        "TOTAL": 102,
+        "INDIV": 102,
         "ORGA": 0,
-        "CLUB": "ALPIN'S WHEEL TEAM",
+        "CLUB": "UC VOIRONNAISE",
         "RANG": 8
     },
     {
-        "TOTAL": 59,
+        "TOTAL": 79,
         "INDIV": 39,
-        "ORGA": 20,
+        "ORGA": 40,
         "CLUB": "VC TURRIPINOIS",
         "RANG": 9
     },
     {
-        "TOTAL": 42,
-        "INDIV": 42,
+        "TOTAL": 49,
+        "INDIV": 49,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 10
     },
     {
-        "TOTAL": 37,
-        "INDIV": 37,
+        "TOTAL": 42,
+        "INDIV": 42,
         "ORGA": 0,
         "CLUB": "UC RIVES",
         "RANG": 11

@@ -1,37 +1,37 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,False,-1,01,PEZERIL Clément,Chambery Cyclisme Compétition,Ufolep1
-1,False,False,-1,02,BAUDOUIN Jérémy,Team Jallet Auto,Ufolep1
-2,False,False,-1,03,CHATAIN Axel,GMC38-EF,Ufolep1
-3,False,False,-1,04,GAUDRY Clément,Lac Alliance Cycliste,Ufolep1
-4,False,False,-1,05,NICOL Alexis,Chambery Cyclisme Compétition,Ufolep1
-5,False,False,-1,06,TERRIER Vincent,La Motte-Servolex Cyclisme,Ufolep1
-6,False,False,54,07,LEDAC PIERRE,LA TRONCHE VELO SPORT,Ufolep1
-7,False,False,-1,08,PARIS Hugo,Lac Alliance Cycliste,Ufolep1
-8,False,False,-1,09,MORAIS Ugo,Lac Alliance Cycliste,Ufolep1
-9,False,False,-1,10,LAGACHE Jonathan,Lac Alliance Cycliste,Ufolep1
-10,False,False,-1,11,SAGE Jérôme,UC Voiron,Ufolep1
-11,False,False,-1,12,AUDIBERT Hugo,GMC38-EF,Ufolep1
-12,False,False,-1,13,BAILLEUX David,ES Seynod,Ufolep1
-13,False,False,-1,14,LECHEVALIER Aurelien,Lac Alliance Cycliste,Ufolep1
-14,False,False,-1,15,RUFFINENGO Bastien,St Martin d'Hères,Ufolep1
-15,False,False,-1,16,GAUTHIER-PHILIPPE Erwin,Lac Alliance Cycliste,Ufolep1
-16,False,False,-1,17,HAGE Titouan,UC Voiron,Ufolep1
-17,False,False,-1,18,ROURE Baptiste,Lac Alliance Cycliste,Ufolep1
-18,False,False,-1,19,GRANADE Romuald,AS Fontaine Cyclisme,Ufolep1
-19,False,False,-1,20,OSKWAREK Sylvain,-------,Ufolep1
-20,False,False,-1,21,BEL Nathan,Cyclisme Seyssins Seyssinet,Ufolep1
-21,False,False,-1,22,BAHUREL Pablo,UC Pontcharra Grésivaudan,Ufolep1
-22,False,False,-1,23,RAMON Paul,Lac Alliance Cycliste,Ufolep1
-23,False,False,-1,24,POUGHON Thomas,GMC38-EF,Ufolep1
-24,False,False,-1,25,CHAPUIS Valentin,GMC38-EF,Ufolep1
-25,False,False,-1,26,AUDIBERT Matthis,GMC38-EF,Ufolep1
-26,False,False,-1,27,RUHLMANN Titouan,Vélo Club Turripinois,Ufolep1
-27,False,False,146,28,FLANDRIN ALEXANDRE,UC PONTCHARRA GRESIVAUDAN,Ufolep1
-28,False,False,-1,29,MAGNIN Jérôme,------,Ufolep1
-29,False,False,137,DNF,BRONDEX MALO,UC PONTCHARRA GRESIVAUDAN,Ufolep1
-30,False,False,141,DNF,CHAUVEL YANN,UC PONTCHARRA GRESIVAUDAN,Ufolep1
-31,False,False,81,DNF,MELINU JEROME,LE FONTANIL CYCLISME,Ufolep1
-32,False,False,-1,DNF,TONON Nathan,UC Voiron,Ufolep1
-33,False,False,-1,DNF,TRUPPA Sébastien,Lac Alliance Cycliste,Ufolep1
-34,False,False,-1,DNF,PAYSAN Thibaut,Lac Alliance Cycliste,Ufolep1
-35,False,False,4,DNS,WINTZ TIMOTHEE,ALPIN'S WHEEL TEAM,Ufolep1
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2023-01-01,False,False,-1,01,PEZERIL Clément,Chambery Cyclisme Compétition,Ufolep1
+1,2023-01-01,False,False,-1,02,BAUDOUIN Jérémy,Team Jallet Auto,Ufolep1
+2,2023-01-01,False,False,-1,03,CHATAIN Axel,GMC38-EF,Ufolep1
+3,2023-01-01,False,False,-1,04,GAUDRY Clément,Lac Alliance Cycliste,Ufolep1
+4,2023-01-01,False,False,-1,05,NICOL Alexis,Chambery Cyclisme Compétition,Ufolep1
+5,2023-01-01,False,False,-1,06,TERRIER Vincent,La Motte-Servolex Cyclisme,Ufolep1
+6,2024-02-05,False,False,54,07,LEDAC PIERRE,LA TRONCHE VELO SPORT,Ufolep1
+7,2023-01-01,False,False,-1,08,PARIS Hugo,Lac Alliance Cycliste,Ufolep1
+8,2023-01-01,False,False,-1,09,MORAIS Ugo,Lac Alliance Cycliste,Ufolep1
+9,2023-01-01,False,False,-1,10,LAGACHE Jonathan,Lac Alliance Cycliste,Ufolep1
+10,2023-01-01,False,False,-1,11,SAGE Jérôme,UC Voiron,Ufolep1
+11,2023-01-01,False,False,-1,12,AUDIBERT Hugo,GMC38-EF,Ufolep1
+12,2023-01-01,False,False,-1,13,BAILLEUX David,ES Seynod,Ufolep1
+13,2023-01-01,False,False,-1,14,LECHEVALIER Aurelien,Lac Alliance Cycliste,Ufolep1
+14,2023-01-01,False,False,-1,15,RUFFINENGO Bastien,St Martin d'Hères,Ufolep1
+15,2023-01-01,False,False,-1,16,GAUTHIER-PHILIPPE Erwin,Lac Alliance Cycliste,Ufolep1
+16,2023-01-01,False,False,-1,17,HAGE Titouan,UC Voiron,Ufolep1
+17,2023-01-01,False,False,-1,18,ROURE Baptiste,Lac Alliance Cycliste,Ufolep1
+18,2023-01-01,False,False,-1,19,GRANADE Romuald,AS Fontaine Cyclisme,Ufolep1
+19,2023-01-01,False,False,-1,20,OSKWAREK Sylvain,-------,Ufolep1
+20,2023-01-01,False,False,-1,21,BEL Nathan,Cyclisme Seyssins Seyssinet,Ufolep1
+21,2023-01-01,False,False,-1,22,BAHUREL Pablo,UC Pontcharra Grésivaudan,Ufolep1
+22,2023-01-01,False,False,-1,23,RAMON Paul,Lac Alliance Cycliste,Ufolep1
+23,2023-01-01,False,False,-1,24,POUGHON Thomas,GMC38-EF,Ufolep1
+24,2023-01-01,False,False,-1,25,CHAPUIS Valentin,GMC38-EF,Ufolep1
+25,2023-01-01,False,False,-1,26,AUDIBERT Matthis,GMC38-EF,Ufolep1
+26,2023-01-01,False,False,-1,27,RUHLMANN Titouan,Vélo Club Turripinois,Ufolep1
+27,2024-01-05,False,False,146,28,FLANDRIN ALEXANDRE,UC PONTCHARRA GRESIVAUDAN,Ufolep1
+28,2023-01-01,False,False,-1,29,MAGNIN Jérôme,------,Ufolep1
+29,2024-02-12,False,False,137,DNF,BRONDEX MALO,UC PONTCHARRA GRESIVAUDAN,Ufolep1
+30,2024-02-12,False,False,141,DNF,CHAUVEL YANN,UC PONTCHARRA GRESIVAUDAN,Ufolep1
+31,2024-01-15,False,False,81,DNF,MELINU JEROME,LE FONTANIL CYCLISME,Ufolep1
+32,2023-01-01,False,False,-1,DNF,TONON Nathan,UC Voiron,Ufolep1
+33,2023-01-01,False,False,-1,DNF,TRUPPA Sébastien,Lac Alliance Cycliste,Ufolep1
+34,2023-01-01,False,False,-1,DNF,PAYSAN Thibaut,Lac Alliance Cycliste,Ufolep1
+35,2024-01-22,False,False,4,DNS,WINTZ TIMOTHEE,ALPIN'S WHEEL TEAM,Ufolep1

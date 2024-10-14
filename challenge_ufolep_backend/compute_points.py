@@ -9,7 +9,7 @@ from challenge_ufolep_backend.format_results import (
     STR_DNS,
     PATH_RACES,
     STR_ID,
-    get_all_results,
+    get_output_file,
     ResultsFormatterFactory,
     STR_NAME,
     STR_RANK,
@@ -18,7 +18,7 @@ from challenge_ufolep_backend.format_results import (
     STR_CLUB,
 )
 import json
-from datetime import date
+import datetime
 from typing import List
 
 POINTS = [5, 4, 3, 2, 1]
@@ -87,12 +87,10 @@ if __name__ == "__main__":
     for race in races.index.values:
         if not races.loc[race, "PASSE"]:
             continue
-        tables = get_all_results(
-            race,
-            race_folder / races.loc[race, STR_RACE_FOLDER],
-            formatter_factory,
-            override=False,
-        )
+        tables = [
+            pd.read_csv(get_output_file(race, path))
+            for path in (race_folder / races.loc[race, STR_RACE_FOLDER]).glob("*")
+        ]
         tables_points = sum([get_points(x, POINTS) for x in tables], [])
         for t in tables_points:
             t.insert(0, STR_RACE, race)
@@ -165,8 +163,7 @@ if __name__ == "__main__":
         df.loc[:, STR_RANK] = df["TOTAL"].rank(method="min", ascending=False)
         rankings[k] = df
         results[k] = df.to_dict("records")
-
-    results["date"] = date.today().isoformat()
+    results["date"] = datetime.date.today().isoformat()
 
     json_str = json.dumps(results, ensure_ascii=False, indent=4).encode("utf-8")
     with open(root.parent / "data" / "resultats_indiv.json", "wb") as f:

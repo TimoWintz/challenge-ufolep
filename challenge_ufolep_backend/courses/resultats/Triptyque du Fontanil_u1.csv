@@ -1,14 +1,14 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,False,-1,1,Berger Pierre,GMC38,u1
-1,False,False,-1,2,Berne Stéphane,UC VOIRON,u1
-2,False,False,-1,3,Gaillard Julien,GMC38,u1
-3,False,False,-1,3,Noubel Frédéric,Union Cycliste Voironnaise,u1
-4,False,False,88,5,RIBEZZI THOMAS,LE FONTANIL CYCLISME,u1
-5,False,False,132,5,BLANCHIN MATHIEU,TEAM VERCORS,u1
-6,False,False,-1,7,Tonon Nathan,UC Voiron,u1
-7,False,False,-1,7,Gaillard Clovis,UC VOIRON,u1
-8,False,False,-1,9,HAGE Titouan,UC Voiron,u1
-9,False,False,-1,10,DAVID Yann,UC VOIRON,u1
-10,False,False,-1,11,Schmit Raphaël,UC Voiron,u1
-11,False,False,-1,12,MONNET Mathurin,UC VOIRON,u1
-12,False,False,-1,DNS,Pellerin Xavier,UC Cognin,u1
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2023-01-01,False,False,-1,1,Berger Pierre,GMC38,u1
+1,2023-01-01,False,False,-1,2,Berne Stéphane,UC VOIRON,u1
+2,2023-01-01,False,False,-1,3,Gaillard Julien,GMC38,u1
+3,2023-01-01,False,False,-1,3,Noubel Frédéric,Union Cycliste Voironnaise,u1
+4,2024-01-15,False,False,88,5,RIBEZZI THOMAS,LE FONTANIL CYCLISME,u1
+5,2024-02-16,False,False,132,5,BLANCHIN MATHIEU,TEAM VERCORS,u1
+6,2023-01-01,False,False,-1,7,Tonon Nathan,UC Voiron,u1
+7,2023-01-01,False,False,-1,7,Gaillard Clovis,UC VOIRON,u1
+8,2023-01-01,False,False,-1,9,HAGE Titouan,UC Voiron,u1
+9,2023-01-01,False,False,-1,10,DAVID Yann,UC VOIRON,u1
+10,2023-01-01,False,False,-1,11,Schmit Raphaël,UC Voiron,u1
+11,2023-01-01,False,False,-1,12,MONNET Mathurin,UC VOIRON,u1
+12,2023-01-01,False,False,-1,DNS,Pellerin Xavier,UC Cognin,u1

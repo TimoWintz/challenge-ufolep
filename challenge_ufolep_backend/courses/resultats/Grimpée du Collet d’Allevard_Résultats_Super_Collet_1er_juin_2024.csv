@@ -1,41 +1,41 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,False,-1,01,BOUDSOCQ Antoine,GMC38,
-1,False,False,-1,02,THOMAS Yann,VC St Quentin Fallavier,
-2,False,False,-1,03,BERARD Julien,L'Echappée Alpine,
-3,False,False,-1,04,VIORT Hugo,Isatis Cycling,
-4,False,False,63,05,VIDE NICOLAS,LA TRONCHE VELO SPORT,1ère Catégorie
-5,False,False,-1,06,REYBOZ Vincent,GMC38,
-6,False,False,-1,07,BELANGER Louison,GMC38,
-7,False,False,-1,08,GAILLARD Julien,GMC38,
-8,False,False,-1,09,DER PARSEGHIAN Lubin,Vélo Sprint Romanais Péagois,
-9,False,False,-1,10,GROSSET Antoine,L’échappée Alpine,
-10,False,False,-1,11,CONSTANCIAS Théo,Tribike du Dauphiné,
-11,False,False,-1,12,BERNE Stéphane,UC Voiron,
-12,False,False,-1,13,CABOCHE Sébastien,GMC38,
-13,False,False,-1,14,CHRISTIN Nicolas,Echirolles Triathlon,
-14,False,False,-1,15,AMBLARD Arnaud,Cyclisme Seyssinet Seyssins,
-15,False,False,-1,16,DAVID Yann,UC Voiron,
-16,False,False,141,17,CHAUVEL YANN,UC PONTCHARRA GRESIVAUDAN,1ère Catégorie
-17,False,False,-1,18,BORNARD Lenaïc,UC Montmeyran Valence,
-18,False,False,-1,19,D'ANZI Nathan,Brison St Innocent Cyclisme,
-19,False,False,-1,20,AUTUGELLE Rémi,Vélo Sprint Romanais Péagois,
-20,False,False,-1,21,ANTSFELD Léonid,----,
-21,False,False,-1,22,BRITO ANTUNES Matthieu,Cyclisme Seyssinet Seyssins,
-22,False,False,-1,23,BEN LAHOUSSINE Adonis,Cyclisme Seyssinet Seyssins,
-23,False,False,-1,24,CHARVIN Aloïs,Vélo Sprint Romanais Péagois,
-24,False,False,-1,25,RENAUT Lucien,Cyclisme Seyssinet Seyssins,
-25,False,False,-1,26,FEIGE Jérôme,Olympique Cyclisme Albertville,
-26,False,False,-1,27,PEVET Nicolas,Sud Grésivaudan Cylisme Compe,tition
-27,False,False,-1,28,PEAN GAIGNARD Noé,La Motte Servolex Cyclisme,
-28,False,False,-1,29,PAILLARD Valère,Cyclisme Seyssinet Seyssins,
-29,False,False,-1,30,DE FLAUGERGUES Franç,Sud Grésivaudan Cylisme Compe,tition
-30,False,False,-1,31,VIGNON Paul-Eliott,UC Pontcharra Grésivaudan,
-31,False,False,153,32,PETITE PATRICE,UC PONTCHARRA GRESIVAUDAN,3ème Catégorie
-32,False,False,-1,33,LEMIÈRE Alexis,AC Bisontine,
-33,False,False,56,34,LORIGEON FABIEN,LA TRONCHE VELO SPORT,2ème Catégorie
-34,False,False,-1,35,COISSIEUX Ethan,Vélo Sprint Romanais Péagois,
-35,False,False,-1,36,BILLY Dominique,UC Vanoise,
-36,False,False,-1,37,CABRIÈRES Jean-Marie,----,
-37,False,False,136,38,BOUVIER THOMAS,UC PONTCHARRA GRESIVAUDAN,3ème Catégorie
-38,False,False,-1,39,MUGNIER Mehdi,Savoyards Qui Roulent,
-39,False,False,-1,40,VILLAIN Stéphane,UC Cognin,
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2023-01-01,False,False,-1,01,BOUDSOCQ Antoine,GMC38,
+1,2023-01-01,False,False,-1,02,THOMAS Yann,VC St Quentin Fallavier,
+2,2023-01-01,False,False,-1,03,BERARD Julien,L'Echappée Alpine,
+3,2023-01-01,False,False,-1,04,VIORT Hugo,Isatis Cycling,
+4,2024-02-05,False,False,63,05,VIDE NICOLAS,LA TRONCHE VELO SPORT,1ère Catégorie
+5,2023-01-01,False,False,-1,06,REYBOZ Vincent,GMC38,
+6,2023-01-01,False,False,-1,07,BELANGER Louison,GMC38,
+7,2023-01-01,False,False,-1,08,GAILLARD Julien,GMC38,
+8,2023-01-01,False,False,-1,09,DER PARSEGHIAN Lubin,Vélo Sprint Romanais Péagois,
+9,2023-01-01,False,False,-1,10,GROSSET Antoine,L’échappée Alpine,
+10,2023-01-01,False,False,-1,11,CONSTANCIAS Théo,Tribike du Dauphiné,
+11,2023-01-01,False,False,-1,12,BERNE Stéphane,UC Voiron,
+12,2023-01-01,False,False,-1,13,CABOCHE Sébastien,GMC38,
+13,2023-01-01,False,False,-1,14,CHRISTIN Nicolas,Echirolles Triathlon,
+14,2023-01-01,False,False,-1,15,AMBLARD Arnaud,Cyclisme Seyssinet Seyssins,
+15,2023-01-01,False,False,-1,16,DAVID Yann,UC Voiron,
+16,2024-02-12,False,False,141,17,CHAUVEL YANN,UC PONTCHARRA GRESIVAUDAN,1ère Catégorie
+17,2023-01-01,False,False,-1,18,BORNARD Lenaïc,UC Montmeyran Valence,
+18,2023-01-01,False,False,-1,19,D'ANZI Nathan,Brison St Innocent Cyclisme,
+19,2023-01-01,False,False,-1,20,AUTUGELLE Rémi,Vélo Sprint Romanais Péagois,
+20,2023-01-01,False,False,-1,21,ANTSFELD Léonid,----,
+21,2023-01-01,False,False,-1,22,BRITO ANTUNES Matthieu,Cyclisme Seyssinet Seyssins,
+22,2023-01-01,False,False,-1,23,BEN LAHOUSSINE Adonis,Cyclisme Seyssinet Seyssins,
+23,2023-01-01,False,False,-1,24,CHARVIN Aloïs,Vélo Sprint Romanais Péagois,
+24,2023-01-01,False,False,-1,25,RENAUT Lucien,Cyclisme Seyssinet Seyssins,
+25,2023-01-01,False,False,-1,26,FEIGE Jérôme,Olympique Cyclisme Albertville,
+26,2023-01-01,False,False,-1,27,PEVET Nicolas,Sud Grésivaudan Cylisme Compe,tition
+27,2023-01-01,False,False,-1,28,PEAN GAIGNARD Noé,La Motte Servolex Cyclisme,
+28,2023-01-01,False,False,-1,29,PAILLARD Valère,Cyclisme Seyssinet Seyssins,
+29,2023-01-01,False,False,-1,30,DE FLAUGERGUES Franç,Sud Grésivaudan Cylisme Compe,tition
+30,2023-01-01,False,False,-1,31,VIGNON Paul-Eliott,UC Pontcharra Grésivaudan,
+31,2024-02-09,False,False,153,32,PETITE PATRICE,UC PONTCHARRA GRESIVAUDAN,3ème Catégorie
+32,2023-01-01,False,False,-1,33,LEMIÈRE Alexis,AC Bisontine,
+33,2024-02-05,False,False,56,34,LORIGEON FABIEN,LA TRONCHE VELO SPORT,2ème Catégorie
+34,2023-01-01,False,False,-1,35,COISSIEUX Ethan,Vélo Sprint Romanais Péagois,
+35,2023-01-01,False,False,-1,36,BILLY Dominique,UC Vanoise,
+36,2023-01-01,False,False,-1,37,CABRIÈRES Jean-Marie,----,
+37,2024-02-09,False,False,136,38,BOUVIER THOMAS,UC PONTCHARRA GRESIVAUDAN,3ème Catégorie
+38,2023-01-01,False,False,-1,39,MUGNIER Mehdi,Savoyards Qui Roulent,
+39,2023-01-01,False,False,-1,40,VILLAIN Stéphane,UC Cognin,

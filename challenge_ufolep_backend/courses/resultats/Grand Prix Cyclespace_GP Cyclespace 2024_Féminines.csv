@@ -1,11 +1,11 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,True,135,01,BOUVIER MANON,UC PONTCHARRA GRESIVAUDAN,Féminines
-1,False,True,165,02,SEVOZ LAVERDURE CELIA,UC VOIRONNAISE,Féminines
-2,False,False,-1,03,GAIGNARD Lola,Cyclisme Seyssins Seyssinet,Féminines
-3,False,False,-1,04,SAITTA Amélia,Cyclisme Seyssins Seyssinet,Féminines
-4,False,False,-1,05,FREY-LE RUYET Agathe,GMC38-EF,Féminines
-5,False,False,-1,06,HAGE Gwénola,UC Voiron,Féminines
-6,False,False,-1,07,SEVOZ Laurane,UC Voiron,Féminines
-7,False,False,-1,08,LÉCOLIER Clémence,UC Voiron,Féminines
-8,False,True,174,09,SELIN KARINE,VC TURRIPINOIS,Féminines
-9,False,True,147,DNF,LAFONT CANDICE,UC PONTCHARRA GRESIVAUDAN,Féminines
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2024-02-09,False,True,135,01,BOUVIER MANON,UC PONTCHARRA GRESIVAUDAN,Féminines
+1,2024-02-01,False,True,165,02,SEVOZ LAVERDURE CELIA,UC VOIRONNAISE,Féminines
+2,2023-01-01,False,False,-1,03,GAIGNARD Lola,Cyclisme Seyssins Seyssinet,Féminines
+3,2023-01-01,False,False,-1,04,SAITTA Amélia,Cyclisme Seyssins Seyssinet,Féminines
+4,2023-01-01,False,False,-1,05,FREY-LE RUYET Agathe,GMC38-EF,Féminines
+5,2023-01-01,False,False,-1,06,HAGE Gwénola,UC Voiron,Féminines
+6,2023-01-01,False,False,-1,07,SEVOZ Laurane,UC Voiron,Féminines
+7,2023-01-01,False,False,-1,08,LÉCOLIER Clémence,UC Voiron,Féminines
+8,2024-01-05,False,True,174,09,SELIN KARINE,VC TURRIPINOIS,Féminines
+9,2024-02-11,False,True,147,DNF,LAFONT CANDICE,UC PONTCHARRA GRESIVAUDAN,Féminines

@@ -1,26 +1,26 @@
-,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
-0,False,False,-1,01,MELEZE Jean-Philippe,Sud Grésivaudan Cyclisme Compétition,Ufolep2
-1,False,False,-1,02,MOREL Philippe,Chablais Leman Sport Organisation,Ufolep2
-2,False,False,159,03,LALLEMENT ANTOINE,UC VOIRONNAISE,Ufolep2
-3,False,False,82,04,MONGE NICOLAS,LE FONTANIL CYCLISME,Ufolep2
-4,False,False,-1,05,JACQUEMOD Jean-Noël,ASPES,Ufolep2
-5,False,False,-1,06,MOREL Maxime,Chablais Leman Sport Organisation,Ufolep2
-6,False,False,-1,07,CONTI Frédéric,La Motte-Servolex Cyclisme,Ufolep2
-7,False,False,-1,08,AMAND Michael,La Motte-Servolex Cyclisme,Ufolep2
-8,False,False,-1,09,LEMAIGRE Théo,GMC38-EF,Ufolep2
-9,False,False,-1,10,LUCAS Jacques,Team Jallet Auto,Ufolep2
-10,False,False,78,11,LISI SAMUELE,LE FONTANIL CYCLISME,Ufolep2
-11,False,False,-1,12,PAQUET Dominique,UC Rives,Ufolep2
-12,False,False,-1,13,MÉLÈZE Frédéric,Sud Grésivaudan Cyclisme Compétition,Ufolep2
-13,False,False,-1,14,RECORDON Paul,UC Culoz Belley,Ufolep2
-14,False,False,-1,15,D'ALU Christophe,Chambery Cyclisme Compétition,Ufolep2
-15,False,False,-1,16,LEDEUIL Victor,----,Ufolep2
-16,False,False,-1,17,DUCAL Gilles,La Motte-Servolex Cyclisme,Ufolep2
-17,False,False,-1,18,JALLIFFIER-TALMAT Thomas,Team Vercors,Ufolep2
-18,False,False,80,19,MAZZA FABRICE,LE FONTANIL CYCLISME,Ufolep2
-19,False,False,-1,20,JALLIFFIER-TALMAT Patrice,Team Vercors,Ufolep2
-20,False,False,-1,21,BARTHÉLEMY Yann,Sud Grésivaudan Cyclisme Compétition,Ufolep2
-21,False,False,56,DNF,LORIGEON FABIEN,LA TRONCHE VELO SPORT,Ufolep2
-22,False,False,-1,DNF,DUCROS Valentin,Chambery Cyclisme Compétition,Ufolep2
-23,False,False,-1,DNS,MAINGOT Alexandre,Lac Alliance Cycliste,Ufolep2
-24,False,False,-1,DNS,TRUPPA Kévin,Lac Alliance Cycliste,Ufolep2
+,DATE,JEUNE,FEMME,COUREUR,RANG,NOM,CLUB,CAT
+0,2023-01-01,False,False,-1,01,MELEZE Jean-Philippe,Sud Grésivaudan Cyclisme Compétition,Ufolep2
+1,2023-01-01,False,False,-1,02,MOREL Philippe,Chablais Leman Sport Organisation,Ufolep2
+2,2024-03-21,False,False,159,03,LALLEMENT ANTOINE,UC VOIRONNAISE,Ufolep2
+3,2024-01-15,False,False,82,04,MONGE NICOLAS,LE FONTANIL CYCLISME,Ufolep2
+4,2023-01-01,False,False,-1,05,JACQUEMOD Jean-Noël,ASPES,Ufolep2
+5,2023-01-01,False,False,-1,06,MOREL Maxime,Chablais Leman Sport Organisation,Ufolep2
+6,2023-01-01,False,False,-1,07,CONTI Frédéric,La Motte-Servolex Cyclisme,Ufolep2
+7,2023-01-01,False,False,-1,08,AMAND Michael,La Motte-Servolex Cyclisme,Ufolep2
+8,2023-01-01,False,False,-1,09,LEMAIGRE Théo,GMC38-EF,Ufolep2
+9,2023-01-01,False,False,-1,10,LUCAS Jacques,Team Jallet Auto,Ufolep2
+10,2024-01-15,False,False,78,11,LISI SAMUELE,LE FONTANIL CYCLISME,Ufolep2
+11,2023-01-01,False,False,-1,12,PAQUET Dominique,UC Rives,Ufolep2
+12,2023-01-01,False,False,-1,13,MÉLÈZE Frédéric,Sud Grésivaudan Cyclisme Compétition,Ufolep2
+13,2023-01-01,False,False,-1,14,RECORDON Paul,UC Culoz Belley,Ufolep2
+14,2023-01-01,False,False,-1,15,D'ALU Christophe,Chambery Cyclisme Compétition,Ufolep2
+15,2023-01-01,False,False,-1,16,LEDEUIL Victor,----,Ufolep2
+16,2023-01-01,False,False,-1,17,DUCAL Gilles,La Motte-Servolex Cyclisme,Ufolep2
+17,2023-01-01,False,False,-1,18,JALLIFFIER-TALMAT Thomas,Team Vercors,Ufolep2
+18,2024-01-15,False,False,80,19,MAZZA FABRICE,LE FONTANIL CYCLISME,Ufolep2
+19,2023-01-01,False,False,-1,20,JALLIFFIER-TALMAT Patrice,Team Vercors,Ufolep2
+20,2023-01-01,False,False,-1,21,BARTHÉLEMY Yann,Sud Grésivaudan Cyclisme Compétition,Ufolep2
+21,2024-02-05,False,False,56,DNF,LORIGEON FABIEN,LA TRONCHE VELO SPORT,Ufolep2
+22,2023-01-01,False,False,-1,DNF,DUCROS Valentin,Chambery Cyclisme Compétition,Ufolep2
+23,2023-01-01,False,False,-1,DNS,MAINGOT Alexandre,Lac Alliance Cycliste,Ufolep2
+24,2023-01-01,False,False,-1,DNS,TRUPPA Kévin,Lac Alliance Cycliste,Ufolep2
