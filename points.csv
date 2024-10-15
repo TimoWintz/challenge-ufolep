@@ -8,25 +8,26 @@
 11,MARCHAIS ALEXANDRE,False,False,Cyclocross du Mouillat,12,5,1,LE FONTANIL CYCLISME
 15,SOLA QUENTIN,False,False,Cyclocross du Mouillat,16,4,1,LE FONTANIL CYCLISME
 20,DOHEN CHRISTOPHE,False,False,Cyclocross du Mouillat,DNS,0,0,CYCLO CLUB DE GIERES
-10,TEIRLYNCK GAETAN,True,False,Grand Prix Cyclespace,11,5,1,VC TURRIPINOIS
-4,BUSSCHAERT LUCIE,True,True,Grand Prix Cyclespace,5,5,1,VC TURRIPINOIS
-5,TEIRLYNCK LEONIE,True,True,Grand Prix Cyclespace,6,4,1,VC TURRIPINOIS
-12,SELIN ELODIE,True,True,Grand Prix Cyclespace,13,3,1,VC TURRIPINOIS
 0,BOUVIER MANON,False,True,Grand Prix Cyclespace,01,5,1,UC PONTCHARRA GRESIVAUDAN
 1,SEVOZ LAVERDURE CELIA,False,True,Grand Prix Cyclespace,02,4,1,UC VOIRONNAISE
 8,SELIN KARINE,False,True,Grand Prix Cyclespace,09,3,1,VC TURRIPINOIS
 9,LAFONT CANDICE,False,True,Grand Prix Cyclespace,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
-6,LEDAC PIERRE,False,False,Grand Prix Cyclespace,07,5,1,LA TRONCHE VELO SPORT
-27,FLANDRIN ALEXANDRE,False,False,Grand Prix Cyclespace,28,4,1,UC PONTCHARRA GRESIVAUDAN
-29,BRONDEX MALO,False,False,Grand Prix Cyclespace,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
-30,CHAUVEL YANN,False,False,Grand Prix Cyclespace,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
-31,MELINU JEROME,False,False,Grand Prix Cyclespace,DNF,0,1,LE FONTANIL CYCLISME
-35,WINTZ TIMOTHEE,False,False,Grand Prix Cyclespace,DNS,0,0,ALPIN'S WHEEL TEAM
 2,LALLEMENT ANTOINE,False,False,Grand Prix Cyclespace,03,5,1,UC VOIRONNAISE
 3,MONGE NICOLAS,False,False,Grand Prix Cyclespace,04,4,1,LE FONTANIL CYCLISME
 10,LISI SAMUELE,False,False,Grand Prix Cyclespace,11,3,1,LE FONTANIL CYCLISME
 18,MAZZA FABRICE,False,False,Grand Prix Cyclespace,19,2,1,LE FONTANIL CYCLISME
 21,LORIGEON FABIEN,False,False,Grand Prix Cyclespace,DNF,0,1,LA TRONCHE VELO SPORT
+0,VIAL JACQUES,False,False,Grand Prix Cyclespace,1,5,1,SCAL ECHIROLLES
+2,LOUPIEN VINCENT,False,False,Grand Prix Cyclespace,3,4,1,CYCLO CLUB DE GIERES
+3,ALESSANDRI DAMIEN,False,False,Grand Prix Cyclespace,4,3,1,TEAM 3 MASSIFS
+4,GLENAZ LAURENT,False,False,Grand Prix Cyclespace,5,2,1,SCAL ECHIROLLES
+5,RAMBAUD JULIEN,False,False,Grand Prix Cyclespace,6,1,1,TEAM 3 MASSIFS
+6,LIBERT XAVIER,False,False,Grand Prix Cyclespace,7,0,1,UC VOIRONNAISE
+7,CHANEL OLIVIER,False,False,Grand Prix Cyclespace,8,0,1,VC TURRIPINOIS
+8,CARTIER MILLON RAYMOND,False,False,Grand Prix Cyclespace,9,0,1,UC PONTCHARRA GRESIVAUDAN
+9,BUISSON GREGORY,False,False,Grand Prix Cyclespace,10,0,1,UC PONTCHARRA GRESIVAUDAN
+10,VIAL FABRICE,False,False,Grand Prix Cyclespace,11,0,1,CYCLO CLUB DE GIERES
+11,EMERY VINCENT,False,False,Grand Prix Cyclespace,12,0,1,SCAL ECHIROLLES
 0,COLOTTI JULIEN,False,False,Grand Prix Cyclespace,01,5,1,TEAM 3 MASSIFS
 1,RIPPERT VALENTIN,False,False,Grand Prix Cyclespace,02,4,1,UC PONTCHARRA GRESIVAUDAN
 2,SEVOZ ARNAUD,False,False,Grand Prix Cyclespace,03,3,1,UC VOIRONNAISE
@@ -53,39 +54,41 @@
 30,CHIODI MICHEL,False,False,Grand Prix Cyclespace,31,0,1,UC PONTCHARRA GRESIVAUDAN
 31,BUISINE ARTHUR,False,False,Grand Prix Cyclespace,32,0,1,UC PONTCHARRA GRESIVAUDAN
 32,GIANNONE JOSEPH,False,False,Grand Prix Cyclespace,DNF,0,1,UC VOIRONNAISE
-0,VIAL JACQUES,False,False,Grand Prix Cyclespace,1,5,1,SCAL ECHIROLLES
-2,LOUPIEN VINCENT,False,False,Grand Prix Cyclespace,3,4,1,CYCLO CLUB DE GIERES
-3,ALESSANDRI DAMIEN,False,False,Grand Prix Cyclespace,4,3,1,TEAM 3 MASSIFS
-4,GLENAZ LAURENT,False,False,Grand Prix Cyclespace,5,2,1,SCAL ECHIROLLES
-5,RAMBAUD JULIEN,False,False,Grand Prix Cyclespace,6,1,1,TEAM 3 MASSIFS
-6,LIBERT XAVIER,False,False,Grand Prix Cyclespace,7,0,1,UC VOIRONNAISE
-7,CHANEL OLIVIER,False,False,Grand Prix Cyclespace,8,0,1,VC TURRIPINOIS
-8,CARTIER MILLON RAYMOND,False,False,Grand Prix Cyclespace,9,0,1,UC PONTCHARRA GRESIVAUDAN
-9,BUISSON GREGORY,False,False,Grand Prix Cyclespace,10,0,1,UC PONTCHARRA GRESIVAUDAN
-10,VIAL FABRICE,False,False,Grand Prix Cyclespace,11,0,1,CYCLO CLUB DE GIERES
-11,EMERY VINCENT,False,False,Grand Prix Cyclespace,12,0,1,SCAL ECHIROLLES
+10,TEIRLYNCK GAETAN,True,False,Grand Prix Cyclespace,11,5,1,VC TURRIPINOIS
+4,BUSSCHAERT LUCIE,True,True,Grand Prix Cyclespace,5,5,1,VC TURRIPINOIS
+5,TEIRLYNCK LEONIE,True,True,Grand Prix Cyclespace,6,4,1,VC TURRIPINOIS
+12,SELIN ELODIE,True,True,Grand Prix Cyclespace,13,3,1,VC TURRIPINOIS
+6,LEDAC PIERRE,False,False,Grand Prix Cyclespace,07,5,1,LA TRONCHE VELO SPORT
+27,FLANDRIN ALEXANDRE,False,False,Grand Prix Cyclespace,28,4,1,UC PONTCHARRA GRESIVAUDAN
+29,BRONDEX MALO,False,False,Grand Prix Cyclespace,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
+30,CHAUVEL YANN,False,False,Grand Prix Cyclespace,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
+31,MELINU JEROME,False,False,Grand Prix Cyclespace,DNF,0,1,LE FONTANIL CYCLISME
+35,WINTZ TIMOTHEE,False,False,Grand Prix Cyclespace,DNS,0,0,ALPIN'S WHEEL TEAM
+6,TEIRLYNCK GAETAN,True,False,Grand Prix d'Oyeu - Burcin,DNF,0,1,VC TURRIPINOIS
 0,TEIRLYNCK LEONIE,True,True,Grand Prix d'Oyeu - Burcin,1,5,1,VC TURRIPINOIS
 2,BUSSCHAERT LUCIE,True,True,Grand Prix d'Oyeu - Burcin,3,4,1,VC TURRIPINOIS
+0,SEVOZ LAVERDURE CELIA,False,True,Grand Prix d'Oyeu - Burcin,1,5,1,UC VOIRONNAISE
+2,ARNAUD AGATHE,False,True,Grand Prix d'Oyeu - Burcin,3,4,1,CYCLO CLUB DE GIERES
+5,LAFONT CANDICE,False,True,Grand Prix d'Oyeu - Burcin,NC,0,1,UC PONTCHARRA GRESIVAUDAN
+7,CANTAGALLO JULIE,False,True,Grand Prix d'Oyeu - Burcin,DNS,0,0,TEAM 3 MASSIFS
 1,SELIN LOIC,True,False,Grand Prix d'Oyeu - Burcin,2,5,1,UC VOIRONNAISE
-6,TEIRLYNCK GAETAN,True,False,Grand Prix d'Oyeu - Burcin,DNF,0,1,VC TURRIPINOIS
-1,FEODOROFF ARNAUD,False,False,Grand Prix d'Oyeu - Burcin,2,5,1,LA TRONCHE VELO SPORT
-3,LEDAC PIERRE,False,False,Grand Prix d'Oyeu - Burcin,4,4,1,LA TRONCHE VELO SPORT
-17,MELINU JEROME,False,False,Grand Prix d'Oyeu - Burcin,18,3,1,LE FONTANIL CYCLISME
-21,CHAUVEL YANN,False,False,Grand Prix d'Oyeu - Burcin,22,2,1,UC PONTCHARRA GRESIVAUDAN
-22,RIBEZZI THOMAS,False,False,Grand Prix d'Oyeu - Burcin,23,1,1,LE FONTANIL CYCLISME
-30,HEURARD ANDREA,False,False,Grand Prix d'Oyeu - Burcin,33,0,1,TEAM 3 MASSIFS
-32,BERNABE AURELIEN,False,False,Grand Prix d'Oyeu - Burcin,35,0,1,SCAL ECHIROLLES
-35,EXCOFFON NICOLAS,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,TEAM 3 MASSIFS
-36,FLANDRIN ALEXANDRE,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC PONTCHARRA GRESIVAUDAN
-45,BRONDEX MALO,False,False,Grand Prix d'Oyeu - Burcin,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
-0,LORIGEON FABIEN,False,False,Grand Prix d'Oyeu - Burcin,1,5,1,LA TRONCHE VELO SPORT
-4,SEITE ALAIN,False,False,Grand Prix d'Oyeu - Burcin,5,4,1,TEAM 3 MASSIFS
-5,LISI SAMUELE,False,False,Grand Prix d'Oyeu - Burcin,6,3,1,LE FONTANIL CYCLISME
-11,PIGNEDE PIERRE,False,False,Grand Prix d'Oyeu - Burcin,12,2,1,CYCLO CLUB DE GIERES
-12,MAZZA FABRICE,False,False,Grand Prix d'Oyeu - Burcin,13,1,1,LE FONTANIL CYCLISME
-17,PINTUS JULIEN,False,False,Grand Prix d'Oyeu - Burcin,DNF,0,1,TEAM 3 MASSIFS
-19,MONGE NICOLAS,False,False,Grand Prix d'Oyeu - Burcin,DNS,0,0,LE FONTANIL CYCLISME
-20,NORAZ FLORENT,False,False,Grand Prix d'Oyeu - Burcin,DNS,0,0,UC VOIRONNAISE
+0,GUILLERMIN ROLAND,False,False,Grand Prix d'Oyeu - Burcin,1,5,1,UC RIVES
+1,LOUPIEN VINCENT,False,False,Grand Prix d'Oyeu - Burcin,2,4,1,CYCLO CLUB DE GIERES
+2,VIAL JACQUES,False,False,Grand Prix d'Oyeu - Burcin,3,3,1,SCAL ECHIROLLES
+3,BERNABE BRUNO,False,False,Grand Prix d'Oyeu - Burcin,4,2,1,SCAL ECHIROLLES
+4,HEURARD PHILIPPE,False,False,Grand Prix d'Oyeu - Burcin,5,1,1,TEAM 3 MASSIFS
+5,CONTAL GILBERT,False,False,Grand Prix d'Oyeu - Burcin,6,0,1,UC RIVES
+6,GLENAZ LAURENT,False,False,Grand Prix d'Oyeu - Burcin,7,0,1,SCAL ECHIROLLES
+7,VIAL FABRICE,False,False,Grand Prix d'Oyeu - Burcin,8,0,1,CYCLO CLUB DE GIERES
+8,CARUELLE FLORENT,False,False,Grand Prix d'Oyeu - Burcin,9,0,1,TEAM 3 MASSIFS
+9,CARTIER MILLON RAYMOND,False,False,Grand Prix d'Oyeu - Burcin,10,0,1,UC PONTCHARRA GRESIVAUDAN
+10,MEYSSONNIER BERNARD,False,False,Grand Prix d'Oyeu - Burcin,11,0,1,CYCLO CLUB DE GIERES
+11,LIARD DAVID,False,False,Grand Prix d'Oyeu - Burcin,12,0,1,ST CLAIR DE LA TOUR ETOILE CYCLISTE
+12,LIBERT XAVIER,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC VOIRONNAISE
+13,QUETIER YOANN,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC VOIRONNAISE
+14,BESSARD JEAN LUC,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,CYCLO CLUB DE GIERES
+15,CHANEL OLIVIER,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,VC TURRIPINOIS
+16,VALERO JESUS,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC RIVES
 0,PARMENTIER VICTOR,False,False,Grand Prix d'Oyeu - Burcin,1,5,1,TEAM 3 MASSIFS
 1,RIPPERT VALENTIN,False,False,Grand Prix d'Oyeu - Burcin,2,4,1,UC PONTCHARRA GRESIVAUDAN
 2,GATEAUX DAMIEN,False,False,Grand Prix d'Oyeu - Burcin,3,3,1,JARRIE CHAMP SUR DRAC CYCLISME
@@ -118,35 +121,24 @@
 50,SEVOZ ARNAUD,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC VOIRONNAISE
 51,VALERO ANGELIQUE,False,True,Grand Prix d'Oyeu - Burcin,NC,0,1,LE FONTANIL CYCLISME
 54,TODOROFF MICHAEL,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,TEAM 3 MASSIFS
-0,GUILLERMIN ROLAND,False,False,Grand Prix d'Oyeu - Burcin,1,5,1,UC RIVES
-1,LOUPIEN VINCENT,False,False,Grand Prix d'Oyeu - Burcin,2,4,1,CYCLO CLUB DE GIERES
-2,VIAL JACQUES,False,False,Grand Prix d'Oyeu - Burcin,3,3,1,SCAL ECHIROLLES
-3,BERNABE BRUNO,False,False,Grand Prix d'Oyeu - Burcin,4,2,1,SCAL ECHIROLLES
-4,HEURARD PHILIPPE,False,False,Grand Prix d'Oyeu - Burcin,5,1,1,TEAM 3 MASSIFS
-5,CONTAL GILBERT,False,False,Grand Prix d'Oyeu - Burcin,6,0,1,UC RIVES
-6,GLENAZ LAURENT,False,False,Grand Prix d'Oyeu - Burcin,7,0,1,SCAL ECHIROLLES
-7,VIAL FABRICE,False,False,Grand Prix d'Oyeu - Burcin,8,0,1,CYCLO CLUB DE GIERES
-8,CARUELLE FLORENT,False,False,Grand Prix d'Oyeu - Burcin,9,0,1,TEAM 3 MASSIFS
-9,CARTIER MILLON RAYMOND,False,False,Grand Prix d'Oyeu - Burcin,10,0,1,UC PONTCHARRA GRESIVAUDAN
-10,MEYSSONNIER BERNARD,False,False,Grand Prix d'Oyeu - Burcin,11,0,1,CYCLO CLUB DE GIERES
-11,LIARD DAVID,False,False,Grand Prix d'Oyeu - Burcin,12,0,1,ST CLAIR DE LA TOUR ETOILE CYCLISTE
-12,LIBERT XAVIER,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC VOIRONNAISE
-13,QUETIER YOANN,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC VOIRONNAISE
-14,BESSARD JEAN LUC,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,CYCLO CLUB DE GIERES
-15,CHANEL OLIVIER,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,VC TURRIPINOIS
-16,VALERO JESUS,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC RIVES
-0,SEVOZ LAVERDURE CELIA,False,True,Grand Prix d'Oyeu - Burcin,1,5,1,UC VOIRONNAISE
-2,ARNAUD AGATHE,False,True,Grand Prix d'Oyeu - Burcin,3,4,1,CYCLO CLUB DE GIERES
-5,LAFONT CANDICE,False,True,Grand Prix d'Oyeu - Burcin,NC,0,1,UC PONTCHARRA GRESIVAUDAN
-7,CANTAGALLO JULIE,False,True,Grand Prix d'Oyeu - Burcin,DNS,0,0,TEAM 3 MASSIFS
-0,RIFLADE THEO,False,False,Grand Prix de Cras,1,5,1,TEAM 3 MASSIFS
-3,LEDAC PIERRE,False,False,Grand Prix de Cras,4,4,1,LA TRONCHE VELO SPORT
-4,BERNABE AURELIEN,False,False,Grand Prix de Cras,5,3,1,SCAL ECHIROLLES
-5,VIDE NICOLAS,False,False,Grand Prix de Cras,6,2,1,LA TRONCHE VELO SPORT
-6,WINTZ TIMOTHEE,False,False,Grand Prix de Cras,7,1,1,ALPIN'S WHEEL TEAM
-10,MELINU JEROME,False,False,Grand Prix de Cras,11,0,1,LE FONTANIL CYCLISME
-11,ANGOT ANTOINE,False,False,Grand Prix de Cras,12,0,1,LE FONTANIL CYCLISME
-12,RIBEZZI THOMAS,False,False,Grand Prix de Cras,13,0,1,LE FONTANIL CYCLISME
+1,FEODOROFF ARNAUD,False,False,Grand Prix d'Oyeu - Burcin,2,5,1,LA TRONCHE VELO SPORT
+3,LEDAC PIERRE,False,False,Grand Prix d'Oyeu - Burcin,4,4,1,LA TRONCHE VELO SPORT
+17,MELINU JEROME,False,False,Grand Prix d'Oyeu - Burcin,18,3,1,LE FONTANIL CYCLISME
+21,CHAUVEL YANN,False,False,Grand Prix d'Oyeu - Burcin,22,2,1,UC PONTCHARRA GRESIVAUDAN
+22,RIBEZZI THOMAS,False,False,Grand Prix d'Oyeu - Burcin,23,1,1,LE FONTANIL CYCLISME
+30,HEURARD ANDREA,False,False,Grand Prix d'Oyeu - Burcin,33,0,1,TEAM 3 MASSIFS
+32,BERNABE AURELIEN,False,False,Grand Prix d'Oyeu - Burcin,35,0,1,SCAL ECHIROLLES
+35,EXCOFFON NICOLAS,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,TEAM 3 MASSIFS
+36,FLANDRIN ALEXANDRE,False,False,Grand Prix d'Oyeu - Burcin,NC,0,1,UC PONTCHARRA GRESIVAUDAN
+45,BRONDEX MALO,False,False,Grand Prix d'Oyeu - Burcin,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
+0,LORIGEON FABIEN,False,False,Grand Prix d'Oyeu - Burcin,1,5,1,LA TRONCHE VELO SPORT
+4,SEITE ALAIN,False,False,Grand Prix d'Oyeu - Burcin,5,4,1,TEAM 3 MASSIFS
+5,LISI SAMUELE,False,False,Grand Prix d'Oyeu - Burcin,6,3,1,LE FONTANIL CYCLISME
+11,PIGNEDE PIERRE,False,False,Grand Prix d'Oyeu - Burcin,12,2,1,CYCLO CLUB DE GIERES
+12,MAZZA FABRICE,False,False,Grand Prix d'Oyeu - Burcin,13,1,1,LE FONTANIL CYCLISME
+17,PINTUS JULIEN,False,False,Grand Prix d'Oyeu - Burcin,DNF,0,1,TEAM 3 MASSIFS
+19,MONGE NICOLAS,False,False,Grand Prix d'Oyeu - Burcin,DNS,0,0,LE FONTANIL CYCLISME
+20,NORAZ FLORENT,False,False,Grand Prix d'Oyeu - Burcin,DNS,0,0,UC VOIRONNAISE
 2,LORIGEON FABIEN,False,False,Grand Prix de Cras,3,5,1,LA TRONCHE VELO SPORT
 3,SEITE ALAIN,False,False,Grand Prix de Cras,4,4,1,TEAM 3 MASSIFS
 7,PIGNEDE PIERRE,False,False,Grand Prix de Cras,8,3,1,CYCLO CLUB DE GIERES
@@ -155,6 +147,27 @@
 12,NORAZ FLORENT,False,False,Grand Prix de Cras,13,0,1,UC VOIRONNAISE
 14,SOURIMANT NICOLAS,False,False,Grand Prix de Cras,DNS,0,0,LE FONTANIL CYCLISME
 15,VEREECKE GUILLAUME,False,False,Grand Prix de Cras,DNS,0,0,LE FONTANIL CYCLISME
+0,GUILLERMIN ROLAND,False,False,Grand Prix de Cras,1,5,1,UC RIVES
+1,ALESSANDRI DAMIEN,False,False,Grand Prix de Cras,2,4,1,TEAM 3 MASSIFS
+2,BERNABE BRUNO,False,False,Grand Prix de Cras,3,3,1,SCAL ECHIROLLES
+3,VIAL JACQUES,False,False,Grand Prix de Cras,4,2,1,SCAL ECHIROLLES
+4,BUISSON GREGORY,False,False,Grand Prix de Cras,5,1,1,UC PONTCHARRA GRESIVAUDAN
+5,GLENAZ LAURENT,False,False,Grand Prix de Cras,6,0,1,SCAL ECHIROLLES
+6,CONTAL GILBERT,False,False,Grand Prix de Cras,7,0,1,UC RIVES
+7,CARUELLE FLORENT,False,False,Grand Prix de Cras,8,0,1,TEAM 3 MASSIFS
+8,LOUPIEN VINCENT,False,False,Grand Prix de Cras,9,0,1,CYCLO CLUB DE GIERES
+10,VIAL FABRICE,False,False,Grand Prix de Cras,11,0,1,CYCLO CLUB DE GIERES
+11,VALERO JESUS,False,False,Grand Prix de Cras,12,0,1,UC RIVES
+12,CARTIER MILLON RAYMOND,False,False,Grand Prix de Cras,13,0,1,UC PONTCHARRA GRESIVAUDAN
+13,CHANEL OLIVIER,False,False,Grand Prix de Cras,DNS,0,0,VC TURRIPINOIS
+0,RIFLADE THEO,False,False,Grand Prix de Cras,1,5,1,TEAM 3 MASSIFS
+3,LEDAC PIERRE,False,False,Grand Prix de Cras,4,4,1,LA TRONCHE VELO SPORT
+4,BERNABE AURELIEN,False,False,Grand Prix de Cras,5,3,1,SCAL ECHIROLLES
+5,VIDE NICOLAS,False,False,Grand Prix de Cras,6,2,1,LA TRONCHE VELO SPORT
+6,WINTZ TIMOTHEE,False,False,Grand Prix de Cras,7,1,1,ALPIN'S WHEEL TEAM
+10,MELINU JEROME,False,False,Grand Prix de Cras,11,0,1,LE FONTANIL CYCLISME
+11,ANGOT ANTOINE,False,False,Grand Prix de Cras,12,0,1,LE FONTANIL CYCLISME
+12,RIBEZZI THOMAS,False,False,Grand Prix de Cras,13,0,1,LE FONTANIL CYCLISME
 0,RIPPERT VALENTIN,False,False,Grand Prix de Cras,1,5,1,UC PONTCHARRA GRESIVAUDAN
 1,COLOTTI JULIEN,False,False,Grand Prix de Cras,2,4,1,TEAM 3 MASSIFS
 2,LEIVA MARCON BENOIT,False,False,Grand Prix de Cras,3,3,1,VC PONTOIS
@@ -179,19 +192,6 @@
 30,DELECAMBRE YOHANN,False,False,Grand Prix de Cras,DNF,0,1,TEAM 3 MASSIFS
 31,GATEAUX DAMIEN,False,False,Grand Prix de Cras,DNF,0,1,JARRIE CHAMP SUR DRAC CYCLISME
 32,PIC GERARD,False,False,Grand Prix de Cras,DNF,0,1,LE FONTANIL CYCLISME
-0,GUILLERMIN ROLAND,False,False,Grand Prix de Cras,1,5,1,UC RIVES
-1,ALESSANDRI DAMIEN,False,False,Grand Prix de Cras,2,4,1,TEAM 3 MASSIFS
-2,BERNABE BRUNO,False,False,Grand Prix de Cras,3,3,1,SCAL ECHIROLLES
-3,VIAL JACQUES,False,False,Grand Prix de Cras,4,2,1,SCAL ECHIROLLES
-4,BUISSON GREGORY,False,False,Grand Prix de Cras,5,1,1,UC PONTCHARRA GRESIVAUDAN
-5,GLENAZ LAURENT,False,False,Grand Prix de Cras,6,0,1,SCAL ECHIROLLES
-6,CONTAL GILBERT,False,False,Grand Prix de Cras,7,0,1,UC RIVES
-7,CARUELLE FLORENT,False,False,Grand Prix de Cras,8,0,1,TEAM 3 MASSIFS
-8,LOUPIEN VINCENT,False,False,Grand Prix de Cras,9,0,1,CYCLO CLUB DE GIERES
-10,VIAL FABRICE,False,False,Grand Prix de Cras,11,0,1,CYCLO CLUB DE GIERES
-11,VALERO JESUS,False,False,Grand Prix de Cras,12,0,1,UC RIVES
-12,CARTIER MILLON RAYMOND,False,False,Grand Prix de Cras,13,0,1,UC PONTCHARRA GRESIVAUDAN
-13,CHANEL OLIVIER,False,False,Grand Prix de Cras,DNS,0,0,VC TURRIPINOIS
 4,VIDE NICOLAS,False,False,Grimpée du Col de Porte,5,5,1,LA TRONCHE VELO SPORT
 14,WINTZ TIMOTHEE,False,False,Grimpée du Col de Porte,15,4,1,ALPIN'S WHEEL TEAM
 28,CHAVANON ALISON,False,True,Grimpée du Col de Porte,29,5,1,TEAM 3 MASSIFS
@@ -219,17 +219,6 @@
 108,BESSARD JEAN LUC,False,False,Grimpée du Col de Porte,109,0,1,CYCLO CLUB DE GIERES
 109,MEYSSONNIER BERNARD,False,False,Grimpée du Col de Porte,110,0,1,CYCLO CLUB DE GIERES
 110,LA RIZZA SEBASTIEN,False,False,Grimpée du Col de Porte,111,0,1,LE FONTANIL CYCLISME
-0,SELIN LOIC,True,False,Notre Dame de l’Osier,1,5,1,UC VOIRONNAISE
-0,CHAUVEL YANN,False,False,Notre Dame de l’Osier,1,5,1,UC PONTCHARRA GRESIVAUDAN
-1,MORACCHIOLI THOMAS,False,False,Notre Dame de l’Osier,2,4,1,TEAM 3 MASSIFS
-0,RIFLADE THEO,False,False,Notre Dame de l’Osier,1,5,1,TEAM 3 MASSIFS
-1,HEURARD ANDREA,False,False,Notre Dame de l’Osier,2,4,1,TEAM 3 MASSIFS
-2,BERNABE AURELIEN,False,False,Notre Dame de l’Osier,3,3,1,SCAL ECHIROLLES
-3,MONGE NICOLAS,False,False,Notre Dame de l’Osier,4,2,1,LE FONTANIL CYCLISME
-4,DELETROY AXEL,False,False,Notre Dame de l’Osier,5,1,1,LE FONTANIL CYCLISME
-5,CHERY PAUL,False,False,Notre Dame de l’Osier,6,0,1,LE FONTANIL CYCLISME
-6,RIPPERT VALENTIN,False,False,Notre Dame de l’Osier,7,0,1,UC PONTCHARRA GRESIVAUDAN
-7,MICAS TITOUAN,False,False,Notre Dame de l’Osier,DNF,0,1,CYCLO CLUB DE GIERES
 0,VIDE NICOLAS,False,False,Notre Dame de l’Osier,1,5,1,LA TRONCHE VELO SPORT
 1,BLANCHIN MATHIEU,False,False,Notre Dame de l’Osier,2,4,1,TEAM VERCORS
 2,WINTZ TIMOTHEE,False,False,Notre Dame de l’Osier,3,3,1,ALPIN'S WHEEL TEAM
@@ -238,18 +227,14 @@
 5,VIAL WILLY,False,False,Notre Dame de l’Osier,6,0,1,LE FONTANIL CYCLISME
 6,MARCHAIS ALEXANDRE,False,False,Notre Dame de l’Osier,7,0,1,LE FONTANIL CYCLISME
 7,VUILLEMENOT VALENTIN,False,False,Notre Dame de l’Osier,DNF,0,1,TEAM 3 MASSIFS
-0,PIGNEDE PIERRE,False,False,Notre Dame de l’Osier,1,5,1,CYCLO CLUB DE GIERES
-1,COLOTTI JULIEN,False,False,Notre Dame de l’Osier,2,4,1,TEAM 3 MASSIFS
-2,DUPIN ALEXANDRE,False,False,Notre Dame de l’Osier,3,3,1,TEAM 3 MASSIFS
-3,BUISSON GREGORY,False,False,Notre Dame de l’Osier,4,2,1,UC PONTCHARRA GRESIVAUDAN
-4,UHRY GILLES,False,False,Notre Dame de l’Osier,5,1,1,TEAM 3 MASSIFS
-5,BUCCI GREGORY,False,False,Notre Dame de l’Osier,6,0,1,TEAM 3 MASSIFS
-0,LEDAC PIERRE,False,False,Notre Dame de l’Osier,1,5,1,LA TRONCHE VELO SPORT
-1,MAZZA FABRICE,False,False,Notre Dame de l’Osier,2,4,1,LE FONTANIL CYCLISME
-2,LORIGEON FABIEN,False,False,Notre Dame de l’Osier,3,3,1,LA TRONCHE VELO SPORT
-3,GIANNONE JOSEPH,False,False,Notre Dame de l’Osier,4,2,1,UC VOIRONNAISE
-4,HEURARD PHILIPPE,False,False,Notre Dame de l’Osier,5,1,1,TEAM 3 MASSIFS
-5,GLENAZ LAURENT,False,False,Notre Dame de l’Osier,6,0,1,SCAL ECHIROLLES
+0,RIFLADE THEO,False,False,Notre Dame de l’Osier,1,5,1,TEAM 3 MASSIFS
+1,HEURARD ANDREA,False,False,Notre Dame de l’Osier,2,4,1,TEAM 3 MASSIFS
+2,BERNABE AURELIEN,False,False,Notre Dame de l’Osier,3,3,1,SCAL ECHIROLLES
+3,MONGE NICOLAS,False,False,Notre Dame de l’Osier,4,2,1,LE FONTANIL CYCLISME
+4,DELETROY AXEL,False,False,Notre Dame de l’Osier,5,1,1,LE FONTANIL CYCLISME
+5,CHERY PAUL,False,False,Notre Dame de l’Osier,6,0,1,LE FONTANIL CYCLISME
+6,RIPPERT VALENTIN,False,False,Notre Dame de l’Osier,7,0,1,UC PONTCHARRA GRESIVAUDAN
+7,MICAS TITOUAN,False,False,Notre Dame de l’Osier,DNF,0,1,CYCLO CLUB DE GIERES
 0,SEITE ALAIN,False,False,Notre Dame de l’Osier,1,5,1,TEAM 3 MASSIFS
 1,QUERNIARD PIERRE,False,False,Notre Dame de l’Osier,2,4,1,UC VOIRONNAISE
 2,AGUD THIERRY,False,False,Notre Dame de l’Osier,3,3,1,ALPIN'S WHEEL TEAM
@@ -265,15 +250,35 @@
 12,MEYSSONNIER BERNARD,False,False,Notre Dame de l’Osier,13,0,1,CYCLO CLUB DE GIERES
 13,HORAUD PATRICE,False,False,Notre Dame de l’Osier,14,0,1,LA TRONCHE VELO SPORT
 14,CARTIER MILLON RAYMOND,False,False,Notre Dame de l’Osier,15,0,1,UC PONTCHARRA GRESIVAUDAN
+0,PIGNEDE PIERRE,False,False,Notre Dame de l’Osier,1,5,1,CYCLO CLUB DE GIERES
+1,COLOTTI JULIEN,False,False,Notre Dame de l’Osier,2,4,1,TEAM 3 MASSIFS
+2,DUPIN ALEXANDRE,False,False,Notre Dame de l’Osier,3,3,1,TEAM 3 MASSIFS
+3,BUISSON GREGORY,False,False,Notre Dame de l’Osier,4,2,1,UC PONTCHARRA GRESIVAUDAN
+4,UHRY GILLES,False,False,Notre Dame de l’Osier,5,1,1,TEAM 3 MASSIFS
+5,BUCCI GREGORY,False,False,Notre Dame de l’Osier,6,0,1,TEAM 3 MASSIFS
 0,ARNAUD AGATHE,False,True,Notre Dame de l’Osier,1,5,1,CYCLO CLUB DE GIERES
 1,VALERO ANGELIQUE,False,True,Notre Dame de l’Osier,2,5,1,LE FONTANIL CYCLISME
 2,HERTAULT AGNES,False,True,Notre Dame de l’Osier,3,5,1,ALPIN'S WHEEL TEAM
 3,LAFONT CANDICE,False,True,Notre Dame de l’Osier,4,5,1,UC PONTCHARRA GRESIVAUDAN
+0,SELIN LOIC,True,False,Notre Dame de l’Osier,1,5,1,UC VOIRONNAISE
+0,CHAUVEL YANN,False,False,Notre Dame de l’Osier,1,5,1,UC PONTCHARRA GRESIVAUDAN
+1,MORACCHIOLI THOMAS,False,False,Notre Dame de l’Osier,2,4,1,TEAM 3 MASSIFS
+0,LEDAC PIERRE,False,False,Notre Dame de l’Osier,1,5,1,LA TRONCHE VELO SPORT
+1,MAZZA FABRICE,False,False,Notre Dame de l’Osier,2,4,1,LE FONTANIL CYCLISME
+2,LORIGEON FABIEN,False,False,Notre Dame de l’Osier,3,3,1,LA TRONCHE VELO SPORT
+3,GIANNONE JOSEPH,False,False,Notre Dame de l’Osier,4,2,1,UC VOIRONNAISE
+4,HEURARD PHILIPPE,False,False,Notre Dame de l’Osier,5,1,1,TEAM 3 MASSIFS
+5,GLENAZ LAURENT,False,False,Notre Dame de l’Osier,6,0,1,SCAL ECHIROLLES
 4,VIDE NICOLAS,False,False,Grimpée du Collet d’Allevard,5,5,1,LA TRONCHE VELO SPORT
 16,CHAUVEL YANN,False,False,Grimpée du Collet d’Allevard,17,4,1,UC PONTCHARRA GRESIVAUDAN
 31,PETITE PATRICE,False,False,Grimpée du Collet d’Allevard,32,5,1,UC PONTCHARRA GRESIVAUDAN
 37,BOUVIER THOMAS,False,False,Grimpée du Collet d’Allevard,38,4,1,UC PONTCHARRA GRESIVAUDAN
 33,LORIGEON FABIEN,False,False,Grimpée du Collet d’Allevard,34,5,1,LA TRONCHE VELO SPORT
+1,ALESSANDRI DAMIEN,False,False,Grimpée du col de la Morte,2,5,1,TEAM 3 MASSIFS
+2,GUILLERMIN ROLAND,False,False,Grimpée du col de la Morte,3,4,1,UC RIVES
+3,BUISSON GREGORY,False,False,Grimpée du col de la Morte,4,3,1,UC PONTCHARRA GRESIVAUDAN
+4,GIRARD GUY,False,False,Grimpée du col de la Morte,5,2,1,SCAL ECHIROLLES
+5,GLENAZ LAURENT,False,False,Grimpée du col de la Morte,6,1,1,SCAL ECHIROLLES
 1,RIFLADE THEO,False,False,Grimpée du col de la Morte,2,5,1,TEAM 3 MASSIFS
 2,HEURARD ANDREA,False,False,Grimpée du col de la Morte,3,4,1,TEAM 3 MASSIFS
 3,IVARS FLORENT,False,False,Grimpée du col de la Morte,4,3,1,VC PONTOIS
@@ -290,21 +295,29 @@
 7,LEONE MATTHIEU,False,False,Grimpée du col de la Morte,8,0,1,CYCLO CLUB DE GIERES
 8,BEDORA THOMAS,False,False,Grimpée du col de la Morte,9,0,1,SCAL ECHIROLLES
 9,CARTIER STEPHANE,False,False,Grimpée du col de la Morte,10,0,1,JARRIE CHAMP SUR DRAC CYCLISME
-1,ALESSANDRI DAMIEN,False,False,Grimpée du col de la Morte,2,5,1,TEAM 3 MASSIFS
-2,GUILLERMIN ROLAND,False,False,Grimpée du col de la Morte,3,4,1,UC RIVES
-3,BUISSON GREGORY,False,False,Grimpée du col de la Morte,4,3,1,UC PONTCHARRA GRESIVAUDAN
-4,GIRARD GUY,False,False,Grimpée du col de la Morte,5,2,1,SCAL ECHIROLLES
-5,GLENAZ LAURENT,False,False,Grimpée du col de la Morte,6,1,1,SCAL ECHIROLLES
-0,SELIN LOIC,True,False,Grand prix d'Andrevière,1,5,1,UC VOIRONNAISE
+0,RIPPERT VALENTIN,False,False,Grand prix d'Andrevière,1,5,1,UC PONTCHARRA GRESIVAUDAN
+1,SEITE ALAIN,False,False,Grand prix d'Andrevière,2,4,1,TEAM 3 MASSIFS
+2,LISI SAMUELE,False,False,Grand prix d'Andrevière,3,3,1,LE FONTANIL CYCLISME
+3,NORAZ FLORENT,False,False,Grand prix d'Andrevière,DNF,0,1,UC VOIRONNAISE
+0,ALESSANDRI DAMIEN,False,False,Grand prix d'Andrevière,1,5,1,TEAM 3 MASSIFS
+1,GUILLERMIN ROLAND,False,False,Grand prix d'Andrevière,2,4,1,UC RIVES
+2,HEURARD PHILIPPE,False,False,Grand prix d'Andrevière,3,3,1,TEAM 3 MASSIFS
+3,BERNABE BRUNO,False,False,Grand prix d'Andrevière,4,2,1,SCAL ECHIROLLES
+5,LA RIZZA SEBASTIEN,False,False,Grand prix d'Andrevière,6,1,1,LE FONTANIL CYCLISME
+6,RIBEZZI VALENTIN,False,False,Grand prix d'Andrevière,7,0,1,LE FONTANIL CYCLISME
+7,GIRARD GUY,False,False,Grand prix d'Andrevière,8,0,1,SCAL ECHIROLLES
+8,MEYSSONNIER BERNARD,False,False,Grand prix d'Andrevière,9,0,1,CYCLO CLUB DE GIERES
+9,CARUELLE FLORENT,False,False,Grand prix d'Andrevière,10,0,1,TEAM 3 MASSIFS
+10,GLENAZ LAURENT,False,False,Grand prix d'Andrevière,11,0,1,SCAL ECHIROLLES
+11,HURSON NICOLAS,False,False,Grand prix d'Andrevière,12,0,1,TEAM 3 MASSIFS
+12,DJATOUT KAMEL,False,False,Grand prix d'Andrevière,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
 1,RIFLADE THEO,False,False,Grand prix d'Andrevière,2,5,1,TEAM 3 MASSIFS
 3,LEDAC PIERRE,False,False,Grand prix d'Andrevière,4,4,1,LA TRONCHE VELO SPORT
 4,BERNABE AURELIEN,False,False,Grand prix d'Andrevière,5,3,1,SCAL ECHIROLLES
 5,HEURARD ANDREA,False,False,Grand prix d'Andrevière,6,2,1,TEAM 3 MASSIFS
 8,RIBEZZI THOMAS,False,False,Grand prix d'Andrevière,9,1,1,LE FONTANIL CYCLISME
-0,RIPPERT VALENTIN,False,False,Grand prix d'Andrevière,1,5,1,UC PONTCHARRA GRESIVAUDAN
-1,SEITE ALAIN,False,False,Grand prix d'Andrevière,2,4,1,TEAM 3 MASSIFS
-2,LISI SAMUELE,False,False,Grand prix d'Andrevière,3,3,1,LE FONTANIL CYCLISME
-3,NORAZ FLORENT,False,False,Grand prix d'Andrevière,DNF,0,1,UC VOIRONNAISE
+1,SEVOZ LAVERDURE CELIA,False,True,Grand prix d'Andrevière,2,5,1,UC VOIRONNAISE
+0,SELIN LOIC,True,False,Grand prix d'Andrevière,1,5,1,UC VOIRONNAISE
 0,DUPIN ALEXANDRE,False,False,Grand prix d'Andrevière,1,5,1,TEAM 3 MASSIFS
 1,VIAL WILLY,False,False,Grand prix d'Andrevière,2,4,1,LE FONTANIL CYCLISME
 2,CHERY PAUL,False,False,Grand prix d'Andrevière,3,3,1,LE FONTANIL CYCLISME
@@ -329,19 +342,6 @@
 29,QUERNIARD PIERRE,False,False,Grand prix d'Andrevière,DNS,0,0,UC VOIRONNAISE
 30,PETITE PATRICE,False,False,Grand prix d'Andrevière,DNS,0,0,UC PONTCHARRA GRESIVAUDAN
 31,LEIVA MARCON BENOIT,False,False,Grand prix d'Andrevière,DNS,0,0,VC PONTOIS
-0,ALESSANDRI DAMIEN,False,False,Grand prix d'Andrevière,1,5,1,TEAM 3 MASSIFS
-1,GUILLERMIN ROLAND,False,False,Grand prix d'Andrevière,2,4,1,UC RIVES
-2,HEURARD PHILIPPE,False,False,Grand prix d'Andrevière,3,3,1,TEAM 3 MASSIFS
-3,BERNABE BRUNO,False,False,Grand prix d'Andrevière,4,2,1,SCAL ECHIROLLES
-5,LA RIZZA SEBASTIEN,False,False,Grand prix d'Andrevière,6,1,1,LE FONTANIL CYCLISME
-6,RIBEZZI VALENTIN,False,False,Grand prix d'Andrevière,7,0,1,LE FONTANIL CYCLISME
-7,GIRARD GUY,False,False,Grand prix d'Andrevière,8,0,1,SCAL ECHIROLLES
-8,MEYSSONNIER BERNARD,False,False,Grand prix d'Andrevière,9,0,1,CYCLO CLUB DE GIERES
-9,CARUELLE FLORENT,False,False,Grand prix d'Andrevière,10,0,1,TEAM 3 MASSIFS
-10,GLENAZ LAURENT,False,False,Grand prix d'Andrevière,11,0,1,SCAL ECHIROLLES
-11,HURSON NICOLAS,False,False,Grand prix d'Andrevière,12,0,1,TEAM 3 MASSIFS
-12,DJATOUT KAMEL,False,False,Grand prix d'Andrevière,DNF,0,1,UC PONTCHARRA GRESIVAUDAN
-1,SEVOZ LAVERDURE CELIA,False,True,Grand prix d'Andrevière,2,5,1,UC VOIRONNAISE
 5,VIDE NICOLAS,False,False,Grimpée du Peuil,6,5,1,LA TRONCHE VELO SPORT
 13,IVARS FLORENT,False,False,Grimpée du Peuil,14,4,1,VC PONTOIS
 23,LEDAC PIERRE,False,False,Grimpée du Peuil,24,3,1,LA TRONCHE VELO SPORT
@@ -356,15 +356,17 @@
 51,GUILLERMIN ROLAND,False,False,Grimpée du Peuil,52,3,1,UC RIVES
 52,VIAL JACQUES,False,False,Grimpée du Peuil,53,2,1,SCAL ECHIROLLES
 54,GLENAZ LAURENT,False,False,Grimpée du Peuil,55,1,1,SCAL ECHIROLLES
-5,RIFLADE THEO,False,False,Grand prix du Versoud,6ème,5,1,TEAM 3 MASSIFS
-7,LEDAC PIERRE,False,False,Grand prix du Versoud,8ème,4,1,LA TRONCHE VELO SPORT
-9,VUILLEMENOT VALENTIN,False,False,Grand prix du Versoud,10ème,3,1,TEAM 3 MASSIFS
-12,BERNABE AURELIEN,False,False,Grand prix du Versoud,13ème,2,1,SCAL ECHIROLLES
-17,WINTZ TIMOTHEE,False,False,Grand prix du Versoud,18ème,1,1,ALPIN'S WHEEL TEAM
-25,OWEN LIAM,False,False,Grand prix du Versoud,26ème,0,1,UC PONTCHARRA GRESIVAUDAN
-3,PIGNEDE PIERRE,False,False,Grand prix du Versoud,4ème,5,1,CYCLO CLUB DE GIERES
-5,COLOTTI JULIEN,False,False,Grand prix du Versoud,6ème,4,1,TEAM 3 MASSIFS
-7,MONGE NICOLAS,False,False,Grand prix du Versoud,8ème,3,1,LE FONTANIL CYCLISME
+1,VIAL JACQUES,False,False,Grand prix du Versoud,2ème,5,1,SCAL ECHIROLLES
+2,ALESSANDRI DAMIEN,False,False,Grand prix du Versoud,3ème,4,1,TEAM 3 MASSIFS
+3,GLENAZ LAURENT,False,False,Grand prix du Versoud,4ème,3,1,SCAL ECHIROLLES
+4,HURSON NICOLAS,False,False,Grand prix du Versoud,5ème,2,1,TEAM 3 MASSIFS
+5,CARUELLE FLORENT,False,False,Grand prix du Versoud,6ème,1,1,TEAM 3 MASSIFS
+6,BERNABE BRUNO,False,False,Grand prix du Versoud,7ème,0,1,SCAL ECHIROLLES
+8,CARRE HERVE,False,False,Grand prix du Versoud,9ème,0,1,TEAM 3 MASSIFS
+9,VIAL FABRICE,False,False,Grand prix du Versoud,10ème,0,1,CYCLO CLUB DE GIERES
+10,DJATOUT KAMEL,False,False,Grand prix du Versoud,11ème,0,1,UC PONTCHARRA GRESIVAUDAN
+11,ANGOT LOIC,False,False,Grand prix du Versoud,12ème,0,1,LE FONTANIL CYCLISME
+12,BUISSON GREGORY,False,False,Grand prix du Versoud,13ème,0,1,UC PONTCHARRA GRESIVAUDAN
 1,DUPIN ALEXANDRE,False,False,Grand prix du Versoud,2ème,5,1,TEAM 3 MASSIFS
 2,RAJON TITOUAN,False,False,Grand prix du Versoud,3ème ,4,1,SCAL ECHIROLLES
 3,PARMENTIER VICTOR,False,False,Grand prix du Versoud,4ème ,3,1,TEAM 3 MASSIFS
@@ -381,30 +383,18 @@
 16,DENIS REMY,False,False,Grand prix du Versoud,17ème ,0,1,UC PONTCHARRA GRESIVAUDAN
 17,MERLO RAPHAEL,False,False,Grand prix du Versoud,18ème ,0,1,TEAM 3 MASSIFS
 19,DELETROY AXEL,False,False,Grand prix du Versoud,20ème ,0,1,LE FONTANIL CYCLISME
-1,VIAL JACQUES,False,False,Grand prix du Versoud,2ème,5,1,SCAL ECHIROLLES
-2,ALESSANDRI DAMIEN,False,False,Grand prix du Versoud,3ème,4,1,TEAM 3 MASSIFS
-3,GLENAZ LAURENT,False,False,Grand prix du Versoud,4ème,3,1,SCAL ECHIROLLES
-4,HURSON NICOLAS,False,False,Grand prix du Versoud,5ème,2,1,TEAM 3 MASSIFS
-5,CARUELLE FLORENT,False,False,Grand prix du Versoud,6ème,1,1,TEAM 3 MASSIFS
-6,BERNABE BRUNO,False,False,Grand prix du Versoud,7ème,0,1,SCAL ECHIROLLES
-8,CARRE HERVE,False,False,Grand prix du Versoud,9ème,0,1,TEAM 3 MASSIFS
-9,VIAL FABRICE,False,False,Grand prix du Versoud,10ème,0,1,CYCLO CLUB DE GIERES
-10,DJATOUT KAMEL,False,False,Grand prix du Versoud,11ème,0,1,UC PONTCHARRA GRESIVAUDAN
-11,ANGOT LOIC,False,False,Grand prix du Versoud,12ème,0,1,LE FONTANIL CYCLISME
-12,BUISSON GREGORY,False,False,Grand prix du Versoud,13ème,0,1,UC PONTCHARRA GRESIVAUDAN
+5,RIFLADE THEO,False,False,Grand prix du Versoud,6ème,5,1,TEAM 3 MASSIFS
+7,LEDAC PIERRE,False,False,Grand prix du Versoud,8ème,4,1,LA TRONCHE VELO SPORT
+9,VUILLEMENOT VALENTIN,False,False,Grand prix du Versoud,10ème,3,1,TEAM 3 MASSIFS
+12,BERNABE AURELIEN,False,False,Grand prix du Versoud,13ème,2,1,SCAL ECHIROLLES
+17,WINTZ TIMOTHEE,False,False,Grand prix du Versoud,18ème,1,1,ALPIN'S WHEEL TEAM
+25,OWEN LIAM,False,False,Grand prix du Versoud,26ème,0,1,UC PONTCHARRA GRESIVAUDAN
 0,ARNAUD AGATHE,False,True,Grand prix du Versoud,1er,5,1,CYCLO CLUB DE GIERES
 1,SEVOZ LAVERDURE CELIA,False,True,Grand prix du Versoud,2ème,4,1,UC VOIRONNAISE
 2,ILNICKA OCEANE,False,True,Grand prix du Versoud,3ème,3,1,SCAL ECHIROLLES
-0,WINTZ TIMOTHEE,False,False,Grimpée Murianette - Pinet d'Uriage,1,5,1,ALPIN'S WHEEL TEAM
-1,LEDAC PIERRE,False,False,Grimpée Murianette - Pinet d'Uriage,2,4,1,LA TRONCHE VELO SPORT
-2,IVARS FLORENT,False,False,Grimpée Murianette - Pinet d'Uriage,3,3,1,VC PONTOIS
-0,MAZZA FABRICE,False,False,Grimpée Murianette - Pinet d'Uriage,1,5,1,LE FONTANIL CYCLISME
-1,SUGNY LAURENT,False,False,Grimpée Murianette - Pinet d'Uriage,2,4,1,SCAL ECHIROLLES
-2,LORIGEON FABIEN,False,False,Grimpée Murianette - Pinet d'Uriage,3,3,1,LA TRONCHE VELO SPORT
-3,COLOTTI JULIEN,False,False,Grimpée Murianette - Pinet d'Uriage,4,2,1,TEAM 3 MASSIFS
-0,LEONE MATTHIEU,False,False,Grimpée Murianette - Pinet d'Uriage,1,5,1,CYCLO CLUB DE GIERES
-1,RAMOUSSE CHRISTOPHE,False,False,Grimpée Murianette - Pinet d'Uriage,2,4,1,CYCLO CLUB DE GIERES
-2,MARGUET ALINE,False,True,Grimpée Murianette - Pinet d'Uriage,3,3,1,ALPIN'S WHEEL TEAM
+3,PIGNEDE PIERRE,False,False,Grand prix du Versoud,4ème,5,1,CYCLO CLUB DE GIERES
+5,COLOTTI JULIEN,False,False,Grand prix du Versoud,6ème,4,1,TEAM 3 MASSIFS
+7,MONGE NICOLAS,False,False,Grand prix du Versoud,8ème,3,1,LE FONTANIL CYCLISME
 0,BUISSON GREGORY,False,False,Grimpée Murianette - Pinet d'Uriage,1,5,1,UC PONTCHARRA GRESIVAUDAN
 1,HERTAULT AGNES,False,True,Grimpée Murianette - Pinet d'Uriage,2,4,1,ALPIN'S WHEEL TEAM
 2,VIAL JACQUES,False,False,Grimpée Murianette - Pinet d'Uriage,3,3,1,SCAL ECHIROLLES
@@ -412,18 +402,25 @@
 4,GIRARD GUY,False,False,Grimpée Murianette - Pinet d'Uriage,5,1,1,SCAL ECHIROLLES
 5,CARRE HERVE,False,False,Grimpée Murianette - Pinet d'Uriage,6,5,1,TEAM 3 MASSIFS
 7,HORAUD PATRICE,False,False,Grimpée Murianette - Pinet d'Uriage,8,4,1,LA TRONCHE VELO SPORT
+0,LEONE MATTHIEU,False,False,Grimpée Murianette - Pinet d'Uriage,1,5,1,CYCLO CLUB DE GIERES
+1,RAMOUSSE CHRISTOPHE,False,False,Grimpée Murianette - Pinet d'Uriage,2,4,1,CYCLO CLUB DE GIERES
+2,MARGUET ALINE,False,True,Grimpée Murianette - Pinet d'Uriage,3,3,1,ALPIN'S WHEEL TEAM
+0,WINTZ TIMOTHEE,False,False,Grimpée Murianette - Pinet d'Uriage,1,5,1,ALPIN'S WHEEL TEAM
+1,LEDAC PIERRE,False,False,Grimpée Murianette - Pinet d'Uriage,2,4,1,LA TRONCHE VELO SPORT
+2,IVARS FLORENT,False,False,Grimpée Murianette - Pinet d'Uriage,3,3,1,VC PONTOIS
 0,ARNAUD AGATHE,False,True,Grimpée Murianette - Pinet d'Uriage,1,5,1,CYCLO CLUB DE GIERES
 1,ILNICKA OCEANE,False,True,Grimpée Murianette - Pinet d'Uriage,2,4,1,SCAL ECHIROLLES
-4,RIBEZZI THOMAS,False,False,Triptyque du Fontanil,5,5,1,LE FONTANIL CYCLISME
-5,BLANCHIN MATHIEU,False,False,Triptyque du Fontanil,5,5,1,TEAM VERCORS
-0,SELIN LOIC,True,False,Triptyque du Fontanil,1,5,1,UC VOIRONNAISE
-0,SOURIMANT NICOLAS,False,False,Triptyque du Fontanil,1,5,1,LE FONTANIL CYCLISME
-2,LISI SAMUELE,False,False,Triptyque du Fontanil,3,4,1,LE FONTANIL CYCLISME
-3,SEITE ALAIN,False,False,Triptyque du Fontanil,4,3,1,TEAM 3 MASSIFS
-4,LORIGEON FABIEN,False,False,Triptyque du Fontanil,DNF,0,1,LA TRONCHE VELO SPORT
-5,PIGNEDE PIERRE,False,False,Triptyque du Fontanil,DNF,0,1,CYCLO CLUB DE GIERES
-6,CHERY PAUL,False,False,Triptyque du Fontanil,DNF,0,1,LE FONTANIL CYCLISME
-7,VEREECKE GUILLAUME,False,False,Triptyque du Fontanil,DNS,0,0,LE FONTANIL CYCLISME
+0,MAZZA FABRICE,False,False,Grimpée Murianette - Pinet d'Uriage,1,5,1,LE FONTANIL CYCLISME
+1,SUGNY LAURENT,False,False,Grimpée Murianette - Pinet d'Uriage,2,4,1,SCAL ECHIROLLES
+2,LORIGEON FABIEN,False,False,Grimpée Murianette - Pinet d'Uriage,3,3,1,LA TRONCHE VELO SPORT
+3,COLOTTI JULIEN,False,False,Grimpée Murianette - Pinet d'Uriage,4,2,1,TEAM 3 MASSIFS
+0,ALESSANDRI DAMIEN,False,False,Triptyque du Fontanil,1,5,1,TEAM 3 MASSIFS
+1,RIBEZZI VALENTIN,False,False,Triptyque du Fontanil,2,4,1,LE FONTANIL CYCLISME
+2,LOUPIEN VINCENT,False,False,Triptyque du Fontanil,3,3,1,CYCLO CLUB DE GIERES
+3,GLENAZ LAURENT,False,False,Triptyque du Fontanil,4,2,1,SCAL ECHIROLLES
+4,VIAL FABRICE,False,False,Triptyque du Fontanil,5,1,1,CYCLO CLUB DE GIERES
+5,CARRE HERVE,False,False,Triptyque du Fontanil,DNF,0,1,TEAM 3 MASSIFS
+6,CARUELLE FLORENT,False,False,Triptyque du Fontanil,DNF,0,1,TEAM 3 MASSIFS
 0,FROMENT JULIEN,False,False,Triptyque du Fontanil,1,5,1,JARRIE CHAMP SUR DRAC CYCLISME
 1,CANDEIAS DAMIEN,False,False,Triptyque du Fontanil,2,4,1,JARRIE CHAMP SUR DRAC CYCLISME
 3,SOLA QUENTIN,False,False,Triptyque du Fontanil,4,3,1,LE FONTANIL CYCLISME
@@ -440,16 +437,19 @@
 18,BERNO DAMIEN,False,False,Triptyque du Fontanil,DNF,0,1,LE FONTANIL CYCLISME
 19,LENAIN LOIC,False,False,Triptyque du Fontanil,DNF,0,1,LE FONTANIL CYCLISME
 21,DOHEN CHRISTOPHE,False,False,Triptyque du Fontanil,DNF,0,1,CYCLO CLUB DE GIERES
-0,ALESSANDRI DAMIEN,False,False,Triptyque du Fontanil,1,5,1,TEAM 3 MASSIFS
-1,RIBEZZI VALENTIN,False,False,Triptyque du Fontanil,2,4,1,LE FONTANIL CYCLISME
-2,LOUPIEN VINCENT,False,False,Triptyque du Fontanil,3,3,1,CYCLO CLUB DE GIERES
-3,GLENAZ LAURENT,False,False,Triptyque du Fontanil,4,2,1,SCAL ECHIROLLES
-4,VIAL FABRICE,False,False,Triptyque du Fontanil,5,1,1,CYCLO CLUB DE GIERES
-5,CARRE HERVE,False,False,Triptyque du Fontanil,DNF,0,1,TEAM 3 MASSIFS
-6,CARUELLE FLORENT,False,False,Triptyque du Fontanil,DNF,0,1,TEAM 3 MASSIFS
+4,RIBEZZI THOMAS,False,False,Triptyque du Fontanil,5,5,1,LE FONTANIL CYCLISME
+5,BLANCHIN MATHIEU,False,False,Triptyque du Fontanil,5,5,1,TEAM VERCORS
 0,SEVOZ LAVERDURE CELIA,False,True,Triptyque du Fontanil,1,5,1,UC VOIRONNAISE
 1,ILNICKA OCEANE,False,True,Triptyque du Fontanil,DNF,0,1,SCAL ECHIROLLES
 2,ARNAUD AGATHE,False,True,Triptyque du Fontanil,DNF,0,1,CYCLO CLUB DE GIERES
+0,SOURIMANT NICOLAS,False,False,Triptyque du Fontanil,1,5,1,LE FONTANIL CYCLISME
+2,LISI SAMUELE,False,False,Triptyque du Fontanil,3,4,1,LE FONTANIL CYCLISME
+3,SEITE ALAIN,False,False,Triptyque du Fontanil,4,3,1,TEAM 3 MASSIFS
+4,LORIGEON FABIEN,False,False,Triptyque du Fontanil,DNF,0,1,LA TRONCHE VELO SPORT
+5,PIGNEDE PIERRE,False,False,Triptyque du Fontanil,DNF,0,1,CYCLO CLUB DE GIERES
+6,CHERY PAUL,False,False,Triptyque du Fontanil,DNF,0,1,LE FONTANIL CYCLISME
+7,VEREECKE GUILLAUME,False,False,Triptyque du Fontanil,DNS,0,0,LE FONTANIL CYCLISME
+0,SELIN LOIC,True,False,Triptyque du Fontanil,1,5,1,UC VOIRONNAISE
 6,LEDAC PIERRE,False,False,CLM de Roybon-Chambarrans,7,5,1,LA TRONCHE VELO SPORT
 7,IVARS FLORENT,False,False,CLM de Roybon-Chambarrans,8,4,1,VC PONTOIS
 11,LORIGEON FABIEN,False,False,CLM de Roybon-Chambarrans,12,5,1,LA TRONCHE VELO SPORT
@@ -469,19 +469,19 @@
 78,MEYSSONNIER BERNARD,False,False,CLM de Roybon-Chambarrans,79,1,1,CYCLO CLUB DE GIERES
 63,ARNAUD AGATHE,False,True,CLM de Roybon-Chambarrans,64,5,1,CYCLO CLUB DE GIERES
 83,ILNICKA OCEANE,False,True,CLM de Roybon-Chambarrans,84,4,1,SCAL ECHIROLLES
-0,COLOTTI JULIEN,False,False,Grand prix de la Chapelle,1,5,1,TEAM 3 MASSIFS
-0,DUPIN ALEXANDRE,False,False,Grand prix de la Chapelle,1,5,1,TEAM 3 MASSIFS
-1,BESCOND DIDIER,False,False,Grand prix de la Chapelle,2,4,1,JARRIE CHAMP SUR DRAC CYCLISME
-2,QUERNIARD PIERRE,False,False,Grand prix de la Chapelle,4,3,1,UC VOIRONNAISE
-3,CANDEIAS DAMIEN,False,False,Grand prix de la Chapelle,5,2,1,JARRIE CHAMP SUR DRAC CYCLISME
-4,NORAZ FLORENT,False,False,Grand prix de la Chapelle,7,1,1,UC VOIRONNAISE
-5,VALERO ANGELIQUE,False,True,Grand prix de la Chapelle,NC,0,1,LE FONTANIL CYCLISME
 0,LA RIZZA SEBASTIEN,False,False,Grand prix de la Chapelle,1,5,1,LE FONTANIL CYCLISME
 1,GUILLERMIN ROLAND,False,False,Grand prix de la Chapelle,2,4,1,UC RIVES
 2,HURSON NICOLAS,False,False,Grand prix de la Chapelle,DNF,0,1,TEAM 3 MASSIFS
 3,CARUELLE FLORENT,False,False,Grand prix de la Chapelle,DNF,0,1,TEAM 3 MASSIFS
 4,UHRY GILLES,False,False,Grand prix de la Chapelle,DNF,0,1,TEAM 3 MASSIFS
 5,GIANNONE JOSEPH,False,False,Grand prix de la Chapelle,DNF,0,1,UC VOIRONNAISE
+0,DUPIN ALEXANDRE,False,False,Grand prix de la Chapelle,1,5,1,TEAM 3 MASSIFS
+1,BESCOND DIDIER,False,False,Grand prix de la Chapelle,2,4,1,JARRIE CHAMP SUR DRAC CYCLISME
+2,QUERNIARD PIERRE,False,False,Grand prix de la Chapelle,4,3,1,UC VOIRONNAISE
+3,CANDEIAS DAMIEN,False,False,Grand prix de la Chapelle,5,2,1,JARRIE CHAMP SUR DRAC CYCLISME
+4,NORAZ FLORENT,False,False,Grand prix de la Chapelle,7,1,1,UC VOIRONNAISE
+5,VALERO ANGELIQUE,False,True,Grand prix de la Chapelle,NC,0,1,LE FONTANIL CYCLISME
+0,COLOTTI JULIEN,False,False,Grand prix de la Chapelle,1,5,1,TEAM 3 MASSIFS
 5,BLANCHIN MATHIEU,False,False,Grimpée du Col de l'Arzelier,6,5,1,TEAM VERCORS
 24,BERNABE AURELIEN,False,False,Grimpée du Col de l'Arzelier,25,4,1,SCAL ECHIROLLES
 16,AGUD THIERRY,False,False,Grimpée du Col de l'Arzelier,17,5,1,ALPIN'S WHEEL TEAM
@@ -527,6 +527,7 @@
 39,BUISSON GREGORY,False,False,Grimpée de Montaud,40,5,1,UC PONTCHARRA GRESIVAUDAN
 40,HERTAULT AGNES,False,True,Grimpée de Montaud,41,4,1,ALPIN'S WHEEL TEAM
 57,RAMBAUD JULIEN,False,False,Grimpée de Montaud,58,3,1,TEAM 3 MASSIFS
+63,GLENAZ LAURENT,False,False,Grimpée de Montaud,DNF,0,1,SCAL ECHIROLLES
 44,VIAL JACQUES,False,False,Grimpée de Montaud,45,5,1,SCAL ECHIROLLES
 54,GIRARD GUY,False,False,Grimpée de Montaud,55,4,1,SCAL ECHIROLLES
 58,CARRE HERVE,False,False,Grimpée de Montaud,59,3,1,TEAM 3 MASSIFS
