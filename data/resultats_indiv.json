@@ -4672,30 +4672,64 @@
             "RANG": 2,
             "NOM": "TEIRLYNCK LEONIE",
             "CLUB": "VC TURRIPINOIS",
-            "POINTS": 9,
+            "POINTS": 14,
             "FEMME": true,
             "JEUNE": true,
-            "PARTICIPATION": 2,
+            "PARTICIPATION": 3,
             "PLACE": [
                 2,
+                1,
                 1
             ],
             "COURSE": [
                 "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin"
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand prix de la Chapelle"
             ],
             "POINTS_L": [
                 4,
+                5,
                 5
             ],
             "PARTICIPATION_L": [
                 1,
+                1,
                 1
             ],
-            "TOTAL": 11
+            "TOTAL": 17
         },
         {
-            "RANG": 2,
+            "RANG": 3,
+            "NOM": "TEIRLYNCK GAETAN",
+            "CLUB": "VC TURRIPINOIS",
+            "POINTS": 10,
+            "FEMME": false,
+            "JEUNE": true,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                1,
+                "DNF",
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Cyclespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand prix de la Chapelle"
+            ],
+            "POINTS_L": [
+                5,
+                0,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 13
+        },
+        {
+            "RANG": 4,
             "NOM": "BUSSCHAERT LUCIE",
             "CLUB": "VC TURRIPINOIS",
             "POINTS": 9,
@@ -4719,32 +4753,6 @@
                 1
             ],
             "TOTAL": 11
-        },
-        {
-            "RANG": 4,
-            "NOM": "TEIRLYNCK GAETAN",
-            "CLUB": "VC TURRIPINOIS",
-            "POINTS": 5,
-            "FEMME": false,
-            "JEUNE": true,
-            "PARTICIPATION": 2,
-            "PLACE": [
-                1,
-                "DNF"
-            ],
-            "COURSE": [
-                "Grand Prix Cyclespace",
-                "Grand Prix d'Oyeu - Burcin"
-            ],
-            "POINTS_L": [
-                5,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1
-            ],
-            "TOTAL": 7
         },
         {
             "RANG": 5,
