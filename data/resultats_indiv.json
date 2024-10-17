@@ -1838,6 +1838,48 @@
         },
         {
             "RANG": 37,
+            "NOM": "VIAL WILLY",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 6,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 6,
+            "PLACE": [
+                18,
+                11,
+                6,
+                2,
+                4,
+                "NC"
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Notre Dame de l’Osier",
+                "Grand prix d'Andrevière",
+                "Triptyque du Fontanil",
+                "Grand prix de la Chapelle"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                4,
+                2,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 12
+        },
+        {
+            "RANG": 37,
             "NOM": "LA RIZZA SEBASTIEN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 6,
@@ -1879,7 +1921,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 42,
             "NOM": "MOREAU HIPPOLYTE",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 8,
@@ -1909,7 +1951,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 41,
+            "RANG": 42,
             "NOM": "RIBEZZI THOMAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 7,
@@ -1943,7 +1985,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 41,
+            "RANG": 42,
             "NOM": "MELINU JEROME",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 7,
@@ -1977,45 +2019,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 41,
-            "NOM": "VIAL WILLY",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 6,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 5,
-            "PLACE": [
-                18,
-                11,
-                6,
-                2,
-                4
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Notre Dame de l’Osier",
-                "Grand prix d'Andrevière",
-                "Triptyque du Fontanil"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                0,
-                4,
-                2
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 11
-        },
-        {
-            "RANG": 41,
+            "RANG": 42,
             "NOM": "BESCOND DIDIER",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 6,
@@ -4777,5 +4781,5 @@
             "TOTAL": 4
         }
     ],
-    "date": "2024-10-15"
+    "date": "2024-10-17"
 }
