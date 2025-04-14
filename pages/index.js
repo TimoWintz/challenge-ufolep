@@ -30,7 +30,7 @@ export default function Home({ localData }) {
           Bienvenue sur la page du Challenge Ufolep Isère Cyclosport, organisé par le comité départemental. Vous trouverez ici le classement du Challenge mis à jour après chaque épreuve du calendrier.
         </p>
         <p>
-          Le règlement se trouve <a href="https://ufolep38.org/wp-content/uploads/2024/02/ufolep-38-CYCLO-Reglement_Challenge_2024_V2_a-valider-32.pdf">ici</a>
+        Le règlement se trouve <a href="CYCLO Règlement_Challenge_2025_V1_à valider-1.pdf">ici</a>
         </p>
 
         <h1>Les classements</h1>

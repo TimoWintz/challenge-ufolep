@@ -31,6 +31,7 @@ STR_RACE_RANK = "PLACE"
 
 
 def get_points(df: pd.DataFrame, rank_to_point: List[int]) -> List[pd.DataFrame]:
+    df[STR_CAT] = df[STR_CAT].astype(str)
     if df[STR_YOUNG].any():
         df.loc[df[STR_WOMAN], STR_CAT] += "F"
 
