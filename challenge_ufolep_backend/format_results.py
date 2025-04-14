@@ -91,10 +91,7 @@ class ResultsFormatter(ABC):
 
     def format_results(self, path: Path) -> pd.DataFrame:
         df = self.parse_file(path=path)
-        try:
-            df = df[self.COLS]
-        except:
-            breakpoint()
+        df = df[self.COLS]
         df = self.match_riders(df)
         return df
 
@@ -116,17 +113,19 @@ class AlpespaceResultsFormatter(ResultsFormatter):
 
     def parse_file(self, path: Path) -> pd.DataFrame:
         cat = path.with_suffix("").name.split("_")[-1]
-        pdf = pdfplumber.open(path)
-        tables = pdf.pages[0].find_tables(table_settings={})
-        table = tables[0].extract()
-        df = pd.DataFrame(table[1:], columns=table[0])
-        if len(table[0]) == 15: # cas de colonnes dupliquées par pdfplumber
-            for j in self.DUPLICATE_COLS:
-                for idx in df.index.values:
-                    if not df.iloc[idx, j]:
-                        df.iloc[idx, j] = df.iloc[idx, j+1]
+        if path.suffix == ".csv":
+            df = pd.read_csv(path, skiprows=0)
+        else:
+            pdf = pdfplumber.open(path)
+            tables = pdf.pages[0].find_tables(table_settings={})
+            table = tables[0].extract()
+            df = pd.DataFrame(table[1:], columns=table[0])
+            if len(table[0]) == 15: # cas de colonnes dupliquées par pdfplumber
+                for j in self.DUPLICATE_COLS:
+                    for idx in df.index.values:
+                        if not df.iloc[idx, j]:
+                            df.iloc[idx, j] = df.iloc[idx, j+1]
           
-
         df =df.rename(columns=self.COLS_REMAPPING)
         
         if "Rem" in df.columns:
@@ -137,6 +136,7 @@ class AlpespaceResultsFormatter(ResultsFormatter):
         if "Caté. UFOLEP" in df.columns:
             df.loc[:, STR_CAT] = df.loc[:, "Caté. UFOLEP"]
         df = df[self.COLS]
+        df[STR_CAT] = df[STR_CAT].astype(str)
 
         return df[~df.NOM.isnull()]
 
@@ -233,7 +233,6 @@ class NDResultsFromatter(ResultsFormatter):
         try:
             df = pd.read_csv(path)
         except:
-            breakpoint()
             raise
 
         df[STR_NAME] = df.NOM + " " + df.Prénom
@@ -302,7 +301,7 @@ class ResultsFormatterFactory:
         p = name.lower()
         if "oyeu" in p or "murianette" in p or "triptyque" in p or "montaud" in p:
             return CCGResultsFromatter(self.riders_db)
-        elif "cyclespace" in p or "allevard" in p:
+        elif "alpespace" in p or "cyclespace" in p or "allevard" in p:
             return AlpespaceResultsFormatter(self.riders_db)
         elif "mouillat" in p:
             return MouillatResultsFormatter(self.riders_db)
@@ -354,10 +353,10 @@ if __name__ == "__main__":
     riders = pd.read_csv(root / PATH_RIDERS)
     riders[STR_ALL_NAMES] = riders[STR_NAME].map(normalize_string).str.upper().str.split(",")
     riders[STR_NAME] = riders[STR_ALL_NAMES].map(lambda x: x[0])
-    riders[STR_DATE] = pd.to_datetime(riders[STR_DATE])
+    riders[STR_DATE] = pd.to_datetime(riders[STR_DATE], dayfirst=True)
     races = pd.read_csv(root / PATH_RACES, index_col=STR_RACE_NAME)
     races.loc[races[STR_RACE_FOLDER].isna(), STR_RACE_FOLDER] = ""
-    races[STR_DATE] = pd.to_datetime(races[STR_DATE])
+    races[STR_DATE] = pd.to_datetime(races[STR_DATE], dayfirst=False)
     race_folder = (root / PATH_RACES).parent
 
     formatter_factory = ResultsFormatterFactory(riders)
