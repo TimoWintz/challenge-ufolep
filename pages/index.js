@@ -24,7 +24,7 @@ export default function Home({ localData }) {
         </div>
         
         <div class="alert alert-primary" role="alert">
-          Dernière mise à jour le {new Date(localData["date"]).toLocaleDateString()}
+          Dernière mise à jour le {new Date(localData["date"]).toLocaleDateString("fr-FR")}
         </div>
         <p>
           Bienvenue sur la page du Challenge Ufolep Isère Cyclosport, organisé par le comité départemental. Vous trouverez ici le classement du Challenge mis à jour après chaque épreuve du calendrier.
@@ -65,7 +65,7 @@ export default function Home({ localData }) {
               return (
                   <tr key={NOM} class={condition}>
                     <th scope="row">{NOM}</th>
-                  <th scope="row">{new Date(DATE).toLocaleDateString()}</th>
+                  <th scope="row">{new Date(DATE).toLocaleDateString("fr-FR")}</th>
                     <th scope="row">{CLUB}</th>
                   </tr>
                 )
