@@ -1,17 +1,17 @@
 [
     {
-        "TOTAL": 31,
+        "TOTAL": 51,
         "INDIV": 31,
-        "ORGA": 0,
-        "CLUB": "UNION CYCLISTE VOIRONNAISE",
+        "ORGA": 20,
+        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 1
     },
     {
         "TOTAL": 31,
         "INDIV": 31,
         "ORGA": 0,
-        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-        "RANG": 1
+        "CLUB": "UNION CYCLISTE VOIRONNAISE",
+        "RANG": 2
     },
     {
         "TOTAL": 27,
@@ -21,59 +21,52 @@
         "RANG": 3
     },
     {
-        "TOTAL": 20,
-        "INDIV": 0,
-        "ORGA": 20,
-        "CLUB": "UC PONTCHARRA GRESIVAUDAN",
-        "RANG": 4
-    },
-    {
         "TOTAL": 16,
         "INDIV": 16,
         "ORGA": 0,
         "CLUB": "LE FONTANIL CYCLISME",
-        "RANG": 5
+        "RANG": 4
     },
     {
         "TOTAL": 15,
         "INDIV": 15,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-        "RANG": 6
+        "RANG": 5
     },
     {
         "TOTAL": 12,
         "INDIV": 12,
         "ORGA": 0,
         "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
-        "RANG": 7
+        "RANG": 6
     },
     {
         "TOTAL": 6,
         "INDIV": 6,
         "ORGA": 0,
         "CLUB": "RIVES UNION CYCLISTE",
-        "RANG": 8
+        "RANG": 7
     },
     {
         "TOTAL": 5,
         "INDIV": 5,
         "ORGA": 0,
         "CLUB": "VELO CLUB TURRIPINOIS",
-        "RANG": 9
+        "RANG": 8
     },
     {
         "TOTAL": 3,
         "INDIV": 3,
         "ORGA": 0,
         "CLUB": "CYCLO CLUB DE GIERES",
-        "RANG": 10
+        "RANG": 9
     },
     {
         "TOTAL": 3,
         "INDIV": 3,
         "ORGA": 0,
         "CLUB": "LA TRONCHE VELO SPORT",
-        "RANG": 10
+        "RANG": 9
     }
 ]

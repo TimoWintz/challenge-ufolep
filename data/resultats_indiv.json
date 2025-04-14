@@ -3,13 +3,13 @@
         {
             "NOM": "GRAND PRIX ALPESPACE",
             "DATE": "2025/03/23",
-            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
+            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "PASSE": true
         },
         {
             "NOM": "GRAND PRIX DE SAINTE-MARIE-D'ALLOIX",
             "DATE": "2025/04/13",
-            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
+            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "PASSE": false
         },
         {
@@ -17,6 +17,12 @@
             "DATE": "2025/04/21",
             "CLUB": "CYCLO CLUB DE GIERES",
             "PASSE": false
+        },
+        {
+            "NOM": "GRAND PRIX DE LALLEY",
+            "DATE": "2024/04/27",
+            "CLUB": "COMITE",
+            "PASSE": true
         },
         {
             "NOM": "GRAND PRIX DE CRAS",
@@ -32,14 +38,14 @@
         },
         {
             "NOM": "GRAND PRIX D'OYEU - CHAMPIONNAT DÉPARTEMENTAL",
-            "DATE": "2025/04/21",
+            "DATE": "2025/05/18",
             "CLUB": "CYCLO CLUB DE GIERES",
             "PASSE": false
         },
         {
             "NOM": "GRIMPÉE DU COLLET D’ALLEVARD",
             "DATE": "2025/06/01",
-            "CLUB": "UC PONTCHARRA GRESIVAUDAN",
+            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "PASSE": false
         },
         {
