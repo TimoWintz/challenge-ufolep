@@ -22,7 +22,7 @@
             "NOM": "GRAND PRIX DE LALLEY",
             "DATE": "2024/04/27",
             "CLUB": "COMITE",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRAND PRIX DE CRAS",
@@ -1512,8 +1512,8 @@
     "femme": [
         {
             "RANG": 1,
-            "NOM": "ILNICKA OCEANE",
-            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
+            "NOM": "SEVOZ LAVERDURE CELIA",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 5,
             "FEMME": true,
             "JEUNE": false,
@@ -1534,8 +1534,8 @@
         },
         {
             "RANG": 2,
-            "NOM": "TEIRLYNCK LEONIE",
-            "CLUB": "VELO CLUB TURRIPINOIS",
+            "NOM": "ILNICKA OCEANE",
+            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 4,
             "FEMME": true,
             "JEUNE": false,
@@ -1556,6 +1556,28 @@
         },
         {
             "RANG": 3,
+            "NOM": "TEIRLYNCK LEONIE",
+            "CLUB": "VELO CLUB TURRIPINOIS",
+            "POINTS": 3,
+            "FEMME": true,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace"
+            ],
+            "POINTS_L": [
+                3
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 4,
             "NOM": "BOUVIER MANON",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -1645,5 +1667,5 @@
             "TOTAL": 5
         }
     ],
-    "date": "2025-04-14"
+    "date": "2025-04-15"
 }
