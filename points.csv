@@ -39,7 +39,7 @@
 46,INDERCHIT JEAN-LOUIS,False,False,Grand Prix Alpespace,47.0,0,1,UNION CYCLISTE VOIRONNAISE
 47,PATRICELLI GILLES,False,False,Grand Prix Alpespace,48.0,0,1,TEAM 3 MASSIFS
 48,MERLO RAPHAEL,False,False,Grand Prix Alpespace,49.0,0,1,TEAM 3 MASSIFS
-49,GATEAUX DAMIEN,False,False,Grand Prix Alpespace,DNF,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+49,GATEAUX DAMIEN,False,False,Grand Prix Alpespace,,0,1,JARRIE CHAMP SUR DRAC CYCLISME
 4,MONGE NICOLAS,False,False,Grand Prix Alpespace,5.0,5,1,LE FONTANIL CYCLISME
 5,COLOTTI JULIEN,False,False,Grand Prix Alpespace,6.0,4,1,TEAM 3 MASSIFS
 6,RIPPERT VALENTIN,False,False,Grand Prix Alpespace,7.0,3,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
@@ -50,7 +50,7 @@
 16,NOTZOLD JULES,False,False,Grand Prix Alpespace,17.0,0,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
 17,PETITE PATRICE,False,False,Grand Prix Alpespace,18.0,0,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
 19,GERRAND ANTONY,False,False,Grand Prix Alpespace,20.0,0,1,UNION CYCLISTE VOIRONNAISE
-20,DOHEN CHRISTOPHE,False,False,Grand Prix Alpespace,DNF,0,1,CYCLO CLUB DE GIERES
+20,DOHEN CHRISTOPHE,False,False,Grand Prix Alpespace,,0,1,CYCLO CLUB DE GIERES
 6,SELIN LOIC,True,False,Grand Prix Alpespace,7.0,5,1,UNION CYCLISTE VOIRONNAISE
 9,HERNANDEZ RAFAEL,True,False,Grand Prix Alpespace,10.0,4,1,UNION CYCLISTE VOIRONNAISE
 8,SORDET LILY-ANNE,True,True,Grand Prix Alpespace,9.0,5,1,UNION CYCLISTE VOIRONNAISE
@@ -62,13 +62,83 @@
 6,CARUELLE FLORENT,False,False,Grand Prix Alpespace,7.0,0,1,TEAM 3 MASSIFS
 8,CARTIER MILLON RAYMOND,False,False,Grand Prix Alpespace,9.0,0,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
 9,CARRE HERVE,False,False,Grand Prix Alpespace,10.0,0,1,TEAM 3 MASSIFS
-10,HURSON NICOLAS,False,False,Grand Prix Alpespace,DNS,0,0,TEAM 3 MASSIFS
+10,HURSON NICOLAS,False,False,Grand Prix Alpespace,,0,1,TEAM 3 MASSIFS
 0,SEVOZ LAVERDURE CELIA,False,True,Grand Prix Alpespace,1,5,1,UNION CYCLISTE VOIRONNAISE
 1,ILNICKA OCEANE,False,True,Grand Prix Alpespace,2,4,1,ECHIROLLES SPRINTCLUB AMICALELAIQUE
 2,TEIRLYNCK LEONIE,False,True,Grand Prix Alpespace,3,3,1,VELO CLUB TURRIPINOIS
 7,BLANCHIN MATHIEU,False,False,Grand Prix Alpespace,8.0,5,1,UNION CYCLISTE VOIRONNAISE
 21,SYLVESTRE THEOPHILE,False,False,Grand Prix Alpespace,22.0,4,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
 29,AUBERT THOMAS,False,False,Grand Prix Alpespace,30.0,3,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
-30,OWEN LIAM,False,False,Grand Prix Alpespace,DNF,0,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
-40,DESCOMBES ALEXIS,False,False,Grand Prix Alpespace,DNS,0,0,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
-41,RICAU CHARLES,False,False,Grand Prix Alpespace,DNS,0,0,LE FONTANIL CYCLISME
+30,OWEN LIAM,False,False,Grand Prix Alpespace,,2,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
+40,DESCOMBES ALEXIS,False,False,Grand Prix Alpespace,,1,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
+41,RICAU CHARLES,False,False,Grand Prix Alpespace,,0,1,LE FONTANIL CYCLISME
+0,PUDELKO SEBASTIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,1,5,1,LA TRONCHE VELO SPORT
+1,CHAMPAULT MICKAEL,False,False,Grand Prix de Sainte-Marie-d'Alloix,2,4,1,LA TRONCHE VELO SPORT
+3,PATRICELLI GILLES,False,False,Grand Prix de Sainte-Marie-d'Alloix,4,3,1,TEAM 3 MASSIFS
+4,SEVOZ ARNAUD,False,False,Grand Prix de Sainte-Marie-d'Alloix,5,2,1,UNION CYCLISTE VOIRONNAISE
+5,PARROT YVES,False,False,Grand Prix de Sainte-Marie-d'Alloix,6,1,1,UNION CYCLISTE VOIRONNAISE
+8,FRABOULET JULIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,9,0,1,LE FONTANIL CYCLISME
+9,COLLETTE MAXIME,False,False,Grand Prix de Sainte-Marie-d'Alloix,10,0,1,TEAM 3 MASSIFS
+10,NORAZ FLORENT,False,False,Grand Prix de Sainte-Marie-d'Alloix,11,0,1,UNION CYCLISTE VOIRONNAISE
+12,CARTIER STEPHANE,False,False,Grand Prix de Sainte-Marie-d'Alloix,13,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+13,DELETROY AXEL,False,False,Grand Prix de Sainte-Marie-d'Alloix,14,0,1,LE FONTANIL CYCLISME
+14,BERNARD PATRICK,False,False,Grand Prix de Sainte-Marie-d'Alloix,15,0,1,TEAM 3 MASSIFS
+15,BUSCAYLET PHILIPPE,False,False,Grand Prix de Sainte-Marie-d'Alloix,16,0,1,CYCLO CLUB DE GIERES
+16,VIAL WILLY,False,False,Grand Prix de Sainte-Marie-d'Alloix,17,0,1,LE FONTANIL CYCLISME
+17,MICAS TITOUAN,False,False,Grand Prix de Sainte-Marie-d'Alloix,18,0,1,CYCLO CLUB DE GIERES
+18,BESCOND DIDIER,False,False,Grand Prix de Sainte-Marie-d'Alloix,19,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+19,RICHIERO ANGE,False,False,Grand Prix de Sainte-Marie-d'Alloix,20,0,1,LA TRONCHE VELO SPORT
+20,LENAIN LOIC,False,False,Grand Prix de Sainte-Marie-d'Alloix,21,0,1,LE FONTANIL CYCLISME
+21,SEITE ALAIN,False,False,Grand Prix de Sainte-Marie-d'Alloix,22,0,1,TEAM 3 MASSIFS
+22,GIANNONE JOSEPH,False,False,Grand Prix de Sainte-Marie-d'Alloix,23,0,1,UNION CYCLISTE VOIRONNAISE
+24,SORDET FABIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,25,0,1,UNION CYCLISTE VOIRONNAISE
+25,DENIS REMY,False,False,Grand Prix de Sainte-Marie-d'Alloix,26,0,1,TEAM 3 MASSIFS
+26,BUISSON GREGORY,False,False,Grand Prix de Sainte-Marie-d'Alloix,27,0,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
+27,GLENAZ CELIAN,False,False,Grand Prix de Sainte-Marie-d'Alloix,28,0,1,ECHIROLLES SPRINTCLUB AMICALELAIQUE
+28,ARNAUD AGATHE,False,True,Grand Prix de Sainte-Marie-d'Alloix,29,0,1,CYCLO CLUB DE GIERES
+29,ALESSANDRI DAMIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,30,0,1,TEAM 3 MASSIFS
+30,PATRICELLI ARMAND,False,False,Grand Prix de Sainte-Marie-d'Alloix,31,0,1,CYCLO CLUB DE GIERES
+31,MARGUET ALINE,False,True,Grand Prix de Sainte-Marie-d'Alloix,32,0,1,ALPIN'S WHEEL TEAM
+32,PROULT SEBASTIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,33,0,1,CYCLO CLUB DE GIERES
+34,CANDEIAS DAMIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,35,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+35,GATEAUX DAMIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,36,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+37,CHAUMONT COLIN,False,False,Grand Prix de Sainte-Marie-d'Alloix,38,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+38,BEDORA THOMAS,False,False,Grand Prix de Sainte-Marie-d'Alloix,39,0,1,ECHIROLLES SPRINTCLUB AMICALELAIQUE
+39,INDERCHIT JEAN-LOUIS,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,UNION CYCLISTE VOIRONNAISE
+40,SORDET FABIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,UNION CYCLISTE VOIRONNAISE
+41,RAVIT QUENTIN,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+42,SAINTHUILE TRISTAN,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,TEAM 3 MASSIFS
+43,UHRY GILLES,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,TEAM 3 MASSIFS
+45,MERAT YANNICK,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+46,MERLO RAPHAEL,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,TEAM 3 MASSIFS
+47,DUTHILLE LUC,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,LES 300
+48,INDERCHIT JEAN-LOUIS,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,UNION CYCLISTE VOIRONNAISE
+49,CARTIER STEPHANE,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+50,SORDET FABIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,UNION CYCLISTE VOIRONNAISE
+51,TRAMAGLIA CEDRIC,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,JARRIE CHAMP SUR DRAC CYCLISME
+0,MELEZE JEAN-PHILIPPE,False,False,Grand Prix de Sainte-Marie-d'Alloix,1,5,1,SUD GRESIVAUDAN CYCLISME
+3,BROUSSET TRISTAN,False,False,Grand Prix de Sainte-Marie-d'Alloix,4,4,1,ALPIN'S WHEEL TEAM
+4,CHERY PAUL,False,False,Grand Prix de Sainte-Marie-d'Alloix,5,3,1,LE FONTANIL CYCLISME
+5,MONGE NICOLAS,False,False,Grand Prix de Sainte-Marie-d'Alloix,6,2,1,LE FONTANIL CYCLISME
+8,LISI SAMUELE,False,False,Grand Prix de Sainte-Marie-d'Alloix,9,1,1,LE FONTANIL CYCLISME
+9,DUPIN ALEXANDRE,False,False,Grand Prix de Sainte-Marie-d'Alloix,10,0,1,TEAM 3 MASSIFS
+11,GERRAND ANTONY,False,False,Grand Prix de Sainte-Marie-d'Alloix,12,0,1,UNION CYCLISTE VOIRONNAISE
+12,COLOTTI JULIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,13,0,1,TEAM 3 MASSIFS
+13,DOHEN CHRISTOPHE,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,CYCLO CLUB DE GIERES
+2,SELIN LOIC,True,False,Grand Prix de Sainte-Marie-d'Alloix,3,5,1,UNION CYCLISTE VOIRONNAISE
+4,HERNANDEZ RAFAEL,True,False,Grand Prix de Sainte-Marie-d'Alloix,AB,4,1,UNION CYCLISTE VOIRONNAISE
+3,SORDET LILY-ANNE,True,True,Grand Prix de Sainte-Marie-d'Alloix,AB,5,1,UNION CYCLISTE VOIRONNAISE
+0,LA RIZZA SEBASTIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,1,5,1,RIVES UNION CYCLISTE
+2,LOUPIEN VINCENT,False,False,Grand Prix de Sainte-Marie-d'Alloix,3,4,1,CYCLO CLUB DE GIERES
+3,PARA DAMIEN,False,False,Grand Prix de Sainte-Marie-d'Alloix,4,3,1,ECHIROLLES SPRINTCLUB AMICALELAIQUE
+4,GUILLERMIN ROLAND,False,False,Grand Prix de Sainte-Marie-d'Alloix,5,2,1,RIVES UNION CYCLISTE
+6,DEBUCK LAURENT,False,False,Grand Prix de Sainte-Marie-d'Alloix,7,1,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
+7,CARUELLE FLORENT,False,False,Grand Prix de Sainte-Marie-d'Alloix,8,0,1,TEAM 3 MASSIFS
+8,MARCHAIS ALEXANDRE,False,False,Grand Prix de Sainte-Marie-d'Alloix,9,0,1,LE FONTANIL CYCLISME
+9,CARTIER MILLON RAYMOND,False,False,Grand Prix de Sainte-Marie-d'Alloix,10,0,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN
+10,GLENAZ LAURENT,False,False,Grand Prix de Sainte-Marie-d'Alloix,AB,0,1,ECHIROLLES SPRINTCLUB AMICALELAIQUE
+1,SEVOZ LAVERDURE CELIA,False,True,Grand Prix de Sainte-Marie-d'Alloix,2,5,1,UNION CYCLISTE VOIRONNAISE
+2,ILNICKA OCEANE,False,True,Grand Prix de Sainte-Marie-d'Alloix,3,4,1,ECHIROLLES SPRINTCLUB AMICALELAIQUE
+6,GURKE ELOUAN,False,False,Grand Prix de Sainte-Marie-d'Alloix,7,5,1,TEAM 3 MASSIFS
+9,WINTZ TIMOTHEE,False,False,Grand Prix de Sainte-Marie-d'Alloix,10,4,1,ALPIN'S WHEEL TEAM
+14,DESCOMBES ALEXIS,False,False,Grand Prix de Sainte-Marie-d'Alloix,16,3,1,UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN

@@ -10,7 +10,7 @@
             "NOM": "GRAND PRIX DE SAINTE-MARIE-D'ALLOIX",
             "DATE": "2025/04/13",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-            "PASSE": false
+            "PASSE": true
         },
         {
             "NOM": "GRAND PRIX D'OYEU - BURCIN",
@@ -124,6 +124,136 @@
     "homme": [
         {
             "RANG": 1,
+            "NOM": "PUDELKO SEBASTIEN",
+            "CLUB": "LA TRONCHE VELO SPORT",
+            "POINTS": 7,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                4,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                2,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 9
+        },
+        {
+            "RANG": 1,
+            "NOM": "MONGE NICOLAS",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 7,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                1,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                5,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 9
+        },
+        {
+            "RANG": 3,
+            "NOM": "PARA DAMIEN",
+            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
+            "POINTS": 6,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                3,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                3,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 8
+        },
+        {
+            "RANG": 3,
+            "NOM": "GUILLERMIN ROLAND",
+            "CLUB": "RIVES UNION CYCLISTE",
+            "POINTS": 6,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                2,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                4,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 8
+        },
+        {
+            "RANG": 5,
+            "NOM": "LA RIZZA SEBASTIEN",
+            "CLUB": "RIVES UNION CYCLISTE",
+            "POINTS": 5,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                17,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 7
+        },
+        {
+            "RANG": 6,
             "NOM": "RAMBAUD JULIEN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 5,
@@ -145,9 +275,9 @@
             "TOTAL": 6
         },
         {
-            "RANG": 1,
-            "NOM": "MONGE NICOLAS",
-            "CLUB": "LE FONTANIL CYCLISME",
+            "RANG": 6,
+            "NOM": "MELEZE JEAN-PHILIPPE",
+            "CLUB": "SUD GRESIVAUDAN CYCLISME",
             "POINTS": 5,
             "FEMME": false,
             "JEUNE": false,
@@ -156,7 +286,7 @@
                 1
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 5
@@ -167,7 +297,29 @@
             "TOTAL": 6
         },
         {
-            "RANG": 1,
+            "RANG": 6,
+            "NOM": "GURKE ELOUAN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 5,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                1
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                5
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 6
+        },
+        {
+            "RANG": 6,
             "NOM": "GATINEAU GAETAN",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 5,
@@ -189,7 +341,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 1,
+            "RANG": 6,
             "NOM": "BLANCHIN MATHIEU",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 5,
@@ -211,7 +363,107 @@
             "TOTAL": 6
         },
         {
-            "RANG": 5,
+            "RANG": 6,
+            "NOM": "DESCOMBES ALEXIS",
+            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                5,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                1,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 6
+        },
+        {
+            "RANG": 6,
+            "NOM": "COLOTTI JULIEN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                2,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                4,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 6
+        },
+        {
+            "RANG": 6,
+            "NOM": "BESCOND DIDIER",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                2,
+                15
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                4,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 6
+        },
+        {
+            "RANG": 14,
+            "NOM": "WINTZ TIMOTHEE",
+            "CLUB": "ALPIN'S WHEEL TEAM",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                2
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                4
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 5
+        },
+        {
+            "RANG": 14,
             "NOM": "SYLVESTRE THEOPHILE",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 4,
@@ -233,9 +485,9 @@
             "TOTAL": 5
         },
         {
-            "RANG": 5,
-            "NOM": "GUILLERMIN ROLAND",
-            "CLUB": "RIVES UNION CYCLISTE",
+            "RANG": 14,
+            "NOM": "LOUPIEN VINCENT",
+            "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 4,
             "FEMME": false,
             "JEUNE": false,
@@ -244,7 +496,7 @@
                 2
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 4
@@ -255,9 +507,9 @@
             "TOTAL": 5
         },
         {
-            "RANG": 5,
-            "NOM": "COLOTTI JULIEN",
-            "CLUB": "TEAM 3 MASSIFS",
+            "RANG": 14,
+            "NOM": "CHAMPAULT MICKAEL",
+            "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 4,
             "FEMME": false,
             "JEUNE": false,
@@ -266,7 +518,7 @@
                 2
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 4
@@ -277,9 +529,9 @@
             "TOTAL": 5
         },
         {
-            "RANG": 5,
-            "NOM": "BESCOND DIDIER",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "RANG": 14,
+            "NOM": "BROUSSET TRISTAN",
+            "CLUB": "ALPIN'S WHEEL TEAM",
             "POINTS": 4,
             "FEMME": false,
             "JEUNE": false,
@@ -288,7 +540,7 @@
                 2
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 4
@@ -299,29 +551,111 @@
             "TOTAL": 5
         },
         {
-            "RANG": 9,
+            "RANG": 14,
             "NOM": "UHRY GILLES",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 3,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 1,
+            "PARTICIPATION": 2,
             "PLACE": [
+                3,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                3,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 5
+        },
+        {
+            "RANG": 14,
+            "NOM": "PATRICELLI GILLES",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 3,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                39,
                 3
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
+                0,
                 3
             ],
             "PARTICIPATION_L": [
+                1,
                 1
             ],
-            "TOTAL": 4
+            "TOTAL": 5
         },
         {
-            "RANG": 9,
+            "RANG": 14,
+            "NOM": "DEBUCK LAURENT",
+            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
+            "POINTS": 3,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                4,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                2,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 5
+        },
+        {
+            "RANG": 14,
+            "NOM": "CHERY PAUL",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 3,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                6,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 5
+        },
+        {
+            "RANG": 23,
             "NOM": "RIPPERT VALENTIN",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 3,
@@ -343,29 +677,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 9,
-            "NOM": "PARA DAMIEN",
-            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
-            "POINTS": 3,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                3
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                3
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 4
-        },
-        {
-            "RANG": 9,
+            "RANG": 23,
             "NOM": "AUBERT THOMAS",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 3,
@@ -387,7 +699,67 @@
             "TOTAL": 4
         },
         {
-            "RANG": 13,
+            "RANG": 23,
+            "NOM": "SEVOZ ARNAUD",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "POINTS": 2,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                19,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 23,
+            "NOM": "SORDET FABIEN",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                29,
+                20,
+                33,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 4
+        },
+        {
+            "RANG": 27,
             "NOM": "SOURIMANT NICOLAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 2,
@@ -409,30 +781,8 @@
             "TOTAL": 3
         },
         {
-            "RANG": 13,
-            "NOM": "PUDELKO SEBASTIEN",
-            "CLUB": "LA TRONCHE VELO SPORT",
-            "POINTS": 2,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                4
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                2
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 3
-        },
-        {
-            "RANG": 13,
-            "NOM": "DEBUCK LAURENT",
+            "RANG": 27,
+            "NOM": "OWEN LIAM",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 2,
             "FEMME": false,
@@ -453,7 +803,141 @@
             "TOTAL": 3
         },
         {
-            "RANG": 16,
+            "RANG": 27,
+            "NOM": "LISI SAMUELE",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 1,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 3
+        },
+        {
+            "RANG": 27,
+            "NOM": "GLENAZ LAURENT",
+            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
+            "POINTS": 1,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                5,
+                9
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                1,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 3
+        },
+        {
+            "RANG": 27,
+            "NOM": "INDERCHIT JEAN-LOUIS",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                38,
+                33,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 3
+        },
+        {
+            "RANG": 27,
+            "NOM": "CARTIER STEPHANE",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                16,
+                9,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 3
+        },
+        {
+            "RANG": 33,
+            "NOM": "PARROT YVES",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "POINTS": 1,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                5
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                1
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
             "NOM": "MORACCHIOLI THOMAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 1,
@@ -475,29 +959,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 16,
-            "NOM": "GLENAZ LAURENT",
-            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
-            "POINTS": 1,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                5
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                1
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 2
-        },
-        {
-            "RANG": 16,
+            "RANG": 33,
             "NOM": "BOUVIER THOMAS",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 1,
@@ -519,29 +981,579 @@
             "TOTAL": 2
         },
         {
-            "RANG": 19,
+            "RANG": 33,
             "NOM": "VIAL WILLY",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 1,
+            "PARTICIPATION": 2,
             "PLACE": [
-                30
+                30,
+                13
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
+                0,
                 0
             ],
             "PARTICIPATION_L": [
+                1,
                 1
             ],
-            "TOTAL": 1
+            "TOTAL": 2
         },
         {
-            "RANG": 19,
+            "RANG": 33,
+            "NOM": "TRAMAGLIA CEDRIC",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                35,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "SAINTHUILE TRISTAN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                14,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "PROULT SEBASTIEN",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                37,
+                28
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "NORAZ FLORENT",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                11,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "MICAS TITOUAN",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                14
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "MERLO RAPHAEL",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                40,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "MERAT YANNICK",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                36,
+                33
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "MARCHAIS ALEXANDRE",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                25,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "LENAIN LOIC",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                20,
+                17
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "GIANNONE JOSEPH",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                8,
+                19
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "GERRAND ANTONY",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                10,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "GATEAUX DAMIEN",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                41,
+                30
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "DOHEN CHRISTOPHE",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                11,
+                9
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "DELETROY AXEL",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                12,
+                10
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "COLLETTE MAXIME",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                15,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "CHAUMONT COLIN",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                27,
+                31
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "CARUELLE FLORENT",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                6,
+                6
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "CARTIER MILLON RAYMOND",
+            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                8
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "CANDEIAS DAMIEN",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                18,
+                29
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "BUISSON GREGORY",
+            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                24,
+                22
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 33,
+            "NOM": "ALESSANDRI DAMIEN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                26,
+                25
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 2
+        },
+        {
+            "RANG": 58,
             "NOM": "TROUILLET EDGARD",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -563,29 +1575,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "TRAMAGLIA CEDRIC",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                35
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "TAMISIER VINCENT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -607,59 +1597,59 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "SORDET FABIEN",
-            "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                29
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "SEVOZ ARNAUD",
-            "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                19
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "SAINTHUILE TRISTAN",
+            "RANG": 58,
+            "NOM": "SEITE ALAIN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                14
+                18
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
+        },
+        {
+            "RANG": 58,
+            "NOM": "RICHIERO ANGE",
+            "CLUB": "LA TRONCHE VELO SPORT",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                16
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
+        },
+        {
+            "RANG": 58,
+            "NOM": "RICAU CHARLES",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                6
             ],
             "COURSE": [
                 "Grand Prix Alpespace"
@@ -673,7 +1663,29 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
+            "RANG": 58,
+            "NOM": "RAVIT QUENTIN",
+            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                33
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
+        },
+        {
+            "RANG": 58,
             "NOM": "QUERNIARD PIERRE",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -695,29 +1707,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "PROULT SEBASTIEN",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                37
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "PINTUS EMMANUEL",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -739,7 +1729,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "PIC GERARD",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
@@ -761,7 +1751,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "PETITE PATRICE",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -783,18 +1773,18 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "PATRICELLI GILLES",
-            "CLUB": "TEAM 3 MASSIFS",
+            "RANG": 58,
+            "NOM": "PATRICELLI ARMAND",
+            "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                39
+                26
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -805,7 +1795,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "PARMENTIER VICTOR",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -827,29 +1817,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "OWEN LIAM",
-            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                "DNF"
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "NOTZOLD JULES",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -871,183 +1839,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "NORAZ FLORENT",
-            "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                11
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "MICAS TITOUAN",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                7
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "MERLO RAPHAEL",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                40
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "MERAT YANNICK",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                36
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "MARCHAIS ALEXANDRE",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                25
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "LISI SAMUELE",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                7
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "LENAIN LOIC",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                20
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "LA RIZZA SEBASTIEN",
-            "CLUB": "RIVES UNION CYCLISTE",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                17
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "JALLIFFIER-TALMAT THOMAS",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -1069,7 +1861,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "JALLIFFIER-TALMAT PATRICE",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -1091,15 +1883,15 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "INDERCHIT JEAN-LOUIS",
-            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "RANG": 58,
+            "NOM": "HURSON NICOLAS",
+            "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                38
+                9
             ],
             "COURSE": [
                 "Grand Prix Alpespace"
@@ -1113,18 +1905,18 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "GIANNONE JOSEPH",
-            "CLUB": "UNION CYCLISTE VOIRONNAISE",
+            "RANG": 58,
+            "NOM": "GLENAZ CELIAN",
+            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                8
+                23
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -1135,51 +1927,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "GERRAND ANTONY",
-            "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                10
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "GATEAUX DAMIEN",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                "DNF"
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "FROMENT JULIEN",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -1201,74 +1949,8 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "DOHEN CHRISTOPHE",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                "DNF"
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "DELETROY AXEL",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                12
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "COLLETTE MAXIME",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                15
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
-            "NOM": "CHERY PAUL",
+            "RANG": 58,
+            "NOM": "FRABOULET JULIEN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
             "FEMME": false,
@@ -1278,7 +1960,7 @@
                 6
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -1289,18 +1971,18 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "CHAUMONT COLIN",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "RANG": 58,
+            "NOM": "DUTHILLE LUC",
+            "CLUB": "LES 300",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                27
+                33
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -1311,8 +1993,8 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "CARUELLE FLORENT",
+            "RANG": 58,
+            "NOM": "DUPIN ALEXANDRE",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
             "FEMME": false,
@@ -1322,7 +2004,7 @@
                 6
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -1333,18 +2015,18 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "CARTIER STEPHANE",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "RANG": 58,
+            "NOM": "DENIS REMY",
+            "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                16
+                21
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -1355,29 +2037,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "CARTIER MILLON RAYMOND",
-            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                7
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "CARRE HERVE",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -1399,18 +2059,18 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "CANDEIAS DAMIEN",
-            "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+            "RANG": 58,
+            "NOM": "BUSCAYLET PHILIPPE",
+            "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                18
+                12
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -1421,29 +2081,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "BUISSON GREGORY",
-            "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                24
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "BUCCI GREGORY",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -1465,7 +2103,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
+            "RANG": 58,
             "NOM": "BOUSSELIOU MOHAMED",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -1487,18 +2125,40 @@
             "TOTAL": 1
         },
         {
-            "RANG": 19,
-            "NOM": "ALESSANDRI DAMIEN",
+            "RANG": 58,
+            "NOM": "BERNARD PATRICK",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 1,
             "PLACE": [
-                26
+                11
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
+        },
+        {
+            "RANG": 58,
+            "NOM": "BEDORA THOMAS",
+            "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
+            "POINTS": 0,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                32
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
                 0
@@ -1514,45 +2174,53 @@
             "RANG": 1,
             "NOM": "SEVOZ LAVERDURE CELIA",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 5,
+            "POINTS": 10,
             "FEMME": true,
             "JEUNE": false,
-            "PARTICIPATION": 1,
+            "PARTICIPATION": 2,
             "PLACE": [
+                1,
                 1
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
+                5,
                 5
             ],
             "PARTICIPATION_L": [
+                1,
                 1
             ],
-            "TOTAL": 6
+            "TOTAL": 12
         },
         {
             "RANG": 2,
             "NOM": "ILNICKA OCEANE",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
-            "POINTS": 4,
+            "POINTS": 8,
             "FEMME": true,
             "JEUNE": false,
-            "PARTICIPATION": 1,
+            "PARTICIPATION": 2,
             "PLACE": [
+                2,
                 2
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
+                4,
                 4
             ],
             "PARTICIPATION_L": [
+                1,
                 1
             ],
-            "TOTAL": 5
+            "TOTAL": 10
         },
         {
             "RANG": 3,
@@ -1578,6 +2246,28 @@
         },
         {
             "RANG": 4,
+            "NOM": "MARGUET ALINE",
+            "CLUB": "ALPIN'S WHEEL TEAM",
+            "POINTS": 0,
+            "FEMME": true,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                27
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
+        },
+        {
+            "RANG": 4,
             "NOM": "BOUVIER MANON",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -1597,6 +2287,28 @@
                 1
             ],
             "TOTAL": 1
+        },
+        {
+            "RANG": 4,
+            "NOM": "ARNAUD AGATHE",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 0,
+            "FEMME": true,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                24
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix"
+            ],
+            "POINTS_L": [
+                0
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 1
         }
     ],
     "jeune": [
@@ -1604,68 +2316,80 @@
             "RANG": 1,
             "NOM": "SORDET LILY-ANNE",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 5,
+            "POINTS": 10,
             "FEMME": true,
             "JEUNE": true,
-            "PARTICIPATION": 1,
+            "PARTICIPATION": 2,
             "PLACE": [
+                1,
                 1
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
+                5,
                 5
             ],
             "PARTICIPATION_L": [
+                1,
                 1
             ],
-            "TOTAL": 6
+            "TOTAL": 12
         },
         {
             "RANG": 1,
             "NOM": "SELIN LOIC",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 5,
+            "POINTS": 10,
             "FEMME": false,
             "JEUNE": true,
-            "PARTICIPATION": 1,
+            "PARTICIPATION": 2,
             "PLACE": [
+                1,
                 1
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
+                5,
                 5
             ],
             "PARTICIPATION_L": [
+                1,
                 1
             ],
-            "TOTAL": 6
+            "TOTAL": 12
         },
         {
             "RANG": 3,
             "NOM": "HERNANDEZ RAFAEL",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
-            "POINTS": 4,
+            "POINTS": 8,
             "FEMME": false,
             "JEUNE": true,
-            "PARTICIPATION": 1,
+            "PARTICIPATION": 2,
             "PLACE": [
+                2,
                 2
             ],
             "COURSE": [
-                "Grand Prix Alpespace"
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix"
             ],
             "POINTS_L": [
+                4,
                 4
             ],
             "PARTICIPATION_L": [
+                1,
                 1
             ],
-            "TOTAL": 5
+            "TOTAL": 10
         }
     ],
-    "date": "2025-04-15"
+    "date": "2025-04-26"
 }

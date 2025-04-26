@@ -100,227 +100,60 @@ class ResultsFormatter(ABC):
         return NotImplemented
 
 
-class AlpespaceResultsFormatter(ResultsFormatter):
-    COLS_REMAPPING = {'Clst':STR_RANK,
-            'NOM':STR_NAME,
-            'Nom':STR_NAME,
-            'Club':STR_CLUB,
-            'Catégorie':STR_CAT,
-            'Rem.': "Rem"}
-
-    DUPLICATE_COLS = [0, 3, 5]
-    
-
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        cat = path.with_suffix("").name.split("_")[-1]
-        if path.suffix == ".csv":
-            df = pd.read_csv(path, skiprows=0)
-        else:
-            pdf = pdfplumber.open(path)
-            tables = pdf.pages[0].find_tables(table_settings={})
-            table = tables[0].extract()
-            df = pd.DataFrame(table[1:], columns=table[0])
-            if len(table[0]) == 15: # cas de colonnes dupliquées par pdfplumber
-                for j in self.DUPLICATE_COLS:
-                    for idx in df.index.values:
-                        if not df.iloc[idx, j]:
-                            df.iloc[idx, j] = df.iloc[idx, j+1]
-          
-        df =df.rename(columns=self.COLS_REMAPPING)
-        
-        if "Rem" in df.columns:
-            df.loc[df.Rem == STR_DNS, STR_RANK] = STR_DNS
-            df.loc[df.Rem == STR_DNF, STR_RANK] = STR_DNF
-            df.loc[:, STR_CAT] = cat
-        
-        if "Caté. UFOLEP" in df.columns:
-            df.loc[:, STR_CAT] = df.loc[:, "Caté. UFOLEP"]
-        df = df[self.COLS]
-        df[STR_CAT] = df[STR_CAT].astype(str)
-
-        return df[~df.NOM.isnull()]
-
-class MouillatResultsFormatter(ResultsFormatter):
-    COLS_REMAPPING = {'Clst':STR_RANK,
-            'NOM':STR_NAME,
-            'Club':STR_CLUB,
-            'Catégorie':STR_CAT}
-    
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        pdf = pdfplumber.open(path)
-        table = pdf.pages[0].extract_table(table_settings={"horizontal_strategy": "text", "vertical_strategy": "text", "text_x_tolerance": 10})
-        table = table[2:]
-        for i in range(len(table)):
-            table[i][2:4] = [" ".join(table[i][2:4])]
-            table[i][4:6] = ["".join(table[i][4:6])]
-            table[i][5:7] = ["".join(table[i][5:7])]
-        table
-        df = pd.DataFrame(table[1:], columns=[STR_RANK, "DOSSARD", STR_NAME, "LICENCE", STR_CAT, STR_CLUB])
-        df[STR_RANK] = df[STR_RANK].str.replace("Abandon", STR_DNF)
-        df[STR_RANK] = df[STR_RANK].str.replace("Non partant", STR_DNS)
-        return df[self.COLS]
-
-class MorteResultsFormatter(ResultsFormatter):
-    COLS_REMAPPING = {'Clst':STR_RANK,
-            'NOM':STR_NAME,
-            'Club':STR_CLUB,
-            'Catégorie':STR_CAT}
-
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        cat = path.with_suffix("").name.split("_")[-1]
-        pdf = pdfplumber.open(path)
-        tables = pdf.pages[0].find_tables(table_settings={})
-        table = tables[0].extract()
-        df = pd.DataFrame(table, columns=["Dossard", STR_NAME, STR_CAT, "Temps"])
-        df.loc[:, STR_CLUB] = ""
-        df.loc[:, STR_RANK] = df.index + 1
-
-        return df[self.COLS]
 
 
-class PeuilResultsFormatter(ResultsFormatter):
+
+class GenericCSVFormatter(ResultsFormatter):
+    COLS_NAME = ["NOM", "Nom", "Nom complet"]
+    COLS_SURNAME = ["Prénom", "Prenom"]
+    COLS_PLACE = ["Place", "Rang", "Arrivée", "Clst"]
+    COLS_CAT = ["Catégorie", "Catégorie Age"]
+    COLS_CLUB = ["Club", "CLUB"]
+
+    VALUES_DNF = ["Abandon", "Ab", "AB" "DNF"]
+    VALUES_DNS = ["Non partant", "Np", "NP", "DNS"]
+
+    def rename_columns(self, df: pd.DataFrame) -> pd.DataFrame:
+        col_surname = None
+        for col in self.COLS_SURNAME:
+            if col in df.columns:
+                col_surname = col
+
+        for col in self.COLS_NAME:
+            if col in df.columns:
+                df.rename(columns={col: STR_NAME}, inplace=True)
+
+        if col_surname is not None:
+            df[STR_NAME] = df[STR_NAME] + " " + df[col_surname]
+
+        for col in self.COLS_PLACE:
+            if col in df.columns:
+                df.rename(columns={col: STR_RANK}, inplace=True)
+        for col in self.COLS_CAT:
+            if col in df.columns:
+                df.rename(columns={col: STR_CAT}, inplace=True)
+        for col in self.COLS_CLUB:
+            if col in df.columns:
+                df.rename(columns={col: STR_CLUB}, inplace=True)
+                
+        return df
+
+    def format_values(self, df: pd.DataFrame) -> pd.DataFrame:
+        for val in self.VALUES_DNF:
+            df[STR_RANK] = df[STR_RANK].replace(val, STR_DNF)
+        for val in self.VALUES_DNS:
+            df[STR_RANK] = df[STR_RANK].replace(val, STR_DNS)
+
+        return df
+
     def parse_file(self, path: Path) -> pd.DataFrame:
         df = pd.read_csv(path)
-        df[STR_NAME] = (
-            df["Nom"] + " " + df["Prénom"]
-        )
-        df[STR_CLUB] = df["Club"]
-        df[STR_CAT] = df["Catégorie UFOLEP"]
-        df[STR_RANK] = df["Classement Scratch"]
-
-        return df[self.COLS]
-
-
-class ArzelierResultsFormatter(ResultsFormatter):
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        df = pd.read_csv(path)
-        df[STR_NAME] = df["NOM"] + " " + df["PRENOM"]
-        df[STR_CLUB] = df["CLUB"]
-        df[STR_CAT] = df["Catégorie UFOLEP"]
-        df[STR_RANK] = df["Classement scratch"]
-
-        return df[self.COLS]
-
-
-class CCGResultsFromatter(ResultsFormatter):
-    COLS_REMAPPING = {'Rang':STR_RANK,
-            'NOM':STR_NAME,
-            'Club':STR_CLUB}
-
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        cat = path.stem
-        df = pd.read_csv(path, skiprows=0)
-        if "Fédération / catégorie" in df.columns:
-            cat = df["Fédération / catégorie"]
-        df[STR_NAME] = df.Nom + " " + df.Prénom
-        df = df[~df[STR_NAME].isna()]
-        df[STR_NAME] = df[STR_NAME].map(lambda x: re.sub(' +', ' ', x))
-        df =df.rename(columns=self.COLS_REMAPPING)
-        df[STR_RANK] = df[STR_RANK].astype(str)
-        df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
-        df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
-        df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
-        df[STR_CAT] = cat
-        return df[self.COLS]
-
-class NDResultsFromatter(ResultsFormatter):
-    COLS_REMAPPING = {'Arrivée':STR_RANK,
-            'NOM':STR_NAME,
-            'Club':STR_CLUB,
-            'Catégorie Age':STR_CAT}
-    
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        try:
-            df = pd.read_csv(path)
-        except:
-            raise
-
-        df[STR_NAME] = df.NOM + " " + df.Prénom
-        df = df[~df[STR_NAME].isna()]
-        df[STR_NAME] = df[STR_NAME].map(lambda x: re.sub(' +', ' ', x))
-        df =df.rename(columns=self.COLS_REMAPPING)
-        df[STR_RANK] = df[STR_RANK].astype(str)
-        df[STR_RANK] = df[STR_RANK].str.replace("Ab", STR_DNF)
-        df[STR_RANK] = df[STR_RANK].str.replace("Np", STR_DNS)
-
-        if not STR_CAT in df:
+        df = self.rename_columns(df)
+        df = self.format_values(df)
+        if not STR_CAT in df.columns:
             df[STR_CAT] = path.stem
-    
         return df[self.COLS]
 
-class CrasResultsFormatter(ResultsFormatter):
-    COLS_REMAPPING = {'Place':STR_RANK,
-
-            'Club':STR_CLUB}
-    
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        cat = path.with_suffix("").name.split("-")[-1].lstrip(" ")
-        df = pd.read_csv(path, header=0)
-        df[STR_NAME] = df.Nom + " " + df.Prénom
-        df = df[~df[STR_NAME].isna()]
-        df[STR_NAME] = df[STR_NAME].map(lambda x: re.sub(' +', ' ', x))
-        df =df.rename(columns=self.COLS_REMAPPING)
-        
-        df[STR_RANK] = df[STR_RANK].astype(str)
-        df[STR_RANK] = df[STR_RANK].str.replace("AB", STR_DNF)
-        df[STR_RANK] = df[STR_RANK].str.replace("NP", STR_DNS)
-        df[STR_CAT] = cat
-        return df[self.COLS]
-
-class TvsResultsFormatter(ResultsFormatter):
-    COLS_REMAPPING = {'Class.':STR_RANK,
-
-            'Club':STR_CLUB,
-            'cat': STR_CAT}
-
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        # cat = path.with_suffix("").name.split("-")[-1].lstrip(" ")
-        df = pd.read_csv(path, header=0)
-        df[STR_NAME] = df["Nom"] + " " + df["Prénom"]
-        df =df.rename(columns=self.COLS_REMAPPING)
-        return df
-
-
-class VersoudResultsFormatter(ResultsFormatter):
-    COLS_REMAPPING = {"Class.": STR_RANK, "Club": STR_CLUB, "cat": STR_CAT}
-
-    def parse_file(self, path: Path) -> pd.DataFrame:
-        df = pd.read_csv(path, header=0)
-        df[STR_NAME] = df["NomFamille"] + " " + df["Prénom"]
-        df[STR_CLUB] = df["Club"]
-        df[STR_CAT] = path.stem
-        df[STR_RANK] = df["Classement"]
-        return df
-
-
-class ResultsFormatterFactory:
-    def __init__(self, riders_db: pd.DataFrame) -> None:
-        self.riders_db = riders_db
-
-    def create_formatter(self, name:str) -> ResultsFormatter:
-        p = name.lower()
-        if "oyeu" in p or "murianette" in p or "triptyque" in p or "montaud" in p:
-            return CCGResultsFromatter(self.riders_db)
-        elif "alpespace" in p or "cyclespace" in p or "allevard" in p:
-            return AlpespaceResultsFormatter(self.riders_db)
-        elif "mouillat" in p:
-            return MouillatResultsFormatter(self.riders_db)
-        elif "cras" in p or "andrevière" in p:
-            return CrasResultsFormatter(self.riders_db)
-        elif "porte" in p or "roybon" in p:
-            return TvsResultsFormatter(self.riders_db)
-        elif "osier" in p or "la chapelle" in p:
-            return NDResultsFromatter(self.riders_db)
-        elif "morte" in p:
-            return MorteResultsFormatter(self.riders_db)
-        elif "peuil" in p:
-            return PeuilResultsFormatter(self.riders_db)
-        elif "versoud" in p:
-            return VersoudResultsFormatter(self.riders_db)
-        elif "arzelier" in p:
-            return ArzelierResultsFormatter(self.riders_db)
-        else:
-            raise ValueError(f"No formatter found for {p}")
 
 
 def format_all_results(
@@ -328,11 +161,11 @@ def format_all_results(
     race_type: str,
     date: datetime.date,
     root_path: Path,
-    formatter_factory: ResultsFormatterFactory,
+    riders: pd.DataFrame,
 ) -> List[pd.DataFrame]:
 
     res = []
-    formatter = formatter_factory.create_formatter(race)
+    formatter = GenericCSVFormatter(riders)
     for path in root_path.glob("*"):
         out_path = get_output_file(race, path)
         points = formatter.format_results(path)
@@ -359,11 +192,9 @@ if __name__ == "__main__":
     races[STR_DATE] = pd.to_datetime(races[STR_DATE], dayfirst=False)
     race_folder = (root / PATH_RACES).parent
 
-    formatter_factory = ResultsFormatterFactory(riders)
-
     for race in races.index.values:
         if len(races.loc[race, STR_RACE_FOLDER]) == 0:
             continue
         date = races.loc[race, STR_DATE]
         race_type = races.loc[race, STR_RACE_TYPE]
-        format_all_results(race, race_type, date, race_folder / races.loc[race, STR_RACE_FOLDER], formatter_factory)
+        format_all_results(race, race_type, date, race_folder / races.loc[race, STR_RACE_FOLDER], riders)

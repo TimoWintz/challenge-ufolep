@@ -1,72 +1,93 @@
 [
     {
-        "TOTAL": 51,
-        "INDIV": 31,
-        "ORGA": 20,
+        "TOTAL": 83,
+        "INDIV": 43,
+        "ORGA": 40,
         "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 1
     },
     {
-        "TOTAL": 37,
-        "INDIV": 37,
+        "TOTAL": 73,
+        "INDIV": 73,
         "ORGA": 0,
         "CLUB": "UNION CYCLISTE VOIRONNAISE",
         "RANG": 2
     },
     {
-        "TOTAL": 27,
-        "INDIV": 27,
+        "TOTAL": 49,
+        "INDIV": 49,
         "ORGA": 0,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 3
     },
     {
-        "TOTAL": 16,
-        "INDIV": 16,
+        "TOTAL": 31,
+        "INDIV": 31,
         "ORGA": 0,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 4
     },
     {
-        "TOTAL": 15,
-        "INDIV": 15,
+        "TOTAL": 24,
+        "INDIV": 24,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 5
     },
     {
-        "TOTAL": 11,
-        "INDIV": 11,
+        "TOTAL": 23,
+        "INDIV": 23,
         "ORGA": 0,
         "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
         "RANG": 6
     },
     {
-        "TOTAL": 6,
-        "INDIV": 6,
+        "TOTAL": 15,
+        "INDIV": 15,
         "ORGA": 0,
         "CLUB": "RIVES UNION CYCLISTE",
         "RANG": 7
+    },
+    {
+        "TOTAL": 15,
+        "INDIV": 15,
+        "ORGA": 0,
+        "CLUB": "LA TRONCHE VELO SPORT",
+        "RANG": 7
+    },
+    {
+        "TOTAL": 14,
+        "INDIV": 14,
+        "ORGA": 0,
+        "CLUB": "CYCLO CLUB DE GIERES",
+        "RANG": 9
+    },
+    {
+        "TOTAL": 11,
+        "INDIV": 11,
+        "ORGA": 0,
+        "CLUB": "ALPIN'S WHEEL TEAM",
+        "RANG": 10
+    },
+    {
+        "TOTAL": 6,
+        "INDIV": 6,
+        "ORGA": 0,
+        "CLUB": "SUD GRESIVAUDAN CYCLISME",
+        "RANG": 11
     },
     {
         "TOTAL": 4,
         "INDIV": 4,
         "ORGA": 0,
         "CLUB": "VELO CLUB TURRIPINOIS",
-        "RANG": 8
+        "RANG": 12
     },
     {
-        "TOTAL": 3,
-        "INDIV": 3,
+        "TOTAL": 1,
+        "INDIV": 1,
         "ORGA": 0,
-        "CLUB": "CYCLO CLUB DE GIERES",
-        "RANG": 9
-    },
-    {
-        "TOTAL": 3,
-        "INDIV": 3,
-        "ORGA": 0,
-        "CLUB": "LA TRONCHE VELO SPORT",
-        "RANG": 9
+        "CLUB": "LES 300",
+        "RANG": 13
     }
 ]
