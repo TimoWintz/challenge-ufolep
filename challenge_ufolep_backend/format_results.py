@@ -70,6 +70,7 @@ class ResultsFormatter(ABC):
     def match_riders(self, df: pd.DataFrame):
         df.insert(0, STR_ID, None)
         df[STR_ID] = df[STR_NAME].map(lambda nom: find_rider(nom, self.riders_db))
+
         df.insert(0, STR_WOMAN, False)
         df.insert(0, STR_YOUNG, False)
         df.insert(0, STR_DATE, pd.to_datetime("2023-01-01"))
@@ -100,9 +101,6 @@ class ResultsFormatter(ABC):
         return NotImplemented
 
 
-
-
-
 class GenericCSVFormatter(ResultsFormatter):
     COLS_NAME = ["NOM", "Nom", "Nom complet"]
     COLS_SURNAME = ["Prénom", "Prenom"]
@@ -123,8 +121,8 @@ class GenericCSVFormatter(ResultsFormatter):
             if col in df.columns:
                 df.rename(columns={col: STR_NAME}, inplace=True)
 
-        if col_surname is not None:
-            df[STR_NAME] = df[STR_NAME] + " " + df[col_surname]
+        if col_surname is not None and not df[col_surname].isna().any():
+            df[STR_NAME] = (df[STR_NAME] + " " + df[col_surname].astype(str)).str.strip()
 
         for col in self.COLS_PLACE:
             if col in df.columns:
@@ -135,7 +133,7 @@ class GenericCSVFormatter(ResultsFormatter):
         for col in self.COLS_CLUB:
             if col in df.columns:
                 df.rename(columns={col: STR_CLUB}, inplace=True)
-                
+
         return df
 
     def format_values(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -147,13 +145,14 @@ class GenericCSVFormatter(ResultsFormatter):
         return df
 
     def parse_file(self, path: Path) -> pd.DataFrame:
+
         df = pd.read_csv(path)
         df = self.rename_columns(df)
         df = self.format_values(df)
         if not STR_CAT in df.columns:
             df[STR_CAT] = path.stem
-        return df[self.COLS]
 
+        return df[self.COLS]
 
 
 def format_all_results(
