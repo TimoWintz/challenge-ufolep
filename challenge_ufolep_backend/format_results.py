@@ -106,10 +106,11 @@ class GenericCSVFormatter(ResultsFormatter):
     COLS_SURNAME = ["Prénom", "Prenom"]
     COLS_PLACE = ["Place", "Rang", "Arrivée", "Clst"]
     COLS_CAT = ["Catégorie", "Catégorie Age"]
-    COLS_CLUB = ["Club", "CLUB"]
+    COLS_CLUB = ["Club", "CLUB","Club Ufolep 38"]
 
     VALUES_DNF = ["Abandon", "Ab", "AB" "DNF"]
     VALUES_DNS = ["Non partant", "Np", "NP", "DNS"]
+    VALUES_REM = ["Rem"]
 
     def rename_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         col_surname = None
@@ -141,6 +142,12 @@ class GenericCSVFormatter(ResultsFormatter):
             df[STR_RANK] = df[STR_RANK].replace(val, STR_DNF)
         for val in self.VALUES_DNS:
             df[STR_RANK] = df[STR_RANK].replace(val, STR_DNS)
+        for col_rem in self.VALUES_REM:
+            if col_rem in df.columns:
+                for val in self.VALUES_DNS:
+                    df.loc[df[col_rem] == val, STR_RANK] = STR_DNS
+                for val in self.VALUES_DNF:
+                    df.loc[df[col_rem] == val, STR_RANK] = STR_DNF
 
         return df
 
