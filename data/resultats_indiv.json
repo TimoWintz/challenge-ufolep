@@ -853,7 +853,7 @@
             "PLACE": [
                 2,
                 8,
-                12,
+                13,
                 7,
                 15
             ],
@@ -1130,7 +1130,7 @@
             "PARTICIPATION": 3,
             "PLACE": [
                 5,
-                9,
+                10,
                 3
             ],
             "COURSE": [
@@ -1410,6 +1410,32 @@
         },
         {
             "RANG": 41,
+            "NOM": "PIGNEDE PIERRE",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 3,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                7,
+                3
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras"
+            ],
+            "POINTS_L": [
+                0,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 5
+        },
+        {
+            "RANG": 41,
             "NOM": "NORAZ FLORENT",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 1,
@@ -1453,7 +1479,7 @@
             "PLACE": [
                 7,
                 5,
-                7,
+                8,
                 11
             ],
             "COURSE": [
@@ -1553,29 +1579,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 46,
-            "NOM": "PIGNEDE PIERRE",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 3,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                3
-            ],
-            "COURSE": [
-                "Grand Prix de Cras"
-            ],
-            "POINTS_L": [
-                3
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 4
-        },
-        {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "LORIGEON FABIEN",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 3,
@@ -1597,7 +1601,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "DESCOMBES ALEXIS",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 3,
@@ -1623,7 +1627,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "MELEZE FREDERIC",
             "CLUB": "SUD GRESIVAUDAN CYCLISME",
             "POINTS": 2,
@@ -1631,7 +1635,7 @@
             "JEUNE": false,
             "PARTICIPATION": 2,
             "PLACE": [
-                8,
+                9,
                 4
             ],
             "COURSE": [
@@ -1649,7 +1653,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "VIAL JACQUES",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 1,
@@ -1679,7 +1683,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "GIANNONE JOSEPH",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -1713,7 +1717,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "GERRAND ANTONY",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -1747,7 +1751,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "DOHEN CHRISTOPHE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -1757,7 +1761,7 @@
             "PLACE": [
                 11,
                 9,
-                11,
+                12,
                 6
             ],
             "COURSE": [
@@ -1781,7 +1785,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "DENIS REMY",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -1815,7 +1819,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "CHAUMONT COLIN",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -1849,7 +1853,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "CARUELLE FLORENT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -1887,7 +1891,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "CARTIER STEPHANE",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -1921,7 +1925,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "CARTIER MILLON RAYMOND",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -1955,7 +1959,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "BUCCI GREGORY",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -1989,7 +1993,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 46,
+            "RANG": 47,
             "NOM": "ALESSANDRI DAMIEN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -2290,7 +2294,7 @@
             "PARTICIPATION": 3,
             "PLACE": [
                 9,
-                10,
+                11,
                 10
             ],
             "COURSE": [
@@ -2350,7 +2354,7 @@
             "PARTICIPATION": 3,
             "PLACE": [
                 6,
-                14,
+                15,
                 8
             ],
             "COURSE": [
@@ -2893,7 +2897,7 @@
             "JEUNE": false,
             "PARTICIPATION": 2,
             "PLACE": [
-                13,
+                14,
                 9
             ],
             "COURSE": [
