@@ -104,9 +104,9 @@ class ResultsFormatter(ABC):
 class GenericCSVFormatter(ResultsFormatter):
     COLS_NAME = ["NOM", "Nom", "Nom complet"]
     COLS_SURNAME = ["Prénom", "Prenom"]
-    COLS_PLACE = ["Place", "Rang", "Arrivée", "Clst"]
+    COLS_PLACE = ["Place", "Rang", "Arrivée", "Clst", "Class."]
     COLS_CAT = ["Catégorie", "Catégorie Age"]
-    COLS_CLUB = ["Club", "CLUB","Club Ufolep 38"]
+    COLS_CLUB = ["Club", "CLUB", "Club Ufolep 38"]
 
     VALUES_DNF = ["Abandon", "Ab", "AB" "DNF"]
     VALUES_DNS = ["Non partant", "Np", "NP", "DNS"]
@@ -121,19 +121,22 @@ class GenericCSVFormatter(ResultsFormatter):
         for col in self.COLS_NAME:
             if col in df.columns:
                 df.rename(columns={col: STR_NAME}, inplace=True)
-
+        
         if col_surname is not None and not df[col_surname].isna().any():
-            df[STR_NAME] = (df[STR_NAME] + " " + df[col_surname].astype(str)).str.strip()
+            df[STR_NAME] = (df[STR_NAME].str.strip() + " " + df[col_surname].astype(str)).str.strip()
 
         for col in self.COLS_PLACE:
             if col in df.columns:
                 df.rename(columns={col: STR_RANK}, inplace=True)
+                break
         for col in self.COLS_CAT:
             if col in df.columns:
                 df.rename(columns={col: STR_CAT}, inplace=True)
+                break
         for col in self.COLS_CLUB:
             if col in df.columns:
                 df.rename(columns={col: STR_CLUB}, inplace=True)
+                break
 
         return df
 
