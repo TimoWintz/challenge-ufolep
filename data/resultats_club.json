@@ -1,44 +1,44 @@
 [
     {
-        "TOTAL": 148,
-        "INDIV": 128,
-        "ORGA": 20,
-        "CLUB": "TEAM 3 MASSIFS",
+        "TOTAL": 165,
+        "INDIV": 125,
+        "ORGA": 40,
+        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 1
     },
     {
-        "TOTAL": 125,
-        "INDIV": 125,
-        "ORGA": 0,
-        "CLUB": "UNION CYCLISTE VOIRONNAISE",
+        "TOTAL": 160,
+        "INDIV": 140,
+        "ORGA": 20,
+        "CLUB": "TEAM 3 MASSIFS",
         "RANG": 2
     },
     {
-        "TOTAL": 121,
-        "INDIV": 101,
+        "TOTAL": 132,
+        "INDIV": 112,
         "ORGA": 20,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 3
     },
     {
-        "TOTAL": 119,
-        "INDIV": 99,
-        "ORGA": 20,
-        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
+        "TOTAL": 129,
+        "INDIV": 129,
+        "ORGA": 0,
+        "CLUB": "UNION CYCLISTE VOIRONNAISE",
         "RANG": 4
     },
     {
-        "TOTAL": 80,
-        "INDIV": 80,
-        "ORGA": 0,
-        "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
+        "TOTAL": 82,
+        "INDIV": 62,
+        "ORGA": 20,
+        "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 5
     },
     {
-        "TOTAL": 72,
-        "INDIV": 52,
-        "ORGA": 20,
-        "CLUB": "CYCLO CLUB DE GIERES",
+        "TOTAL": 81,
+        "INDIV": 81,
+        "ORGA": 0,
+        "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
         "RANG": 6
     },
     {
@@ -56,25 +56,25 @@
         "RANG": 8
     },
     {
-        "TOTAL": 36,
-        "INDIV": 36,
+        "TOTAL": 42,
+        "INDIV": 42,
         "ORGA": 0,
-        "CLUB": "SUD GRESIVAUDAN CYCLISME",
+        "CLUB": "ALPIN'S WHEEL TEAM",
         "RANG": 9
     },
     {
-        "TOTAL": 34,
-        "INDIV": 34,
+        "TOTAL": 41,
+        "INDIV": 41,
         "ORGA": 0,
-        "CLUB": "ALPIN'S WHEEL TEAM",
+        "CLUB": "SUD GRESIVAUDAN CYCLISME",
         "RANG": 10
     },
     {
-        "TOTAL": 34,
-        "INDIV": 34,
+        "TOTAL": 39,
+        "INDIV": 39,
         "ORGA": 0,
         "CLUB": "RIVES UNION CYCLISTE",
-        "RANG": 10
+        "RANG": 11
     },
     {
         "TOTAL": 25,

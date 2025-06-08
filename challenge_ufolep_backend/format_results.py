@@ -105,7 +105,7 @@ class GenericCSVFormatter(ResultsFormatter):
     COLS_NAME = ["NOM", "Nom", "Nom complet"]
     COLS_SURNAME = ["Prénom", "Prenom"]
     COLS_PLACE = ["Place", "Rang", "Arrivée", "Clst", "Class."]
-    COLS_CAT = ["Catégorie", "Catégorie Age"]
+    COLS_CAT = ["Caté. UFOLEP", "Catégorie", "Catégorie Age"]
     COLS_CLUB = ["Club", "CLUB", "Club Ufolep 38"]
 
     VALUES_DNF = ["Abandon", "Ab", "AB" "DNF"]
