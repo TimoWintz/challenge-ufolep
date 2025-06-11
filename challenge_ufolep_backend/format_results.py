@@ -91,6 +91,7 @@ class ResultsFormatter(ABC):
         return df
 
     def format_results(self, path: Path) -> pd.DataFrame:
+        print(f"Parsing {path}")
         df = self.parse_file(path=path)
         df = df[self.COLS]
         df = self.match_riders(df)
@@ -104,7 +105,7 @@ class ResultsFormatter(ABC):
 class GenericCSVFormatter(ResultsFormatter):
     COLS_NAME = ["NOM", "Nom", "Nom complet"]
     COLS_SURNAME = ["Prénom", "Prenom"]
-    COLS_PLACE = ["Place", "Rang", "Arrivée", "Clst", "Class."]
+    COLS_PLACE = ["Place", "Rang", "Arrivée", "Clst", "Class.","Classement"]
     COLS_CAT = ["Caté. UFOLEP", "Catégorie", "Catégorie Age"]
     COLS_CLUB = ["Club", "CLUB", "Club Ufolep 38"]
 
@@ -161,6 +162,8 @@ class GenericCSVFormatter(ResultsFormatter):
         df = self.format_values(df)
         if not STR_CAT in df.columns:
             df[STR_CAT] = path.stem
+        if not STR_CLUB in df.columns:
+            df[STR_CLUB] = ""
 
         return df[self.COLS]
 
