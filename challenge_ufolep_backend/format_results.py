@@ -8,6 +8,8 @@ from pathlib import Path
 import re
 from datetime import datetime
 import numpy as np
+from collections import defaultdict
+
 
 STR_NAME = "NOM"
 STR_ALL_NAMES = "LISTE_NOMS"
@@ -109,7 +111,7 @@ class GenericCSVFormatter(ResultsFormatter):
     COLS_CAT = ["Caté. UFOLEP", "Catégorie", "Catégorie Age"]
     COLS_CLUB = ["Club", "CLUB", "Club Ufolep 38"]
 
-    VALUES_DNF = ["Abandon", "Ab", "AB" "DNF"]
+    VALUES_DNF = ["Abandon", "Ab", "AB", "DNF"]
     VALUES_DNS = ["Non partant", "Np", "NP", "DNS"]
     VALUES_REM = ["Rem"]
 
@@ -122,7 +124,7 @@ class GenericCSVFormatter(ResultsFormatter):
         for col in self.COLS_NAME:
             if col in df.columns:
                 df.rename(columns={col: STR_NAME}, inplace=True)
-        
+
         if col_surname is not None and not df[col_surname].isna().any():
             df[STR_NAME] = (df[STR_NAME].str.strip() + " " + df[col_surname].astype(str)).str.strip()
 
@@ -142,10 +144,12 @@ class GenericCSVFormatter(ResultsFormatter):
         return df
 
     def format_values(self, df: pd.DataFrame) -> pd.DataFrame:
+        df[STR_RANK] = df[STR_RANK].astype(str)
         for val in self.VALUES_DNF:
             df[STR_RANK] = df[STR_RANK].replace(val, STR_DNF)
         for val in self.VALUES_DNS:
             df[STR_RANK] = df[STR_RANK].replace(val, STR_DNS)
+        
         for col_rem in self.VALUES_REM:
             if col_rem in df.columns:
                 for val in self.VALUES_DNS:
@@ -157,9 +161,13 @@ class GenericCSVFormatter(ResultsFormatter):
 
     def parse_file(self, path: Path) -> pd.DataFrame:
 
-        df = pd.read_csv(path)
+        df = pd.read_csv(path, dtype=str)
         df = self.rename_columns(df)
         df = self.format_values(df)
+        def key_func(x):
+            return pd.to_numeric(x, errors='coerce')
+
+        df = df.sort_values(by=STR_RANK, ascending=True, key=key_func)
         if not STR_CAT in df.columns:
             df[STR_CAT] = path.stem
         if not STR_CLUB in df.columns:
