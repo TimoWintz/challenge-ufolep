@@ -10,7 +10,6 @@ from challenge_ufolep_backend.format_results import (
     PATH_RACES,
     STR_ID,
     get_output_file,
-    ResultsFormatterFactory,
     STR_NAME,
     STR_RANK,
     STR_WOMAN,
@@ -82,7 +81,6 @@ if __name__ == "__main__":
     }
     tous_points = []
     race_folder = (root / PATH_RACES).parent
-    formatter_factory = ResultsFormatterFactory(riders)
 
     all_tables_points = []
     for race in races.index.values:
