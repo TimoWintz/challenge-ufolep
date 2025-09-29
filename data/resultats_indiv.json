@@ -100,7 +100,7 @@
             "NOM": "CLM DE ROYBON",
             "DATE": "2025/09/20",
             "CLUB": "LA TRONCHE VELO SPORT",
-            "PASSE": false
+            "PASSE": true
         },
         {
             "NOM": "GRAND PRIX DE LA CHAPELLE DE LA TOUR",
@@ -120,10 +120,10 @@
             "RANG": 1,
             "NOM": "DEBUCK LAURENT",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-            "POINTS": 47,
+            "POINTS": 49,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 15,
+            "PARTICIPATION": 16,
             "PLACE": [
                 4,
                 5,
@@ -139,7 +139,8 @@
                 1,
                 1,
                 2,
-                9
+                9,
+                4
             ],
             "COURSE": [
                 "Grand Prix Alpespace",
@@ -156,7 +157,8 @@
                 "Grand prix de Blandin",
                 "Grimpée du Peuil",
                 "Triptyque du Fontanil",
-                "Grimpée Murianette - Pinet d'Uriage"
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
                 2,
@@ -173,7 +175,8 @@
                 5,
                 5,
                 4,
-                0
+                0,
+                2
             ],
             "PARTICIPATION_L": [
                 1,
@@ -190,9 +193,10 @@
                 1,
                 1,
                 1,
+                1,
                 1
             ],
-            "TOTAL": 62
+            "TOTAL": 65
         },
         {
             "RANG": 2,
@@ -362,6 +366,64 @@
         },
         {
             "RANG": 5,
+            "NOM": "COLLETTE MAXIME",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 24,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 10,
+            "PLACE": [
+                15,
+                7,
+                2,
+                5,
+                2,
+                1,
+                1,
+                4,
+                3,
+                7
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "Grand Prix de Lalley",
+                "Grand Prix de Cras",
+                "Grand Prix d'Oyeu - Championnat Départemental",
+                "Grimpée du Collet d’Allevard",
+                "Grimpée du col de la Morte",
+                "CLM du Vercors",
+                "Grimpée du Peuil",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                4,
+                1,
+                4,
+                5,
+                5,
+                2,
+                3,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 34
+        },
+        {
+            "RANG": 6,
             "NOM": "RIPPERT VALENTIN",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 26,
@@ -407,7 +469,7 @@
             "TOTAL": 33
         },
         {
-            "RANG": 5,
+            "RANG": 6,
             "NOM": "MELEZE JEAN-PHILIPPE",
             "CLUB": "SUD GRESIVAUDAN CYCLISME",
             "POINTS": 26,
@@ -453,45 +515,45 @@
             "TOTAL": 33
         },
         {
-            "RANG": 5,
-            "NOM": "COLLETTE MAXIME",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 24,
+            "RANG": 8,
+            "NOM": "DE FLAUGERGUES FRANCOIS",
+            "CLUB": "SUD GRESIVAUDAN CYCLISME",
+            "POINTS": 23,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 9,
             "PLACE": [
-                15,
-                7,
-                2,
+                37,
+                27,
                 5,
+                6,
+                2,
                 2,
                 1,
-                1,
-                4,
-                3
+                2,
+                1
             ],
             "COURSE": [
-                "Grand Prix Alpespace",
-                "Grand Prix de Sainte-Marie-d'Alloix",
-                "Grand Prix de Lalley",
+                "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Cras",
+                "Grimpée du Col de Porte",
                 "Grand Prix d'Oyeu - Championnat Départemental",
                 "Grimpée du Collet d’Allevard",
-                "Grimpée du col de la Morte",
-                "CLM du Vercors",
-                "Grimpée du Peuil"
+                "Notre Dame de l’Osier",
+                "Grimpée du Peuil",
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
                 0,
                 0,
-                4,
                 1,
+                0,
+                4,
                 4,
                 5,
-                5,
-                2,
-                3
+                4,
+                5
             ],
             "PARTICIPATION_L": [
                 1,
@@ -504,10 +566,10 @@
                 1,
                 1
             ],
-            "TOTAL": 33
+            "TOTAL": 32
         },
         {
-            "RANG": 8,
+            "RANG": 9,
             "NOM": "GURKE ELOUAN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 23,
@@ -545,7 +607,7 @@
             "TOTAL": 28
         },
         {
-            "RANG": 8,
+            "RANG": 9,
             "NOM": "BLANCHIN MATHIEU",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 22,
@@ -587,7 +649,7 @@
             "TOTAL": 28
         },
         {
-            "RANG": 8,
+            "RANG": 9,
             "NOM": "MERLO RAPHAEL",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 20,
@@ -637,7 +699,7 @@
             "TOTAL": 28
         },
         {
-            "RANG": 11,
+            "RANG": 12,
             "NOM": "BROUSSET TRISTAN",
             "CLUB": "ALPIN'S WHEEL TEAM",
             "POINTS": 21,
@@ -679,7 +741,7 @@
             "TOTAL": 27
         },
         {
-            "RANG": 11,
+            "RANG": 12,
             "NOM": "PUDELKO SEBASTIEN",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 19,
@@ -729,42 +791,63 @@
             "TOTAL": 27
         },
         {
-            "RANG": 13,
-            "NOM": "DE FLAUGERGUES FRANCOIS",
-            "CLUB": "SUD GRESIVAUDAN CYCLISME",
-            "POINTS": 18,
+            "RANG": 12,
+            "NOM": "UHRY GILLES",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 12,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 8,
+            "PARTICIPATION": 15,
             "PLACE": [
-                37,
-                27,
+                3,
+                "DNF",
+                16,
+                5,
+                5,
+                10,
+                4,
+                10,
+                6,
+                5,
                 5,
                 6,
-                2,
-                2,
-                1,
-                2
+                6,
+                10,
+                3
             ],
             "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix",
                 "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Lalley",
                 "Grand Prix de Cras",
                 "Grimpée du Col de Porte",
                 "Grand Prix d'Oyeu - Championnat Départemental",
                 "Grimpée du Collet d’Allevard",
                 "Notre Dame de l’Osier",
+                "CLM du Vercors",
+                "Grand prix de Blandin",
                 "Grimpée du Peuil",
-                "Grimpée Murianette - Pinet d'Uriage"
+                "Triptyque du Fontanil",
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
+                3,
                 0,
                 0,
                 1,
+                1,
                 0,
-                4,
-                4,
-                5,
-                4
+                2,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                3
             ],
             "PARTICIPATION_L": [
                 1,
@@ -774,12 +857,19 @@
                 1,
                 1,
                 1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 1
             ],
-            "TOTAL": 26
+            "TOTAL": 27
         },
         {
-            "RANG": 14,
+            "RANG": 15,
             "NOM": "MORACCHIOLI THOMAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 19,
@@ -821,69 +911,41 @@
             "TOTAL": 25
         },
         {
-            "RANG": 15,
-            "NOM": "UHRY GILLES",
+            "RANG": 16,
+            "NOM": "RAMBAUD JULIEN",
             "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 9,
+            "POINTS": 16,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 14,
+            "PARTICIPATION": 7,
             "PLACE": [
-                3,
-                "DNF",
-                16,
-                5,
-                5,
-                10,
+                1,
                 4,
-                10,
+                4,
                 6,
-                5,
-                5,
-                6,
-                6,
-                10
+                7,
+                4,
+                1
             ],
             "COURSE": [
                 "Grand Prix Alpespace",
-                "Grand Prix de Sainte-Marie-d'Alloix",
                 "Grand Prix d'Oyeu - Burcin",
                 "Grand Prix de Lalley",
                 "Grand Prix de Cras",
-                "Grimpée du Col de Porte",
-                "Grand Prix d'Oyeu - Championnat Départemental",
-                "Grimpée du Collet d’Allevard",
                 "Notre Dame de l’Osier",
-                "CLM du Vercors",
                 "Grand prix de Blandin",
-                "Grimpée du Peuil",
-                "Triptyque du Fontanil",
-                "Grimpée Murianette - Pinet d'Uriage"
+                "CLM de Roybon"
             ],
             "POINTS_L": [
-                3,
-                0,
-                0,
-                1,
-                1,
-                0,
+                5,
+                2,
                 2,
                 0,
                 0,
-                1,
-                1,
-                0,
-                0,
-                0
+                2,
+                5
             ],
             "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
                 1,
                 1,
                 1,
@@ -895,7 +957,7 @@
             "TOTAL": 23
         },
         {
-            "RANG": 16,
+            "RANG": 17,
             "NOM": "MELINU JEROME",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 18,
@@ -929,7 +991,49 @@
             "TOTAL": 22
         },
         {
-            "RANG": 16,
+            "RANG": 17,
+            "NOM": "LORIGEON FABIEN",
+            "CLUB": "LA TRONCHE VELO SPORT",
+            "POINTS": 16,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 6,
+            "PLACE": [
+                3,
+                4,
+                2,
+                1,
+                5,
+                5
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grimpée du Col de Porte",
+                "Grand Prix d'Oyeu - Championnat Départemental",
+                "Grand prix de Blandin",
+                "Triptyque du Fontanil",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                3,
+                2,
+                4,
+                5,
+                1,
+                1
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 22
+        },
+        {
+            "RANG": 17,
             "NOM": "DELETROY AXEL",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 14,
@@ -979,7 +1083,41 @@
             "TOTAL": 22
         },
         {
-            "RANG": 18,
+            "RANG": 20,
+            "NOM": "VASQUEZ THIERRY",
+            "CLUB": "LA TRONCHE VELO SPORT",
+            "POINTS": 17,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                1,
+                4,
+                1,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Championnat Départemental",
+                "Notre Dame de l’Osier",
+                "CLM du Vercors",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                5,
+                2,
+                5,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 21
+        },
+        {
+            "RANG": 20,
             "NOM": "HAGE TITOUAN",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 17,
@@ -1013,7 +1151,7 @@
             "TOTAL": 21
         },
         {
-            "RANG": 19,
+            "RANG": 22,
             "NOM": "COURTOIS CLEMENT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 16,
@@ -1047,45 +1185,7 @@
             "TOTAL": 20
         },
         {
-            "RANG": 19,
-            "NOM": "LORIGEON FABIEN",
-            "CLUB": "LA TRONCHE VELO SPORT",
-            "POINTS": 15,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 5,
-            "PLACE": [
-                3,
-                4,
-                2,
-                1,
-                5
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grimpée du Col de Porte",
-                "Grand Prix d'Oyeu - Championnat Départemental",
-                "Grand prix de Blandin",
-                "Triptyque du Fontanil"
-            ],
-            "POINTS_L": [
-                3,
-                2,
-                4,
-                5,
-                1
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 20
-        },
-        {
-            "RANG": 19,
+            "RANG": 22,
             "NOM": "JALLIFFIER-TALMAT PATRICE",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 15,
@@ -1127,7 +1227,7 @@
             "TOTAL": 20
         },
         {
-            "RANG": 19,
+            "RANG": 22,
             "NOM": "DENIS REMY",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 11,
@@ -1181,7 +1281,61 @@
             "TOTAL": 20
         },
         {
-            "RANG": 23,
+            "RANG": 22,
+            "NOM": "CARRE HERVE",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 11,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 9,
+            "PLACE": [
+                8,
+                14,
+                15,
+                10,
+                10,
+                2,
+                6,
+                3,
+                2
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grand Prix d'Oyeu - Championnat Départemental",
+                "Notre Dame de l’Osier",
+                "CLM du Vercors",
+                "Triptyque du Fontanil",
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                3,
+                4
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 20
+        },
+        {
+            "RANG": 26,
             "NOM": "RICAU CHARLES",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 15,
@@ -1219,7 +1373,53 @@
             "TOTAL": 19
         },
         {
-            "RANG": 23,
+            "RANG": 26,
+            "NOM": "MELEZE FREDERIC",
+            "CLUB": "SUD GRESIVAUDAN CYCLISME",
+            "POINTS": 12,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 7,
+            "PLACE": [
+                9,
+                4,
+                3,
+                5,
+                2,
+                6,
+                4
+            ],
+            "COURSE": [
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Cras",
+                "Grimpée du Col de Porte",
+                "Grand Prix d'Oyeu - Championnat Départemental",
+                "Grand prix de Blandin",
+                "Triptyque du Fontanil",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                0,
+                2,
+                3,
+                1,
+                4,
+                0,
+                2
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 19
+        },
+        {
+            "RANG": 26,
             "NOM": "CHERY PAUL",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 11,
@@ -1269,7 +1469,7 @@
             "TOTAL": 19
         },
         {
-            "RANG": 25,
+            "RANG": 29,
             "NOM": "VIDE NICOLAS",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 14,
@@ -1299,39 +1499,35 @@
             "TOTAL": 17
         },
         {
-            "RANG": 25,
-            "NOM": "RAMBAUD JULIEN",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 11,
+            "RANG": 29,
+            "NOM": "PIGNEDE PIERRE",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 12,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 6,
+            "PARTICIPATION": 5,
             "PLACE": [
-                1,
-                4,
-                4,
-                6,
                 7,
-                4
+                3,
+                2,
+                7,
+                1
             ],
             "COURSE": [
-                "Grand Prix Alpespace",
                 "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Lalley",
                 "Grand Prix de Cras",
-                "Notre Dame de l’Osier",
-                "Grand prix de Blandin"
+                "CLM du Vercors",
+                "Triptyque du Fontanil",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
-                5,
-                2,
-                2,
                 0,
+                3,
+                4,
                 0,
-                2
+                5
             ],
             "PARTICIPATION_L": [
-                1,
                 1,
                 1,
                 1,
@@ -1341,40 +1537,32 @@
             "TOTAL": 17
         },
         {
-            "RANG": 27,
-            "NOM": "MELEZE FREDERIC",
-            "CLUB": "SUD GRESIVAUDAN CYCLISME",
-            "POINTS": 10,
+            "RANG": 31,
+            "NOM": "AGUD THIERRY",
+            "CLUB": "ALPIN'S WHEEL TEAM",
+            "POINTS": 12,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 6,
+            "PARTICIPATION": 4,
             "PLACE": [
-                9,
-                4,
-                3,
                 5,
+                3,
                 2,
-                6
+                2
             ],
             "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Grimpée du Col de Porte",
-                "Grand Prix d'Oyeu - Championnat Départemental",
-                "Grand prix de Blandin",
-                "Triptyque du Fontanil"
+                "Grimpée du Collet d’Allevard",
+                "Grimpée du col de la Morte",
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
-                0,
-                2,
-                3,
                 1,
+                3,
                 4,
-                0
+                4
             ],
             "PARTICIPATION_L": [
-                1,
-                1,
                 1,
                 1,
                 1,
@@ -1383,7 +1571,7 @@
             "TOTAL": 16
         },
         {
-            "RANG": 27,
+            "RANG": 31,
             "NOM": "SORDET FABIEN",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 9,
@@ -1429,87 +1617,7 @@
             "TOTAL": 16
         },
         {
-            "RANG": 29,
-            "NOM": "VASQUEZ THIERRY",
-            "CLUB": "LA TRONCHE VELO SPORT",
-            "POINTS": 12,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                1,
-                4,
-                1
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Championnat Départemental",
-                "Notre Dame de l’Osier",
-                "CLM du Vercors"
-            ],
-            "POINTS_L": [
-                5,
-                2,
-                5
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 15
-        },
-        {
-            "RANG": 29,
-            "NOM": "CARRE HERVE",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 7,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 8,
-            "PLACE": [
-                8,
-                14,
-                15,
-                10,
-                10,
-                2,
-                6,
-                3
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "Grand Prix d'Oyeu - Championnat Départemental",
-                "Notre Dame de l’Osier",
-                "CLM du Vercors",
-                "Triptyque du Fontanil",
-                "Grimpée Murianette - Pinet d'Uriage"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                4,
-                0,
-                3
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 15
-        },
-        {
-            "RANG": 31,
+            "RANG": 33,
             "NOM": "SEITE ALAIN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 9,
@@ -1547,7 +1655,7 @@
             "TOTAL": 14
         },
         {
-            "RANG": 31,
+            "RANG": 33,
             "NOM": "BUISSON GREGORY",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 6,
@@ -1598,6 +1706,60 @@
         },
         {
             "RANG": 33,
+            "NOM": "COLOTTI JULIEN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 5,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 9,
+            "PLACE": [
+                2,
+                8,
+                13,
+                7,
+                "DNF",
+                7,
+                5,
+                9,
+                9
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Lalley",
+                "Grand Prix de Cras",
+                "Grand Prix d'Oyeu - Championnat Départemental",
+                "CLM du Vercors",
+                "Triptyque du Fontanil",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 14
+        },
+        {
+            "RANG": 36,
             "NOM": "DUTHILLE LUC",
             "CLUB": "LES 300",
             "POINTS": 10,
@@ -1627,7 +1789,7 @@
             "TOTAL": 13
         },
         {
-            "RANG": 33,
+            "RANG": 36,
             "NOM": "AUBERT THOMAS",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 10,
@@ -1657,7 +1819,7 @@
             "TOTAL": 13
         },
         {
-            "RANG": 33,
+            "RANG": 36,
             "NOM": "FROMENT JULIEN",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 8,
@@ -1695,7 +1857,7 @@
             "TOTAL": 13
         },
         {
-            "RANG": 33,
+            "RANG": 36,
             "NOM": "LOUPIEN VINCENT",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 7,
@@ -1737,7 +1899,7 @@
             "TOTAL": 13
         },
         {
-            "RANG": 33,
+            "RANG": 36,
             "NOM": "QUERNIARD PIERRE",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 6,
@@ -1783,7 +1945,7 @@
             "TOTAL": 13
         },
         {
-            "RANG": 33,
+            "RANG": 36,
             "NOM": "MARCHAIS ALEXANDRE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 6,
@@ -1829,7 +1991,7 @@
             "TOTAL": 13
         },
         {
-            "RANG": 33,
+            "RANG": 36,
             "NOM": "GERRAND ANTONY",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 6,
@@ -1879,57 +2041,7 @@
             "TOTAL": 13
         },
         {
-            "RANG": 33,
-            "NOM": "COLOTTI JULIEN",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 5,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 8,
-            "PLACE": [
-                2,
-                8,
-                13,
-                7,
-                "DNF",
-                7,
-                5,
-                9
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace",
-                "Grand Prix de Sainte-Marie-d'Alloix",
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Lalley",
-                "Grand Prix de Cras",
-                "Grand Prix d'Oyeu - Championnat Départemental",
-                "CLM du Vercors",
-                "Triptyque du Fontanil"
-            ],
-            "POINTS_L": [
-                4,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 13
-        },
-        {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "GATINEAU GAETAN",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 10,
@@ -1955,7 +2067,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "MONGE NICOLAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 9,
@@ -1985,7 +2097,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "CHAMPAULT MICKAEL",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 9,
@@ -2015,7 +2127,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "LORENZO PHILIPPE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 8,
@@ -2049,7 +2161,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "TAMISIER VINCENT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 7,
@@ -2087,7 +2199,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "PARROT YVES",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 7,
@@ -2125,7 +2237,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "SAINTHUILE TRISTAN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 6,
@@ -2171,7 +2283,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "BUSCAYLET PHILIPPE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 5,
@@ -2217,7 +2329,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "VIAL JACQUES",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 4,
@@ -2267,7 +2379,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "LISI SAMUELE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 4,
@@ -2317,7 +2429,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 41,
+            "RANG": 43,
             "NOM": "BESCOND DIDIER",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 4,
@@ -2367,7 +2479,7 @@
             "TOTAL": 12
         },
         {
-            "RANG": 52,
+            "RANG": 54,
             "NOM": "HORAUD PATRICE",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 9,
@@ -2393,71 +2505,33 @@
             "TOTAL": 11
         },
         {
-            "RANG": 52,
-            "NOM": "AGUD THIERRY",
+            "RANG": 54,
+            "NOM": "BLASQUEZ LUCA",
             "CLUB": "ALPIN'S WHEEL TEAM",
-            "POINTS": 8,
+            "POINTS": 9,
             "FEMME": false,
             "JEUNE": false,
-            "PARTICIPATION": 3,
+            "PARTICIPATION": 2,
             "PLACE": [
-                5,
-                3,
+                1,
                 2
             ],
             "COURSE": [
-                "Grimpée du Collet d’Allevard",
-                "Grimpée du col de la Morte",
-                "Grimpée Murianette - Pinet d'Uriage"
+                "CLM du Vercors",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
-                1,
-                3,
+                5,
                 4
             ],
             "PARTICIPATION_L": [
                 1,
-                1,
                 1
             ],
             "TOTAL": 11
         },
         {
-            "RANG": 52,
-            "NOM": "PIGNEDE PIERRE",
-            "CLUB": "CYCLO CLUB DE GIERES",
-            "POINTS": 7,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 4,
-            "PLACE": [
-                7,
-                3,
-                2,
-                7
-            ],
-            "COURSE": [
-                "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Cras",
-                "CLM du Vercors",
-                "Triptyque du Fontanil"
-            ],
-            "POINTS_L": [
-                0,
-                3,
-                4,
-                0
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 11
-        },
-        {
-            "RANG": 52,
+            "RANG": 54,
             "NOM": "BOUVIER THOMAS",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 7,
@@ -2491,7 +2565,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 52,
+            "RANG": 54,
             "NOM": "SEGUIN AUGUSTIN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 6,
@@ -2529,7 +2603,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 52,
+            "RANG": 54,
             "NOM": "BERNARD PATRICK",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 6,
@@ -2567,7 +2641,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 52,
+            "RANG": 54,
             "NOM": "BUCCI GREGORY",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 5,
@@ -2609,7 +2683,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 52,
+            "RANG": 54,
             "NOM": "NORAZ FLORENT",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 3,
@@ -2659,7 +2733,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "PETITE PATRICE",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 5,
@@ -2697,7 +2771,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "PATRICELLI GILLES",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 5,
@@ -2735,7 +2809,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "LA RIZZA SEBASTIEN",
             "CLUB": "RIVES UNION CYCLISTE",
             "POINTS": 5,
@@ -2777,7 +2851,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "AUMELAS--BLANC-LAPIERRE JOCELYN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 5,
@@ -2815,7 +2889,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "DOHEN CHRISTOPHE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 4,
@@ -2857,7 +2931,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "GIANNONE JOSEPH",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 3,
@@ -2903,7 +2977,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "SEVOZ ARNAUD",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 2,
@@ -2953,7 +3027,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 60,
+            "RANG": 61,
             "NOM": "VIAL WILLY",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 1,
@@ -3007,7 +3081,7 @@
             "TOTAL": 10
         },
         {
-            "RANG": 68,
+            "RANG": 69,
             "NOM": "SOURIMANT NICOLAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 6,
@@ -3037,7 +3111,7 @@
             "TOTAL": 9
         },
         {
-            "RANG": 68,
+            "RANG": 69,
             "NOM": "PIC GERARD",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 3,
@@ -3079,7 +3153,7 @@
             "TOTAL": 9
         },
         {
-            "RANG": 68,
+            "RANG": 69,
             "NOM": "CARTIER MILLON RAYMOND",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 2,
@@ -3125,7 +3199,33 @@
             "TOTAL": 9
         },
         {
-            "RANG": 71,
+            "RANG": 72,
+            "NOM": "MAZZA FABRICE",
+            "CLUB": "LE FONTANIL CYCLISME",
+            "POINTS": 6,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 2,
+            "PLACE": [
+                3,
+                3
+            ],
+            "COURSE": [
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                3,
+                3
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1
+            ],
+            "TOTAL": 8
+        },
+        {
+            "RANG": 72,
             "NOM": "BESSARD JEAN LUC",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 6,
@@ -3151,7 +3251,71 @@
             "TOTAL": 8
         },
         {
-            "RANG": 71,
+            "RANG": 72,
+            "NOM": "LEONE MATTHIEU",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 5,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 3,
+            "PLACE": [
+                3,
+                4,
+                8
+            ],
+            "COURSE": [
+                "CLM du Vercors",
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                3,
+                2,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 8
+        },
+        {
+            "RANG": 72,
+            "NOM": "PARMENTIER VICTOR",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 4,
+            "PLACE": [
+                10,
+                14,
+                2,
+                6
+            ],
+            "COURSE": [
+                "Grand Prix Alpespace",
+                "Grand Prix de Cras",
+                "Grimpée du Collet d’Allevard",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                4,
+                0
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 8
+        },
+        {
+            "RANG": 72,
             "NOM": "GATEAUX DAMIEN",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 3,
@@ -3189,7 +3353,7 @@
             "TOTAL": 8
         },
         {
-            "RANG": 71,
+            "RANG": 72,
             "NOM": "MICAS TITOUAN",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 2,
@@ -3231,7 +3395,7 @@
             "TOTAL": 8
         },
         {
-            "RANG": 71,
+            "RANG": 72,
             "NOM": "INDERCHIT JEAN-LOUIS",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 1,
@@ -3277,7 +3441,7 @@
             "TOTAL": 8
         },
         {
-            "RANG": 71,
+            "RANG": 72,
             "NOM": "GLENAZ LAURENT",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 1,
@@ -3323,24 +3487,24 @@
             "TOTAL": 8
         },
         {
-            "RANG": 76,
-            "NOM": "LEONE MATTHIEU",
-            "CLUB": "CYCLO CLUB DE GIERES",
+            "RANG": 80,
+            "NOM": "RICHIERO ANGE",
+            "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 5,
             "FEMME": false,
             "JEUNE": false,
             "PARTICIPATION": 2,
             "PLACE": [
-                3,
-                4
+                16,
+                1
             ],
             "COURSE": [
-                "CLM du Vercors",
-                "Grimpée Murianette - Pinet d'Uriage"
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
-                3,
-                2
+                0,
+                5
             ],
             "PARTICIPATION_L": [
                 1,
@@ -3349,37 +3513,7 @@
             "TOTAL": 7
         },
         {
-            "RANG": 76,
-            "NOM": "PARMENTIER VICTOR",
-            "CLUB": "TEAM 3 MASSIFS",
-            "POINTS": 4,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 3,
-            "PLACE": [
-                10,
-                14,
-                2
-            ],
-            "COURSE": [
-                "Grand Prix Alpespace",
-                "Grand Prix de Cras",
-                "Grimpée du Collet d’Allevard"
-            ],
-            "POINTS_L": [
-                0,
-                0,
-                4
-            ],
-            "PARTICIPATION_L": [
-                1,
-                1,
-                1
-            ],
-            "TOTAL": 7
-        },
-        {
-            "RANG": 76,
+            "RANG": 80,
             "NOM": "JALLIFFIER-TALMAT THOMAS",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 4,
@@ -3409,7 +3543,7 @@
             "TOTAL": 7
         },
         {
-            "RANG": 76,
+            "RANG": 80,
             "NOM": "RAMOUSSE CHRISTOPHE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 3,
@@ -3443,7 +3577,7 @@
             "TOTAL": 7
         },
         {
-            "RANG": 76,
+            "RANG": 80,
             "NOM": "CHAUMONT COLIN",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -3489,7 +3623,7 @@
             "TOTAL": 7
         },
         {
-            "RANG": 81,
+            "RANG": 84,
             "NOM": "RIBEZZI VALENTIN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 5,
@@ -3511,29 +3645,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 81,
-            "NOM": "BLASQUEZ LUCA",
-            "CLUB": "ALPIN'S WHEEL TEAM",
-            "POINTS": 5,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                1
-            ],
-            "COURSE": [
-                "CLM du Vercors"
-            ],
-            "POINTS_L": [
-                5
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 6
-        },
-        {
-            "RANG": 81,
+            "RANG": 84,
             "NOM": "BERNABE AURELIEN",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 5,
@@ -3555,7 +3667,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 81,
+            "RANG": 84,
             "NOM": "BELHADJ EDDY",
             "CLUB": "LES 300",
             "POINTS": 5,
@@ -3577,7 +3689,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 81,
+            "RANG": 84,
             "NOM": "ALESSANDRI DAMIEN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -3619,7 +3731,29 @@
             "TOTAL": 6
         },
         {
-            "RANG": 86,
+            "RANG": 88,
+            "NOM": "ANCELY COLIN",
+            "CLUB": "TEAM 3 MASSIFS",
+            "POINTS": 4,
+            "FEMME": false,
+            "JEUNE": false,
+            "PARTICIPATION": 1,
+            "PLACE": [
+                2
+            ],
+            "COURSE": [
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                4
+            ],
+            "PARTICIPATION_L": [
+                1
+            ],
+            "TOTAL": 5
+        },
+        {
+            "RANG": 88,
             "NOM": "FOURNIER STEPHANE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 2,
@@ -3649,7 +3783,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 86,
+            "RANG": 88,
             "NOM": "BEDORA THOMAS",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 2,
@@ -3679,7 +3813,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 86,
+            "RANG": 88,
             "NOM": "RAVIT QUENTIN",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 1,
@@ -3713,7 +3847,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 86,
+            "RANG": 88,
             "NOM": "CHEMINOT PHILIBERT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 1,
@@ -3747,7 +3881,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 86,
+            "RANG": 88,
             "NOM": "TRAMAGLIA CEDRIC",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -3785,7 +3919,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 86,
+            "RANG": 88,
             "NOM": "MERAT YANNICK",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -3823,7 +3957,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 86,
+            "RANG": 88,
             "NOM": "CARTIER STEPHANE",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -3861,7 +3995,7 @@
             "TOTAL": 5
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "SYLVESTRE THEOPHILE",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 3,
@@ -3883,29 +4017,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
-            "NOM": "MAZZA FABRICE",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "POINTS": 3,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                3
-            ],
-            "COURSE": [
-                "Grimpée Murianette - Pinet d'Uriage"
-            ],
-            "POINTS_L": [
-                3
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 4
-        },
-        {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "DESCOMBES ALEXIS",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 3,
@@ -3931,7 +4043,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "ANGOT ANTOINE",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 2,
@@ -3957,7 +4069,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "RIBEZZI THOMAS",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 1,
@@ -3987,7 +4099,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "TROUILLET EDGARD",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -4021,7 +4133,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "HAGE BENOIT",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -4055,7 +4167,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "CARUELLE FLORENT",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -4093,7 +4205,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "CANDEIAS DAMIEN",
             "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
             "POINTS": 0,
@@ -4127,7 +4239,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 93,
+            "RANG": 96,
             "NOM": "BOUSSELIOU MOHAMED",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -4161,7 +4273,7 @@
             "TOTAL": 4
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "ACCOU MARTIN",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 1,
@@ -4187,7 +4299,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "VALERO JESUS",
             "CLUB": "RIVES UNION CYCLISTE",
             "POINTS": 0,
@@ -4217,7 +4329,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "PROULT SEBASTIEN",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -4247,7 +4359,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "PINTUS EMMANUEL",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -4277,7 +4389,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "HURSON NICOLAS",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -4311,7 +4423,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "GLENAZ CELIAN",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 0,
@@ -4341,7 +4453,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "DUPIN ALEXANDRE",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 0,
@@ -4375,7 +4487,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 103,
+            "RANG": 105,
             "NOM": "BERNABE BRUNO",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 0,
@@ -4405,7 +4517,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "MOSCA PATRICK",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 1,
@@ -4427,7 +4539,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "LEDAC PIERRE",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 1,
@@ -4449,7 +4561,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "LAPIERRE NOE",
             "CLUB": "TEAM 3 MASSIFS",
             "POINTS": 1,
@@ -4471,7 +4583,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "VAUTRIN GREGORY",
             "CLUB": "SUD GRESIVAUDAN CYCLISME",
             "POINTS": 0,
@@ -4497,7 +4609,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "SUGNY LAURENT",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 0,
@@ -4523,7 +4635,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "RAJON TITOUAN",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 0,
@@ -4549,7 +4661,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "QUETIER YOANN",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -4575,7 +4687,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "PATRICELLI ARMAND",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -4601,7 +4713,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "NOTZOLD JULES",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -4627,7 +4739,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "LENAIN LOIC",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
@@ -4653,7 +4765,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 111,
+            "RANG": 113,
             "NOM": "D ASCOLI JEAN PIERRE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -4679,7 +4791,7 @@
             "TOTAL": 2
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "TROUSSIER PHILIPPE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -4701,29 +4813,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
-            "NOM": "RICHIERO ANGE",
-            "CLUB": "LA TRONCHE VELO SPORT",
-            "POINTS": 0,
-            "FEMME": false,
-            "JEUNE": false,
-            "PARTICIPATION": 1,
-            "PLACE": [
-                16
-            ],
-            "COURSE": [
-                "Grand Prix de Sainte-Marie-d'Alloix"
-            ],
-            "POINTS_L": [
-                0
-            ],
-            "PARTICIPATION_L": [
-                1
-            ],
-            "TOTAL": 1
-        },
-        {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "PERRIN YANNICK",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -4745,7 +4835,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "PARROT JULES",
             "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 0,
@@ -4767,7 +4857,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "OWEN LIAM",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -4789,7 +4879,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "MEHU JEAN PHILIPPE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -4811,7 +4901,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "MARLETAZ JULIEN",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -4833,7 +4923,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "LORIGEON ANTOINE",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -4859,7 +4949,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "GIRARD GUY",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 0,
@@ -4881,7 +4971,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "GAILLARD RICHARD",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 0,
@@ -4903,7 +4993,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "FRABOULET JULIEN",
             "CLUB": "LE FONTANIL CYCLISME",
             "POINTS": 0,
@@ -4925,7 +5015,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "FEODOROFF ARNAUD",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -4947,7 +5037,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "FAVRE LAURENT",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -4969,7 +5059,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "EMERY VINCENT",
             "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
             "POINTS": 0,
@@ -4991,7 +5081,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "CHEVIGNON FRANCK",
             "CLUB": "LA TRONCHE VELO SPORT",
             "POINTS": 0,
@@ -5013,7 +5103,7 @@
             "TOTAL": 1
         },
         {
-            "RANG": 122,
+            "RANG": 124,
             "NOM": "BONNAL THIERRY",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -5190,34 +5280,76 @@
             "RANG": 4,
             "NOM": "HERTAULT AGNES",
             "CLUB": "ALPIN'S WHEEL TEAM",
-            "POINTS": 13,
+            "POINTS": 18,
             "FEMME": true,
             "JEUNE": false,
-            "PARTICIPATION": 3,
+            "PARTICIPATION": 4,
             "PLACE": [
                 1,
                 3,
+                1,
                 1
             ],
             "COURSE": [
                 "Grimpée du Collet d’Allevard",
                 "Grimpée du col de la Morte",
-                "Grimpée Murianette - Pinet d'Uriage"
+                "Grimpée Murianette - Pinet d'Uriage",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
                 5,
                 3,
+                5,
                 5
             ],
             "PARTICIPATION_L": [
                 1,
                 1,
+                1,
                 1
             ],
-            "TOTAL": 16
+            "TOTAL": 22
         },
         {
             "RANG": 5,
+            "NOM": "ARNAUD AGATHE",
+            "CLUB": "CYCLO CLUB DE GIERES",
+            "POINTS": 10,
+            "FEMME": true,
+            "JEUNE": false,
+            "PARTICIPATION": 5,
+            "PLACE": [
+                24,
+                26,
+                11,
+                1,
+                1
+            ],
+            "COURSE": [
+                "Grand Prix de Sainte-Marie-d'Alloix",
+                "Grand Prix d'Oyeu - Burcin",
+                "Grand Prix de Lalley",
+                "CLM du Vercors",
+                "CLM de Roybon"
+            ],
+            "POINTS_L": [
+                0,
+                0,
+                0,
+                5,
+                5
+            ],
+            "PARTICIPATION_L": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "TOTAL": 15
+        },
+        {
+            "RANG": 6,
             "NOM": "LAIOLO CATHERINE",
             "CLUB": "CYCLO CLUB DE GIERES",
             "POINTS": 9,
@@ -5243,7 +5375,7 @@
             "TOTAL": 11
         },
         {
-            "RANG": 6,
+            "RANG": 7,
             "NOM": "VALERO ANGELIQUE",
             "CLUB": "RIVES UNION CYCLISTE",
             "POINTS": 8,
@@ -5269,38 +5401,30 @@
             "TOTAL": 10
         },
         {
-            "RANG": 7,
-            "NOM": "ARNAUD AGATHE",
-            "CLUB": "CYCLO CLUB DE GIERES",
+            "RANG": 8,
+            "NOM": "PELLEGRIN NOEMIE",
+            "CLUB": "UNION CYCLISTE VOIRONNAISE",
             "POINTS": 5,
             "FEMME": true,
             "JEUNE": false,
-            "PARTICIPATION": 4,
+            "PARTICIPATION": 1,
             "PLACE": [
-                24,
-                26,
-                11,
+                "DNS",
                 1
             ],
             "COURSE": [
-                "Grand Prix de Sainte-Marie-d'Alloix",
                 "Grand Prix d'Oyeu - Burcin",
-                "Grand Prix de Lalley",
-                "CLM du Vercors"
+                "CLM de Roybon"
             ],
             "POINTS_L": [
-                0,
-                0,
                 0,
                 5
             ],
             "PARTICIPATION_L": [
-                1,
-                1,
-                1,
+                0,
                 1
             ],
-            "TOTAL": 9
+            "TOTAL": 6
         },
         {
             "RANG": 8,
@@ -5325,7 +5449,7 @@
             "TOTAL": 6
         },
         {
-            "RANG": 9,
+            "RANG": 10,
             "NOM": "MARGUET ALINE",
             "CLUB": "ALPIN'S WHEEL TEAM",
             "POINTS": 0,
@@ -5355,7 +5479,7 @@
             "TOTAL": 3
         },
         {
-            "RANG": 10,
+            "RANG": 11,
             "NOM": "BOUVIER MANON",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
             "POINTS": 0,
@@ -5428,14 +5552,15 @@
             "RANG": 2,
             "NOM": "MELEZE LOUISON",
             "CLUB": "SUD GRESIVAUDAN CYCLISME",
-            "POINTS": 24,
+            "POINTS": 29,
             "FEMME": false,
             "JEUNE": true,
-            "PARTICIPATION": 5,
+            "PARTICIPATION": 6,
             "PLACE": [
                 1,
                 1,
                 2,
+                1,
                 1,
                 1
             ],
@@ -5444,12 +5569,14 @@
                 "Grand Prix de Cras",
                 "Grand Prix d'Oyeu - Championnat Départemental",
                 "Grand prix de Blandin",
-                "Triptyque du Fontanil"
+                "Triptyque du Fontanil",
+                "CLM de Roybon"
             ],
             "POINTS_L": [
                 5,
                 5,
                 4,
+                5,
                 5,
                 5
             ],
@@ -5458,9 +5585,10 @@
                 1,
                 1,
                 1,
+                1,
                 1
             ],
-            "TOTAL": 29
+            "TOTAL": 35
         },
         {
             "RANG": 3,
