@@ -1,7 +1,7 @@
 [
     {
-        "TOTAL": 388,
-        "INDIV": 348,
+        "TOTAL": 434,
+        "INDIV": 394,
         "ORGA": 40,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
@@ -14,22 +14,22 @@
         "RANG": 2
     },
     {
-        "TOTAL": 248,
+        "TOTAL": 268,
         "INDIV": 198,
-        "ORGA": 50,
+        "ORGA": 70,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 3
     },
     {
-        "TOTAL": 224,
-        "INDIV": 184,
+        "TOTAL": 228,
+        "INDIV": 188,
         "ORGA": 40,
         "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 4
     },
     {
-        "TOTAL": 191,
-        "INDIV": 131,
+        "TOTAL": 206,
+        "INDIV": 146,
         "ORGA": 60,
         "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 5
@@ -42,8 +42,8 @@
         "RANG": 6
     },
     {
-        "TOTAL": 141,
-        "INDIV": 141,
+        "TOTAL": 147,
+        "INDIV": 147,
         "ORGA": 0,
         "CLUB": "ECHIROLLES SPRINTCLUB AMICALELAIQUE",
         "RANG": 7
@@ -56,8 +56,8 @@
         "RANG": 8
     },
     {
-        "TOTAL": 121,
-        "INDIV": 121,
+        "TOTAL": 124,
+        "INDIV": 124,
         "ORGA": 0,
         "CLUB": "SUD GRESIVAUDAN CYCLISME",
         "RANG": 9
@@ -84,17 +84,17 @@
         "RANG": 12
     },
     {
+        "TOTAL": 23,
+        "INDIV": 23,
+        "ORGA": 0,
+        "CLUB": "LES 300",
+        "RANG": 13
+    },
+    {
         "TOTAL": 20,
         "INDIV": 0,
         "ORGA": 20,
         "CLUB": "CYCLISME SEYSSINET SEYSSINS",
-        "RANG": 13
-    },
-    {
-        "TOTAL": 19,
-        "INDIV": 19,
-        "ORGA": 0,
-        "CLUB": "LES 300",
         "RANG": 14
     }
 ]
