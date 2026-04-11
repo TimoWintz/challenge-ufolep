@@ -22,25 +22,25 @@
             "NOM": "GRAND PRIX DE SAINTE-MARIE-D'ALLOIX",
             "DATE": "2026/04/26",
             "CLUB": "TEAM 3 MASSIFS",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRAND PRIX DE CRAS",
             "DATE": "2026/05/01",
             "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRIMPÉE DU COL DE PORTE",
             "DATE": "2026/05/08",
             "CLUB": "LA TRONCHE VELO SPORT",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "CHAMPIONNAT DÉPARTEMENTAL UFOLEP",
             "DATE": "2026/05/10",
             "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "CHAMPIONNAT NATIONAL UFOLEP VTT",
@@ -52,13 +52,13 @@
             "NOM": "GRIMPÉE DU COLLET D'ALLEVARD",
             "DATE": "2026/05/30",
             "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRIMPÉE DE LA MORTE",
             "DATE": "2026/05/31",
             "CLUB": "TEAM 3 MASSIFS",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "NOTRE DAME DE L'OSIER",
@@ -70,13 +70,13 @@
             "NOM": "RÉGIONAL UFOLEP",
             "DATE": "2026/06/14",
             "CLUB": "COMITE",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "DÉFI MATHEYSIN",
             "DATE": "2026/06/21",
             "CLUB": "TEAM 3 MASSIFS",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "CHAMPIONNAT NATIONAL UFOLEP CYCLOSPORT",
@@ -88,13 +88,13 @@
             "NOM": "TRIPTYQUE DU FONTANIL",
             "DATE": "2026/09/06",
             "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRIMPÉE DE MURIANETTE",
             "DATE": "2026/09/12",
             "CLUB": "CYCLO CLUB DE GIERES",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "NATIONAL UFOLEP CLM",
@@ -106,19 +106,19 @@
             "NOM": "CLM DE ROYBON",
             "DATE": "2026/10/03",
             "CLUB": "LA TRONCHE VELO SPORT",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRIMPÉE DE MONTAUD",
             "DATE": "2026/10/04",
             "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRIMPÉE DU PEUIL",
             "DATE": "2026/12/31",
             "CLUB": "CYCLISME SEYSSINET SEYSSINS",
-            "PASSE": true
+            "PASSE": false
         },
         {
             "NOM": "GRAND PRIX DE LALLEY",

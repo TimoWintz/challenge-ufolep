@@ -1,79 +1,72 @@
 [
     {
-        "TOTAL": 153,
-        "INDIV": 83,
-        "ORGA": 70,
-        "CLUB": "TEAM 3 MASSIFS",
-        "RANG": 1
-    },
-    {
-        "TOTAL": 118,
-        "INDIV": 23,
-        "ORGA": 95,
-        "CLUB": "LE FONTANIL CYCLISME",
-        "RANG": 2
-    },
-    {
         "TOTAL": 92,
         "INDIV": 92,
         "ORGA": 0,
         "CLUB": "UNION CYCLISTE VOIRONNAISE",
+        "RANG": 1
+    },
+    {
+        "TOTAL": 83,
+        "INDIV": 83,
+        "ORGA": 0,
+        "CLUB": "TEAM 3 MASSIFS",
+        "RANG": 2
+    },
+    {
+        "TOTAL": 50,
+        "INDIV": 30,
+        "ORGA": 20,
+        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 3
     },
     {
-        "TOTAL": 70,
-        "INDIV": 30,
-        "ORGA": 40,
-        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-        "RANG": 4
-    },
-    {
-        "TOTAL": 54,
+        "TOTAL": 34,
         "INDIV": 14,
-        "ORGA": 40,
+        "ORGA": 20,
         "CLUB": "CYCLO CLUB DE GIERES",
-        "RANG": 5
-    },
-    {
-        "TOTAL": 45,
-        "INDIV": 5,
-        "ORGA": 40,
-        "CLUB": "LA TRONCHE VELO SPORT",
-        "RANG": 6
+        "RANG": 4
     },
     {
         "TOTAL": 33,
         "INDIV": 33,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
-        "RANG": 7
+        "RANG": 5
     },
     {
-        "TOTAL": 20,
-        "INDIV": 0,
-        "ORGA": 20,
-        "CLUB": "CYCLISME SEYSSINET SEYSSINS",
-        "RANG": 8
+        "TOTAL": 23,
+        "INDIV": 23,
+        "ORGA": 0,
+        "CLUB": "LE FONTANIL CYCLISME",
+        "RANG": 6
     },
     {
         "TOTAL": 15,
         "INDIV": 15,
         "ORGA": 0,
         "CLUB": "SUD GRESIVAUDAN CYCLISME",
-        "RANG": 9
+        "RANG": 7
     },
     {
         "TOTAL": 9,
         "INDIV": 9,
         "ORGA": 0,
         "CLUB": "RIVES UNION CYCLISTE",
-        "RANG": 10
+        "RANG": 8
+    },
+    {
+        "TOTAL": 5,
+        "INDIV": 5,
+        "ORGA": 0,
+        "CLUB": "LA TRONCHE VELO SPORT",
+        "RANG": 9
     },
     {
         "TOTAL": 1,
         "INDIV": 1,
         "ORGA": 0,
         "CLUB": "ALPIN'S WHEEL TEAM",
-        "RANG": 11
+        "RANG": 10
     }
 ]
