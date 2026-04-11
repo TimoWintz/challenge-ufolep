@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-import pdfplumber
+# import pdfplumber  # unused
 from typing import List, Optional
 import pandas as pd
 import difflib

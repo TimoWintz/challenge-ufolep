@@ -43,7 +43,8 @@ def get_points(df: pd.DataFrame, rank_to_point: List[int]) -> List[pd.DataFrame]
             continue
         valid_ranking.insert(6, STR_POINTS, 0)
         valid_ranking.insert(7, STR_START, 0)
-        valid_ranking.insert(8, STR_RACE_RANK, 0)
+        valid_ranking.insert(8, STR_RACE_RANK, "")
+        valid_ranking[STR_RACE_RANK] = valid_ranking[STR_RACE_RANK].astype(object)
 
         valid_rank = -1
         prev_ranking = None
@@ -74,13 +75,20 @@ if __name__ == "__main__":
     root = Path(__file__).parent
     riders = pd.read_csv(root / "coureurs.csv")
     races = pd.read_csv(root / "courses/courses.csv", index_col=STR_RACE_NAME)
-    races["PASSE"] = races["DOSSIER"].str.len() > 0
+    race_folder = (root / PATH_RACES).parent
+
+    def folder_has_results(dossier):
+        if not isinstance(dossier, str) or not dossier:
+            return False
+        folder = race_folder / dossier
+        return folder.is_dir() and any(folder.glob("*.csv"))
+
+    races["PASSE"] = races["DOSSIER"].apply(folder_has_results)
     races[STR_RACE_NAME] = races.index.str.upper()
     results = {
         "courses": races[[STR_RACE_NAME, "DATE", "CLUB", "PASSE"]].to_dict("records")
     }
     tous_points = []
-    race_folder = (root / PATH_RACES).parent
 
     all_tables_points = []
     for race in races.index.values:
