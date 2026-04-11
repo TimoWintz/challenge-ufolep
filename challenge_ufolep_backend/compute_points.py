@@ -43,7 +43,8 @@ def get_points(df: pd.DataFrame, rank_to_point: List[int]) -> List[pd.DataFrame]
             continue
         valid_ranking.insert(6, STR_POINTS, 0)
         valid_ranking.insert(7, STR_START, 0)
-        valid_ranking.insert(8, STR_RACE_RANK, 0)
+        valid_ranking.insert(8, STR_RACE_RANK, "")
+        valid_ranking[STR_RACE_RANK] = valid_ranking[STR_RACE_RANK].astype(object)
 
         valid_rank = -1
         prev_ranking = None
