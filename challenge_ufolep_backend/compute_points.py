@@ -181,7 +181,7 @@ if __name__ == "__main__":
     points_per_club.loc[:, STR_RANK] = (
         points_per_club["TOTAL"].rank(method="min", ascending=False).astype(int)
     )
-    club_rankings = points_per_club.to_dict("records", index=True)
+    club_rankings = points_per_club.to_dict("records")
     json_str = json.dumps(club_rankings, ensure_ascii=False, indent=4).encode("utf-8")
     with open(root.parent / "data" / "resultats_club.json", "wb") as f:
         f.write(json_str)
