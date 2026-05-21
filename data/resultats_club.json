@@ -1,72 +1,86 @@
 [
     {
-        "TOTAL": 142,
-        "INDIV": 122,
+        "TOTAL": 172,
+        "INDIV": 152,
         "ORGA": 20,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 122,
-        "INDIV": 122,
+        "TOTAL": 139,
+        "INDIV": 139,
         "ORGA": 0,
         "CLUB": "UNION CYCLISTE VOIRONNAISE",
         "RANG": 2
     },
     {
-        "TOTAL": 61,
-        "INDIV": 41,
+        "TOTAL": 66,
+        "INDIV": 46,
         "ORGA": 20,
         "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 3
     },
     {
-        "TOTAL": 47,
-        "INDIV": 47,
-        "ORGA": 0,
-        "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+        "TOTAL": 57,
+        "INDIV": 37,
+        "ORGA": 20,
+        "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 4
     },
     {
-        "TOTAL": 43,
-        "INDIV": 23,
-        "ORGA": 20,
-        "CLUB": "CYCLO CLUB DE GIERES",
+        "TOTAL": 54,
+        "INDIV": 54,
+        "ORGA": 0,
+        "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 5
     },
     {
-        "TOTAL": 33,
-        "INDIV": 33,
+        "TOTAL": 34,
+        "INDIV": 34,
         "ORGA": 0,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 6
     },
     {
-        "TOTAL": 19,
-        "INDIV": 19,
+        "TOTAL": 25,
+        "INDIV": 5,
+        "ORGA": 20,
+        "CLUB": "LA TRONCHE VELO SPORT",
+        "RANG": 7
+    },
+    {
+        "TOTAL": 25,
+        "INDIV": 25,
         "ORGA": 0,
         "CLUB": "RIVES UNION CYCLISTE",
         "RANG": 7
     },
     {
-        "TOTAL": 16,
-        "INDIV": 16,
+        "TOTAL": 20,
+        "INDIV": 20,
         "ORGA": 0,
-        "CLUB": "SUD GRESIVAUDAN CYCLISME",
-        "RANG": 8
+        "CLUB": "ALPIN'S WHEEL TEAM",
+        "RANG": 9
     },
     {
-        "TOTAL": 5,
-        "INDIV": 5,
+        "TOTAL": 17,
+        "INDIV": 17,
         "ORGA": 0,
-        "CLUB": "LA TRONCHE VELO SPORT",
-        "RANG": 9
+        "CLUB": "SUD GRESIVAUDAN CYCLISME",
+        "RANG": 10
+    },
+    {
+        "TOTAL": 9,
+        "INDIV": 9,
+        "ORGA": 0,
+        "CLUB": "VELO CLUB FROGES VILLARD-BONNOT",
+        "RANG": 11
     },
     {
         "TOTAL": 1,
         "INDIV": 1,
         "ORGA": 0,
-        "CLUB": "ALPIN'S WHEEL TEAM",
-        "RANG": 10
+        "CLUB": "2026",
+        "RANG": 12
     }
 ]
