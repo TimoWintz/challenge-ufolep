@@ -35,8 +35,8 @@
         "RANG": 5
     },
     {
-        "TOTAL": 34,
-        "INDIV": 34,
+        "TOTAL": 35,
+        "INDIV": 35,
         "ORGA": 0,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 6
@@ -75,12 +75,5 @@
         "ORGA": 0,
         "CLUB": "VELO CLUB FROGES VILLARD-BONNOT",
         "RANG": 11
-    },
-    {
-        "TOTAL": 1,
-        "INDIV": 1,
-        "ORGA": 0,
-        "CLUB": "2026",
-        "RANG": 12
     }
 ]
