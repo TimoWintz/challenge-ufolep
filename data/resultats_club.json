@@ -1,70 +1,70 @@
 [
     {
-        "TOTAL": 172,
-        "INDIV": 152,
-        "ORGA": 20,
+        "TOTAL": 244,
+        "INDIV": 204,
+        "ORGA": 40,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 139,
-        "INDIV": 139,
+        "TOTAL": 145,
+        "INDIV": 145,
         "ORGA": 0,
         "CLUB": "UNION CYCLISTE VOIRONNAISE",
         "RANG": 2
     },
     {
-        "TOTAL": 66,
-        "INDIV": 46,
-        "ORGA": 20,
+        "TOTAL": 112,
+        "INDIV": 72,
+        "ORGA": 40,
         "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 3
     },
     {
-        "TOTAL": 57,
-        "INDIV": 37,
+        "TOTAL": 79,
+        "INDIV": 59,
         "ORGA": 20,
         "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 4
     },
     {
-        "TOTAL": 54,
-        "INDIV": 54,
+        "TOTAL": 67,
+        "INDIV": 67,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 5
     },
     {
+        "TOTAL": 63,
+        "INDIV": 63,
+        "ORGA": 0,
+        "CLUB": "ALPIN'S WHEEL TEAM",
+        "RANG": 6
+    },
+    {
+        "TOTAL": 45,
+        "INDIV": 45,
+        "ORGA": 0,
+        "CLUB": "LE FONTANIL CYCLISME",
+        "RANG": 7
+    },
+    {
         "TOTAL": 35,
         "INDIV": 35,
         "ORGA": 0,
-        "CLUB": "LE FONTANIL CYCLISME",
-        "RANG": 6
+        "CLUB": "RIVES UNION CYCLISTE",
+        "RANG": 8
     },
     {
         "TOTAL": 25,
         "INDIV": 5,
         "ORGA": 20,
         "CLUB": "LA TRONCHE VELO SPORT",
-        "RANG": 7
-    },
-    {
-        "TOTAL": 25,
-        "INDIV": 25,
-        "ORGA": 0,
-        "CLUB": "RIVES UNION CYCLISTE",
-        "RANG": 7
-    },
-    {
-        "TOTAL": 20,
-        "INDIV": 20,
-        "ORGA": 0,
-        "CLUB": "ALPIN'S WHEEL TEAM",
         "RANG": 9
     },
     {
-        "TOTAL": 17,
-        "INDIV": 17,
+        "TOTAL": 21,
+        "INDIV": 21,
         "ORGA": 0,
         "CLUB": "SUD GRESIVAUDAN CYCLISME",
         "RANG": 10
