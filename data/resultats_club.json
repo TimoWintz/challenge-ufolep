@@ -1,35 +1,35 @@
 [
     {
-        "TOTAL": 309,
-        "INDIV": 269,
-        "ORGA": 40,
+        "TOTAL": 388,
+        "INDIV": 318,
+        "ORGA": 70,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 221,
-        "INDIV": 221,
+        "TOTAL": 226,
+        "INDIV": 226,
         "ORGA": 0,
         "CLUB": "UNION CYCLISTE VOIRONNAISE",
         "RANG": 2
     },
     {
-        "TOTAL": 125,
-        "INDIV": 85,
+        "TOTAL": 131,
+        "INDIV": 91,
         "ORGA": 40,
         "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
         "RANG": 3
     },
     {
-        "TOTAL": 104,
-        "INDIV": 104,
+        "TOTAL": 114,
+        "INDIV": 114,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 4
     },
     {
-        "TOTAL": 94,
-        "INDIV": 74,
+        "TOTAL": 100,
+        "INDIV": 80,
         "ORGA": 20,
         "CLUB": "CYCLO CLUB DE GIERES",
         "RANG": 5
@@ -42,29 +42,29 @@
         "RANG": 6
     },
     {
+        "TOTAL": 75,
+        "INDIV": 75,
+        "ORGA": 0,
+        "CLUB": "ALPIN'S WHEEL TEAM",
+        "RANG": 7
+    },
+    {
         "TOTAL": 64,
         "INDIV": 64,
         "ORGA": 0,
         "CLUB": "RIVES UNION CYCLISTE",
-        "RANG": 7
-    },
-    {
-        "TOTAL": 62,
-        "INDIV": 62,
-        "ORGA": 0,
-        "CLUB": "ALPIN'S WHEEL TEAM",
         "RANG": 8
     },
     {
-        "TOTAL": 57,
-        "INDIV": 37,
+        "TOTAL": 59,
+        "INDIV": 39,
         "ORGA": 20,
         "CLUB": "SUD GRESIVAUDAN CYCLISME",
         "RANG": 9
     },
     {
-        "TOTAL": 32,
-        "INDIV": 12,
+        "TOTAL": 36,
+        "INDIV": 16,
         "ORGA": 20,
         "CLUB": "LA TRONCHE VELO SPORT",
         "RANG": 10
