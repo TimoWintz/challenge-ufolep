@@ -21,6 +21,7 @@ STR_RACE_NAME = "NOM"
 STR_RACE_FOLDER = "DOSSIER"
 STR_RACE_TYPE = "TYPE"
 STR_RACE_TYPE_HILL = "Grimpée"
+STR_RACE_TYPE_COMBINED = "Combiné"
 
 STR_WOMAN = "FEMME"
 STR_YOUNG = "JEUNE"
@@ -193,7 +194,7 @@ def format_all_results(
             res.append(points)
         else:
             too_late = np.logical_and(points[STR_ID] > 0, points[STR_DATE] > date + pd.Timedelta("7 days"))
-            if race_type == STR_RACE_TYPE_HILL and too_late.sum() > 0:
+            if race_type in (STR_RACE_TYPE_HILL, STR_RACE_TYPE_COMBINED) and too_late.sum() > 0:
                 points.loc[too_late, STR_ID] = -2
                 points.loc[too_late, STR_CLUB] = ""
             res.append(points)
