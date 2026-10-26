@@ -77,12 +77,6 @@
             "DATE": "2026/10/03",
             "CLUB": "LA TRONCHE VELO SPORT",
             "PASSE": true
-        },
-        {
-            "NOM": "GRIMPÉE DE MONTAUD",
-            "DATE": "2026/10/04",
-            "CLUB": "LE FONTANIL CYCLISME",
-            "PASSE": false
         }
     ],
     "homme": [
