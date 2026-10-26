@@ -1,14 +1,14 @@
 [
     {
-        "TOTAL": 484,
-        "INDIV": 414,
+        "TOTAL": 507,
+        "INDIV": 437,
         "ORGA": 70,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 272,
-        "INDIV": 272,
+        "TOTAL": 270,
+        "INDIV": 270,
         "ORGA": 0,
         "CLUB": "UNION CYCLISTE VOIRONNAISE",
         "RANG": 2
@@ -22,28 +22,28 @@
     },
     {
         "TOTAL": 137,
-        "INDIV": 97,
-        "ORGA": 40,
-        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
-        "RANG": 4
-    },
-    {
-        "TOTAL": 137,
         "INDIV": 137,
         "ORGA": 0,
         "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 4
     },
     {
-        "TOTAL": 122,
-        "INDIV": 72,
+        "TOTAL": 136,
+        "INDIV": 96,
+        "ORGA": 40,
+        "CLUB": "UNION CYCLISTE DE PONTCHARRA GRESIVAUDAN",
+        "RANG": 5
+    },
+    {
+        "TOTAL": 123,
+        "INDIV": 73,
         "ORGA": 50,
         "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 6
     },
     {
-        "TOTAL": 90,
-        "INDIV": 90,
+        "TOTAL": 89,
+        "INDIV": 89,
         "ORGA": 0,
         "CLUB": "ALPIN'S WHEEL TEAM",
         "RANG": 7
