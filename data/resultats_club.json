@@ -1,14 +1,14 @@
 [
     {
-        "TOTAL": 433,
-        "INDIV": 363,
+        "TOTAL": 436,
+        "INDIV": 366,
         "ORGA": 70,
         "CLUB": "TEAM 3 MASSIFS",
         "RANG": 1
     },
     {
-        "TOTAL": 269,
-        "INDIV": 269,
+        "TOTAL": 266,
+        "INDIV": 266,
         "ORGA": 0,
         "CLUB": "UNION CYCLISTE VOIRONNAISE",
         "RANG": 2
@@ -21,17 +21,17 @@
         "RANG": 3
     },
     {
-        "TOTAL": 121,
-        "INDIV": 71,
-        "ORGA": 50,
-        "CLUB": "LE FONTANIL CYCLISME",
+        "TOTAL": 123,
+        "INDIV": 123,
+        "ORGA": 0,
+        "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
         "RANG": 4
     },
     {
-        "TOTAL": 117,
-        "INDIV": 117,
-        "ORGA": 0,
-        "CLUB": "JARRIE CHAMP SUR DRAC CYCLISME",
+        "TOTAL": 122,
+        "INDIV": 72,
+        "ORGA": 50,
+        "CLUB": "LE FONTANIL CYCLISME",
         "RANG": 5
     },
     {
